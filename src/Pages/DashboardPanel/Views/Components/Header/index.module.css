@@ -1,0 +1,13 @@
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__container h2{
+    color: #5955b3;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.header__container img{
+    width: 4%;
+}

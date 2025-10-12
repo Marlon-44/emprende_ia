@@ -1,0 +1,68 @@
+* {
+    font-family: "Lexend", sans-serif;
+}
+
+.sidebar__container {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    align-self: flex-start;
+}
+
+.logo h2 {
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.sidebar__menu {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__option {
+    width: 100%;
+    height: 4rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.menu__option div {
+    height: 100%;
+    width: 5%;
+    border-radius: 0 1rem 1rem 0;
+    margin-right: 10%;
+}
+
+.menu__option img {
+    width: 10%;
+    margin-right: 10%;
+    filter: brightness(0) invert(1);
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.menu__option.active {
+    color: #fff;
+}
+
+.menu__option.active img {
+    opacity: 1;
+    /* ícono completamente blanco */
+}
+
+.boxactive {
+    background-color: #fff;
+    transition: all 0.3s ease;
+    color: rgba(255, 255, 255, 0.062);
+}
