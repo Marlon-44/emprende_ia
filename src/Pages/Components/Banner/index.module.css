@@ -1,0 +1,43 @@
+.banner__container{
+    min-height: 60vh;
+    background-color: #282a35;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+.banner__container h1{
+    font-size: 5rem;
+    font-weight: 900;
+}
+.banner__container h3{
+    color: #FFF4A3;
+    font-weight: 900;
+
+}
+.search__container{
+    background-color: #fff;
+    min-width: 40%;
+    display: flex;
+    border-radius: 4rem;
+    overflow: hidden;
+}
+.search__container input{
+    width: 100%;
+    color: #282a35;
+    padding-left: 2rem;    
+}
+.search__container a{
+    background-color: #5955b3;
+    padding: 0.5rem 1.5rem ;
+    max-width: 5rem;
+}
+.search__container a:hover{
+    background-color: #413e83;
+}
+.banner__wave{
+    background-color: #fff;
+}

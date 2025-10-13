@@ -1,0 +1,176 @@
+.header__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    align-items: center;
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+}
+
+.header__navlist {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 5vh;
+}
+
+.header__navlist li {
+    padding: 1rem 1rem;
+    cursor: pointer;
+    min-width: 30%;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.header__navlist li:hover {
+    background-color: #5955b3;
+    color: #fff;
+
+}
+
+.login__btn {
+    display: flex;
+    background-color: #5955b3;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    gap: 0.5rem;
+}
+
+.login__btn img {
+    width: 1rem;
+}
+
+.logo {
+    font-weight: 800;
+    color: #5955b3;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+
+
+.modules__wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-sizing: border-box;
+    padding-left: 2rem;
+    background-color: #282a35;
+}
+
+.modules__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    padding: 0.8rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    width: 100%;
+    box-sizing: border-box;
+    scroll-snap-type: x mandatory;
+    background-color: #282a35;
+
+}
+
+.modules__nav::-webkit-scrollbar {
+    display: none;
+}
+
+.module__item {
+    flex: 0 0 auto;
+    min-width: 4rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 1rem;
+    background: var(--card-bg, rgba(255, 255, 255, 0.04));
+    color: var(--card-color, #fff);
+    font-weight: 600;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(2, 6, 23, 0.5);
+    scroll-snap-align: start;
+    cursor: pointer;
+
+}
+
+.module__item:hover {
+    background-color: #000;
+}
+
+.carousel__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 44px;
+    width: 44px;
+    border-radius: 4rem;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.45);
+    color: #fff;
+    cursor: pointer;
+    z-index: 10;
+    transition: transform .12s ease, background .12s ease, opacity .12s ease;
+    backdrop-filter: blur(4px);
+}
+
+.carousel__btn__left {
+    left: 0.5rem;
+}
+
+.carousel__btn__right {
+    right: 0.5rem;
+}
+
+.carousel__btn[disabled] {
+    opacity: 0.38;
+    cursor: default;
+    transform: translateY(-50%) scale(0.98);
+}
+
+.carousel__btn:hover:not([disabled]) {
+    transform: translateY(-50%) scale(1.03);
+}
+
+/* responsive: reduce min-width de items en pantallas chicas */
+@media (max-width: 900px) {
+    .module__item {
+        min-width: 200px;
+        font-size: 0.92rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .module__item {
+        min-width: 160px;
+        font-size: 0.9rem;
+        padding: 10px 14px;
+    }
+
+    .carousel__btn {
+        height: 40px;
+        width: 40px;
+    }
+
+    .modules__nav {
+        padding: 10px 44px;
+    }
+}

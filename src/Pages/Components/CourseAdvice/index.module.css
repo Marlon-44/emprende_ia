@@ -1,0 +1,64 @@
+.course__section__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    box-sizing: border-box;
+}
+.info__section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    gap: 1rem;
+    align-items: center;
+}
+.info__section h2{
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: "Manrope", sans-serif;
+}
+.info__section h6{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.options__container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.course__section__container img{
+    max-width: 30%;
+}
+.option{
+    padding: 0.7rem 1rem;
+    border-radius: 4rem;
+    width: 100%;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+}
+.aprende{
+    color: #fff;
+    background-color: #5955b3;
+}
+.video{
+    
+    background-color: #FFF4A3;
+}
+.ref{
+    color: #fff;
+    background-color: #282A35;
+}
+.aprende:hover{
+    
+    background-color: #3c3979;
+}
+.video:hover{
+    
+    background-color: #e7de95;
+}
+.ref:hover{
+    
+    background-color: #000000;
+}

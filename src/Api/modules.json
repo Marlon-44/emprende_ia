@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Desarrollo de habilidades empresariales",
+        "subtitle": "Fortalece tu mentalidad y liderazgo para crear negocios exitosos.",
+        "color": "#F9D5E5"
+    },
+    {
+        "id": 2,
+        "title": "Planificación estratégica",
+        "subtitle": "Aprende a definir objetivos claros y diseñar planes efectivos para lograrlos.",
+        "color": "#FCE1A8"
+    },
+    {
+        "id": 3,
+        "title": "Innovación y creatividad",
+        "subtitle": "Descubre cómo generar ideas disruptivas que impulsen la competitividad empresarial.",
+        "color": "#C7CEEA"
+    },
+    {
+        "id": 4,
+        "title": "Gestión financiera",
+        "subtitle": "Domina el manejo de presupuestos, inversiones y rentabilidad de tu empresa.",
+        "color": "#B5EAD7"
+    },
+    {
+        "id": 5,
+        "title": "Marketing y ventas",
+        "subtitle": "Crea estrategias que conecten con tus clientes y aumenten tus resultados comerciales.",
+        "color": "#FFDAC1"
+    },
+    {
+        "id": 6,
+        "title": "Desarrollo de productos/servicios",
+        "subtitle": "Aprende a diseñar y mejorar ofertas de valor alineadas a las necesidades del mercado.",
+        "color": "#E2F0CB"
+    },
+    {
+        "id": 7,
+        "title": "Gestión de Recursos Humanos",
+        "subtitle": "Optimiza el talento humano y fomenta equipos motivados y productivos.",
+        "color": "#CFF1EF"
+    },
+    {
+        "id": 8,
+        "title": "Tecnología y transformación digital",
+        "subtitle": "Integra herramientas digitales para modernizar y escalar tu negocio.",
+        "color": "#D0E6A5"
+    },
+    {
+        "id": 9,
+        "title": "Networking y colaboración",
+        "subtitle": "Construye alianzas estratégicas que potencien tu crecimiento profesional y empresarial.",
+        "color": "#FFB7B2"
+    },
+    {
+        "id": 10,
+        "title": "Ética empresarial y responsabilidad social",
+        "subtitle": "Aplica valores y prácticas sostenibles que generen impacto positivo en la sociedad.",
+        "color": "#B5D8EB"
+    }
+]
