@@ -1,0 +1,166 @@
+/* AuroraButton.css */
+.aurora__button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(45deg,
+            #00f0ff,
+            #9b00ff,
+            #ff00d4,
+            #00ff85,
+            #00f0ff);
+    background-size: 400% 400%;
+    animation: aurora 6s ease infinite;
+    box-shadow: 0 0 30px rgba(0, 255, 200, 0.7), 0 0 60px rgba(155, 0, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+}
+
+.aurora__button:hover {
+    background: #fff;
+}
+
+.aurora__button h2 {
+    font-size: 24px;
+    font-weight: bold;
+
+    transition: all 0.3s ease;
+    padding: 1rem;
+}
+
+.aurora__button h2:hover {
+
+    background: linear-gradient(45deg,
+            #00f0ff,
+            #9b00ff,
+            #ff00d4,
+            #00ff85,
+            #00f0ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: aurora-text 4s ease infinite;
+    background-size: 400% 400%;
+}
+
+
+.aurora__button:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 50px rgba(0, 255, 200, 1), 0 0 80px rgba(155, 0, 255, 0.8);
+}
+
+
+.chat__window {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background: #111;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+}
+
+.chat__window h2 {
+    margin: 0 0 10px;
+    text-align: center;
+
+    background: linear-gradient(45deg,
+            #00f0ff,
+            #9b00ff,
+            #ff00d4,
+            #00ff85,
+            #00f0ff);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: aurora-text 4s ease infinite;
+}
+
+.chat__messages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.chat__window input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+/* Animación de entrada */
+.chat__enter {
+    animation: chat-enter 0.3s forwards;
+}
+
+/* Animación de salida */
+.chat__exit {
+    animation: chat-exit 0.3s forwards;
+}
+
+@keyframes chat-enter {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes chat-exit {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes aurora {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes aurora-text {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

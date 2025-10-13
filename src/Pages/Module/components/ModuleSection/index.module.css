@@ -1,0 +1,18 @@
+.module__section__container{
+    width: 90%;
+    padding: 2rem 1rem 2rem 17%;
+}
+
+.header__button__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.header__button{
+    background-color: #5955b3;
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+

@@ -1,4 +1,5 @@
 import { CourseCard } from "../../Components/CourseCard";
+import IaButton from "../../Components/IaButton";
 import { useModules } from "../../hooks/useModules";
 import { Banner } from "../Components/Banner";
 import { CourseAdvice } from "../Components/CourseAdvice";
@@ -29,6 +30,7 @@ const LandingPage = () => {
                     ))
                 }
             </section>
+            <IaButton/>
         </section>
     )
 

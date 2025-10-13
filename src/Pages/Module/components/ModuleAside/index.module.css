@@ -1,0 +1,25 @@
+.aside__container{
+    height: 100vh;
+    background-color: #eeeeee;
+    position: fixed;
+    overflow-y: auto;
+    width: 15%;
+    padding: 1rem;
+}
+.aside__container h4{
+    font-family: "Manrope", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.aside__container li{
+    width: 100%;
+}
+.section__option{
+    padding: 0.4rem 0;
+    font-size: 0.8rem;
+    width: 100%;
+}
+.section__option:hover{
+    background-color: #5a55b393;
+}

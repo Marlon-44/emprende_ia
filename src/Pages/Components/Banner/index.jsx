@@ -4,7 +4,7 @@ export const Banner = () => {
     return (
         <>
             <section className={styles.banner__container}>
-                <h1>Aprende a Emprender</h1>
+                <h1>Aprende a emprender</h1>
                 <h3>Desarrolla las habilidades que impulsan tus ideas hacia el éxito.</h3>
 
                 <div className={styles.search__container}>
