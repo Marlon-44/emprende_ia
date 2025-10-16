@@ -1,3 +1,10 @@
+.header__main__box{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+
 .header__container {
     display: flex;
     width: 100%;
@@ -9,6 +16,7 @@
     padding: 0.5rem;
     font-size: 0.9rem;
     box-sizing: border-box;
+    background-color: #fff;
 }
 
 .header__navlist {
@@ -91,7 +99,7 @@
 .module__item {
     flex: 0 0 auto;
     min-width: 4rem;
-    padding: 0.8rem 1.5rem;
+    padding: 0.3rem 1.5rem;
     border-radius: 1rem;
     background: var(--card-bg, rgba(255, 255, 255, 0.04));
     color: var(--card-color, #fff);

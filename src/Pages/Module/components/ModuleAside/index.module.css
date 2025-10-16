@@ -1,25 +1,44 @@
 .aside__container{
     height: 100vh;
-    background-color: #eeeeee;
     position: fixed;
+    background-color: #eeeeee;
     overflow-y: auto;
-    width: 15%;
-    padding: 1rem;
+    width: 12%;
 }
 .aside__container h4{
     font-family: "Manrope", sans-serif;
     font-size: 1.3rem;
     font-weight: 500;
     margin-bottom: 1rem;
+    padding: 0.7rem ;
+    padding-bottom: 0;
+    padding-top: 30px;
+    color: #5955b3;
+    font-weight: 600;
+}
+.section__list{
+    width: 100%;
 }
 .aside__container li{
     width: 100%;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
 }
+
 .section__option{
     padding: 0.4rem 0;
     font-size: 0.8rem;
     width: 100%;
 }
-.section__option:hover{
-    background-color: #5a55b393;
+
+.inactive:hover{
+    background-color: #d1d1d1;
+}
+
+.active{
+    background-color: #5955b3;
+    color: #fff;
+}
+.active:hover{
+    background-color: #5955b3;
 }

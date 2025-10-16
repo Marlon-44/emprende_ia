@@ -3,7 +3,24 @@
         "id": 1,
         "title": "Desarrollo de habilidades empresariales",
         "subtitle": "Fortalece tu mentalidad y liderazgo para crear negocios exitosos.",
-        "color": "#F9D5E5"
+        "color": "#F9D5E5",
+        "slides": [
+            "/assets/img1.jpg",
+            "/assets/img2.jpg",
+            "/assets/img3.jpg"
+        ],
+        "test": [
+            {
+                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "opciones": {
+                    "a": "Comunicación efectiva",
+                    "b": "Desinterés total",
+                    "c": "Ignorar al equipo",
+                    "d": "Evitar tomar decisiones"
+                },
+                "respuesta_correcta": "a"
+            }
+        ]
     },
     {
         "id": 2,
@@ -57,6 +74,31 @@
         "id": 10,
         "title": "Ética empresarial y responsabilidad social",
         "subtitle": "Aplica valores y prácticas sostenibles que generen impacto positivo en la sociedad.",
-        "color": "#B5D8EB"
+        "color": "#B5D8EB",
+        "slides": [
+            "/assets/mod10__slide1.png",
+            "/assets/mod10__slide2.png",
+            "/assets/mod10__slide3.png",
+            "/assets/mod10__slide4.png",
+            "/assets/mod10__slide5.png",
+            "/assets/mod10__slide6.png",
+            "/assets/mod10__slide7.png",
+            "/assets/mod10__slide8.png",
+            "/assets/mod10__slide9.png",
+            "/assets/mod10__slide10.png",
+            "/assets/mod10__slide11.png",
+            "/assets/mod10__slide12.png",
+            "/assets/mod10__slide13.png",
+            "/assets/mod10__slide14.png",
+            "/assets/mod10__slide15.png",
+            "/assets/mod10__slide16.png",
+            "/assets/mod10__slide17.png",
+            "/assets/mod10__slide18.png",
+            "/assets/mod10__slide19.png",
+            "/assets/mod10__slide20.png",
+            "/assets/mod10__slide21.png",
+            "/assets/mod10__slide22.png",
+            "/assets/mod10__slide23.png"
+        ]
     }
 ]

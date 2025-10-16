@@ -5,6 +5,7 @@ import { getAllModules } from "../../../Api/module";
 
 export const Header = () => {
     const [modules, setModules] = useState([]);
+    
 
     useEffect(() => {
         // Cargamos los módulos al montar el componente
@@ -12,7 +13,6 @@ export const Header = () => {
             try {
                 const data = await getAllModules();
                 setModules(data);
-                console.log("exito: ", modules)
             } catch (error) {
                 console.error("Error al cargar los módulos:", error);
             }
@@ -70,8 +70,8 @@ export const Header = () => {
     };
 
     return (
-        <>
-            <header className={styles.header__container}>
+        <header className={styles.header__main__box}>
+            <div className={styles.header__container}>
                 <ul className={styles.header__navlist}>
                     <h5 className={styles.logo}>AprendIA</h5>
                     <li><a href="">Módulos</a></li>
@@ -82,7 +82,7 @@ export const Header = () => {
                     <img src="/assets/perfilline.svg" alt="" style={{ filter: "invert(1)" }} />
                     Iniciar sesión
                 </Link>
-            </header>
+            </div>
 
             {/* Carrusel que muestra tantos items como quepan; overflow scrollable */}
             <div className={styles.modules__wrapper}>
@@ -116,6 +116,6 @@ export const Header = () => {
                     </svg>
                 </button >
             </div >
-        </>
+        </header>
     );
 };

@@ -1,6 +1,6 @@
 .module__section__container{
-    width: 90%;
-    padding: 2rem 1rem 2rem 17%;
+    width: 100%;
+    padding: 2rem 1rem 2rem 13%;
 }
 
 .header__button__container{
@@ -16,3 +16,6 @@
     font-weight: 600;
 }
 
+.slide{
+    width: 100%;
+}

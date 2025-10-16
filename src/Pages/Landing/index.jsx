@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { CourseCard } from "../../Components/CourseCard";
 import IaButton from "../../Components/IaButton";
 import { useModules } from "../../hooks/useModules";
@@ -8,7 +9,14 @@ import styles from "./index.module.css"
 
 
 const LandingPage = () => {
-    const { modules, loading, error } = useModules();
+    const { modules, loading, error, loadModules } = useModules();
+
+    {/*useEffect(() => {
+        if (modules === null) {
+            loadModules().catch(err => console.error("loadModules failed:", err));
+        }
+    }, [modules, loadModules]);*/}
+    
     return (
         <section className={styles.container}>
             <Header />
@@ -20,17 +28,17 @@ const LandingPage = () => {
             <section className={styles.all__courses__section}>
                 {
                     (modules ?? []).map((modulo, index) => (
+
                         <CourseCard
-                            title={modulo.title}
-                            subtitle={modulo.subtitle}
-                            img=""
-                            color={modulo.color}
+                            modulo={modulo}
                             key={modulo.id ?? index}
+
                         />
+
                     ))
                 }
             </section>
-            <IaButton/>
+            <IaButton />
         </section>
     )
 
