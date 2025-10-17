@@ -14,7 +14,6 @@ export const Module = () => {
 
     const { modules, setModules, selectedModule, setSelectedModule } = useModules();
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [localLoading, setLocalLoading] = useState(false);
 
 
     // 1) Si no hay módulos, los traemos (solo una vez)
@@ -48,9 +47,9 @@ export const Module = () => {
     }, [modules, moduleId, setSelectedModule]);
 
     const goPrev = () => setCurrentIndex((i) => Math.max(0, i - 1));
-    const goNext = () => setCurrentIndex((i) => Math.min(selectedModule.slides.length - 1, i + 1));
+    const goNext = () => setCurrentIndex((i) => Math.min(selectedModule.slides.length +1, i + 1));
     const jumpTo = (index) => {
-        if (index < 0 || index >= selectedModule.slides.length) return;
+        if (index < 0 || index >= (selectedModule.slides.length )) return;
         setCurrentIndex(index);
         const el = document.getElementById(`module - section - ${selectedModule.slides[index].id}`);
         if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });

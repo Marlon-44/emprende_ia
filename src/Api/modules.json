@@ -7,9 +7,294 @@
         "slides": [
             "/assets/img1.jpg",
             "/assets/img2.jpg",
-            "/assets/img3.jpg"
+            "/assets/img3.jpg",
+            "Test"
         ],
         "test": [
+            {
+                "pregunta": "1. ¿Cuál de las siguientes teorías de liderazgo enfatiza la necesidad de que el líder adapte su estilo según el nivel de madurez y competencia de sus seguidores y las demandas de la situación específica?",
+                "opciones": {
+                    "a": "Teoría de los Rasgo",
+                    "b": "Teoría del Liderazgo Transformacional",
+                    "c": "Teoría del Liderazgo Situacional",
+                    "d": "Teoría del Liderazgo Ético"
+                },
+                "respuesta_correcta": "c"
+            },
+            {
+                "pregunta": "2. Según la Matriz de Eisenhower para la gestión del tiempo, ¿en cuál cuadrante deben priorizarse las tareas que son importantes para el crecimiento y éxito a largo plazo, pero no requieren atención inmediata?",
+                "opciones": {
+                    "a": "Cuadrante 1: Urgente e Importante",
+                    "b": "Cuadrante 2: Importante pero No Urgente",
+                    "c": "Cuadrante 3: Urgente pero No Importante",
+                    "d": "Cuadrante 4: Ni Urgente Ni Importante"
+                },
+                "respuesta_correcta": "b"
+            },
+            {
+                "pregunta": "¿Cuál es el principio fundamental de la comunicación empresarial que asegura que 'los mensajes enviados a través de diferentes medios no se contradigan, lo que fortalece la credibilidad organizacional'?",
+                "opciones": {
+                    "a": "Claridad",
+                    "b": "Asertividad",
+                    "c": "Retroalimentación",
+                    "d": "Consistencia"
+                },
+                "respuesta_correcta": "d"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Planificación estratégica",
+        "subtitle": "Aprende a definir objetivos claros y diseñar planes efectivos para lograrlos.",
+        "color": "#FCE1A8",
+        "slides": [
+            "/assets/img1.jpg",
+            "/assets/img2.jpg",
+            "/assets/img3.jpg",
+            "Test"
+        ],
+        "test": [
+            {
+                "pregunta": "1. Según Kaplan & Norton (2014), el Balanced Scorecard es una herramienta de medición que traduce la visión y estrategia en indicadores de desempeño organizacional. ¿Cuáles son las cuatro perspectivas que monitoriza esta herramienta?",
+                "opciones": {
+                    "a": "Producción, Logística, Marketing, y Recursos Humanos",
+                    "b": "Clientes, Procesos Internos, Aprendizaje Organizacional, y Financiera",
+                    "c": "Fortalezas, Oportunidades, Debilidades, y Amenazas (FODA)",
+                    "d": "Político, Económico, Social, y Tecnológico (PEST)"
+                },
+                "respuesta_correcta": "b"
+            },
+            {
+                "pregunta": "2. En el contexto de la formulación de estrategias, la metodología SMART establece que los objetivos deben ser, entre otras cosas, específicos y medibles. ¿Cuáles son los otros tres criterios que debe cumplir un objetivo estratégico, según esta metodología?",
+                "opciones": {
+                    "a": "Sensible, Magnífico, y Racionalmente Trazado",
+                    "b": "Alcanzable, Realista, y Limitado en el Tiempo",
+                    "c": "Social, Monetario, y Táctico",
+                    "d": "Sostenible, Moderno, y Recurrente"
+                },
+                "respuesta_correcta": "b"
+            },
+            {
+                "pregunta": "¿Qué etapa del Ciclo de la Planificación Estratégica incluye la distribución de recursos, la ejecución de las estrategias y la alineación de operaciones con los objetivos estratégicos?",
+                "opciones": {
+                    "a": "Análisis del Entorno",
+                    "b": "Formulación de Estrategias",
+                    "c": "Implementación",
+                    "d": "Evaluación y Control"
+                },
+                "respuesta_correcta": "c"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Innovación y creatividad",
+        "subtitle": "Descubre cómo generar ideas disruptivas que impulsen la competitividad empresarial.",
+        "color": "#C7CEEA",
+        "slides": [
+            "/assets/img1.jpg",
+            "/assets/img2.jpg",
+            "/assets/img3.jpg",
+            "Test"
+        ],
+        "test": [
+            {
+                "pregunta": "¿Cuál es el objetivo principal del curso de Innovación y Creatividad relacionado con la aplicación de nuevas ideas en el mercado?",
+                "opciones": {
+                    "a": "Comprender los principios de la innovación y creatividad",
+                    "b": "Aplicar métodos creativos para la resolución de problemas",
+                    "c": "Implementar estrategias para llevar nuevas ideas al mercado",
+                    "d": "Desarrollar habilidades para generar y evaluar ideas innovadoras"
+                },
+                "respuesta_correcta": "c"
+            },
+            {
+                "pregunta": "2. ¿Qué tipo de técnicas se estudian dentro de la Unidad 2: Generación de Ideas Innovadoras?",
+                "opciones": {
+                    "a": "Estrategias para el desarrollo de productos",
+                    "b": "Análisis de ejemplos reales",
+                    "c": "Criterios para evaluar ideas",
+                    "d": "Técnicas de brainstorming y mapas mentales"
+                },
+                "respuesta_correcta": "d"
+            },
+            {
+                "pregunta": "3. ¿Cuál es la principal característica de la metodología docente utilizada en el curso de Innovación y Creatividad y qué tipo de examen no se utiliza?",
+                "opciones": {
+                    "a": "Metodología basada en la cátedra magistral; se utiliza un examen oral final",
+                    "b": "Metodología participativa con talleres y ejercicios prácticos; no hay examen final",
+                    "c": "Metodología de simulación de negocios; se utiliza un examen de opción múltiple",
+                    "d": "Metodología de estudio de casos de Harvard; se utiliza una prueba de desempeño"
+                },
+                "respuesta_correcta": "b"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Gestión financiera",
+        "subtitle": "Domina el manejo de presupuestos, inversiones y rentabilidad de tu empresa.",
+        "color": "#B5EAD7",
+        "slides": [
+            "/assets/img1.jpg",
+            "/assets/img2.jpg",
+            "/assets/img3.jpg",
+            "Test"
+        ],
+        "test": [
+            {
+                "pregunta": "1. ¿Cuál es el principal objetivo de la gestión financiera dentro de una organización?",
+                "opciones": {
+                    "a": "Controlar los gastos administrativos",
+                    "b": "Maximizar el valor de la empresa",
+                    "c": "Reducir la carga tributaria",
+                    "d": "Aumentar el volumen de ventas"
+                },
+                "respuesta_correcta": "b"
+            },
+            {
+                "pregunta": "2. ¿Qué tipo de análisis financiero permite comparar los estados financieros de diferentes periodos para identificar tendencias?",
+                "opciones": {
+                    "a": "Análisis vertical",
+                    "b": "Análisis de flujo de caja",
+                    "c": "Análisis horizontal",
+                    "d": "Análisis de razones financieras"
+                },
+                "respuesta_correcta": "c"
+            },
+            {
+                "pregunta": "3. ¿Qué fuente de financiamiento implica la obtención de fondos mediante la venta de acciones de la empresa?",
+                "opciones": {
+                    "a": "Financiamiento por deuda",
+                    "b": "Financiamiento interno",
+                    "c": "Financiamiento por capital",
+                    "d": "Financiamiento bancario"
+                },
+                "respuesta_correcta": "c"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Marketing y ventas",
+        "subtitle": "Crea estrategias que conecten con tus clientes y aumenten tus resultados comerciales.",
+        "color": "#FFDAC1",
+        "slides": [
+            "/assets/img1.jpg",
+            "/assets/img2.jpg",
+            "/assets/img3.jpg",
+            "Test"
+        ],
+        "test": [
+            {
+                "pregunta": "1. ¿Cómo se define el marketing?",
+                "opciones": {
+                    "a": " Es exclusivamente el proceso de vender productos mediante publicidad masiva",
+                    "b": "Es el proceso social y administrativo por el cual los individuos y grupos obtienen lo que necesitan y desean creando, ofreciendo e intercambiando productos de valor con otros",
+                    "c": "Es únicamente la gestión de redes sociales y plataformas digitales para promocionar productos",
+                    "d": "Es el arte de convencer a los clientes de comprar productos que no necesitan"
+                },
+                "respuesta_correcta": "b"
+            },
+            {
+                "pregunta": "2. ¿Cuáles son los cuatro elementos fundamentales que componen el Mix de Marketing?",
+                "opciones": {
+                    "a": "Investigación, Desarrollo, Innovación y Tecnología",
+                    "b": "Producto, Precio, Plaza (Distribución) y Promoción",
+                    "c": "Clientes, Competencia, Proveedores y Distribuidores",
+                    "d": "Branding, Publicidad, Relaciones Públicas y Ventas"
+                },
+                "respuesta_correcta": "b"
+            },
+            {
+                "pregunta": "3. ¿Cuál de las siguientes métricas se utiliza para medir el nivel de interacción de los usuarios con el contenido en redes sociales?",
+                "opciones": {
+                    "a": "ROI",
+                    "b": "Alcance",
+                    "c": "Conversión",
+                    "d": "Engagement"
+                },
+                "respuesta_correcta": "d"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Desarrollo de productos/servicios",
+        "subtitle": "Aprende a diseñar y mejorar ofertas de valor alineadas a las necesidades del mercado.",
+        "color": "#E2F0CB",
+        "slides": [
+            "/assets/img1.jpg",
+            "/assets/img2.jpg",
+            "/assets/img3.jpg",
+            "Test"
+        ],
+        "test": [
+            {
+                "pregunta": "1. ¿Cuáles son las cinco etapas del Ciclo de Vida del Producto?",
+                "opciones": {
+                    "a": "Planificación, Ejecución, Control, Evaluación y Cierre",
+                    "b": "Desarrollo, Introducción, Crecimiento, Madurez y Declive",
+                    "c": "Investigación, Diseño, Producción, Distribución y Venta",
+                    "d": "Ideación, Prototipado, Validación, Lanzamiento y Expansión"
+                },
+                "respuesta_correcta": "b"
+            },
+            {
+                "pregunta": "2. ¿Qué tipo de innovación implica la introducción de productos completamente nuevos que crean nuevas categorías de mercado?",
+                "opciones": {
+                    "a": "Innovación incremental",
+                    "b": "Innovación de proceso",
+                    "c": "Innovación radical",
+                    "d": "Innovación funcional"
+                },
+                "respuesta_correcta": "c"
+            },
+            {
+                "pregunta": "3. ¿Cuál es el objetivo principal de las pruebas de usabilidad durante el desarrollo de un producto o servicio?",
+                "opciones": {
+                    "a": "Evaluar el rendimiento del producto en condiciones extremas",
+                    "b": "Analizar la percepción del consumidor sobre el precio",
+                    "c": "Determinar la facilidad de uso y experiencia del usuario",
+                    "d": "Verificar la seguridad eléctrica del producto"
+                },
+                "respuesta_correcta": "c"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Gestión de Recursos Humanos",
+        "subtitle": "Optimiza el talento humano y fomenta equipos motivados y productivos.",
+        "color": "#CFF1EF",
+        "slides": [
+            "/assets/img1.jpg",
+            "/assets/img2.jpg",
+            "/assets/img3.jpg",
+            "Test"
+        ],
+        "test": [
+            {
+                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "opciones": {
+                    "a": "Comunicación efectiva",
+                    "b": "Desinterés total",
+                    "c": "Ignorar al equipo",
+                    "d": "Evitar tomar decisiones"
+                },
+                "respuesta_correcta": "a"
+            },
+            {
+                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "opciones": {
+                    "a": "Comunicación efectiva",
+                    "b": "Desinterés total",
+                    "c": "Ignorar al equipo",
+                    "d": "Evitar tomar decisiones"
+                },
+                "respuesta_correcta": "a"
+            },
             {
                 "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
                 "opciones": {
@@ -23,52 +308,92 @@
         ]
     },
     {
-        "id": 2,
-        "title": "Planificación estratégica",
-        "subtitle": "Aprende a definir objetivos claros y diseñar planes efectivos para lograrlos.",
-        "color": "#FCE1A8"
-    },
-    {
-        "id": 3,
-        "title": "Innovación y creatividad",
-        "subtitle": "Descubre cómo generar ideas disruptivas que impulsen la competitividad empresarial.",
-        "color": "#C7CEEA"
-    },
-    {
-        "id": 4,
-        "title": "Gestión financiera",
-        "subtitle": "Domina el manejo de presupuestos, inversiones y rentabilidad de tu empresa.",
-        "color": "#B5EAD7"
-    },
-    {
-        "id": 5,
-        "title": "Marketing y ventas",
-        "subtitle": "Crea estrategias que conecten con tus clientes y aumenten tus resultados comerciales.",
-        "color": "#FFDAC1"
-    },
-    {
-        "id": 6,
-        "title": "Desarrollo de productos/servicios",
-        "subtitle": "Aprende a diseñar y mejorar ofertas de valor alineadas a las necesidades del mercado.",
-        "color": "#E2F0CB"
-    },
-    {
-        "id": 7,
-        "title": "Gestión de Recursos Humanos",
-        "subtitle": "Optimiza el talento humano y fomenta equipos motivados y productivos.",
-        "color": "#CFF1EF"
-    },
-    {
         "id": 8,
         "title": "Tecnología y transformación digital",
         "subtitle": "Integra herramientas digitales para modernizar y escalar tu negocio.",
-        "color": "#D0E6A5"
+        "color": "#D0E6A5",
+        "slides": [
+            "/assets/img1.jpg",
+            "/assets/img2.jpg",
+            "/assets/img3.jpg",
+            "Test"
+        ],
+        "test": [
+            {
+                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "opciones": {
+                    "a": "Comunicación efectiva",
+                    "b": "Desinterés total",
+                    "c": "Ignorar al equipo",
+                    "d": "Evitar tomar decisiones"
+                },
+                "respuesta_correcta": "a"
+            },
+            {
+                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "opciones": {
+                    "a": "Comunicación efectiva",
+                    "b": "Desinterés total",
+                    "c": "Ignorar al equipo",
+                    "d": "Evitar tomar decisiones"
+                },
+                "respuesta_correcta": "a"
+            },
+            {
+                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "opciones": {
+                    "a": "Comunicación efectiva",
+                    "b": "Desinterés total",
+                    "c": "Ignorar al equipo",
+                    "d": "Evitar tomar decisiones"
+                },
+                "respuesta_correcta": "a"
+            }
+        ]
     },
     {
         "id": 9,
         "title": "Networking y colaboración",
         "subtitle": "Construye alianzas estratégicas que potencien tu crecimiento profesional y empresarial.",
-        "color": "#FFB7B2"
+        "color": "#FFB7B2",
+        "slides": [
+            "/assets/img1.jpg",
+            "/assets/img2.jpg",
+            "/assets/img3.jpg",
+            "Test"
+        ],
+        "test": [
+            {
+                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "opciones": {
+                    "a": "Comunicación efectiva",
+                    "b": "Desinterés total",
+                    "c": "Ignorar al equipo",
+                    "d": "Evitar tomar decisiones"
+                },
+                "respuesta_correcta": "a"
+            },
+            {
+                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "opciones": {
+                    "a": "Comunicación efectiva",
+                    "b": "Desinterés total",
+                    "c": "Ignorar al equipo",
+                    "d": "Evitar tomar decisiones"
+                },
+                "respuesta_correcta": "a"
+            },
+            {
+                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "opciones": {
+                    "a": "Comunicación efectiva",
+                    "b": "Desinterés total",
+                    "c": "Ignorar al equipo",
+                    "d": "Evitar tomar decisiones"
+                },
+                "respuesta_correcta": "a"
+            }
+        ]
     },
     {
         "id": 10,
@@ -98,7 +423,40 @@
             "/assets/mod10__slide20.png",
             "/assets/mod10__slide21.png",
             "/assets/mod10__slide22.png",
-            "/assets/mod10__slide23.png"
+            "/assets/mod10__slide23.png",
+            "Test"
+        ],
+        "test": [
+            {
+                "pregunta": "1. ¿Cuál es la principal diferencia entre ética empresarial y Responsabilidad Social Empresarial (RSE)?",
+                "opciones": {
+                    "a": "La ética empresarial se enfoca en generar ganancias, mientras que la RSE busca reducir costos operativos.",
+                    "b": "La ética empresarial guía el comportamiento basado en principios como integridad y justicia, mientras que la RSE implica que las empresas deben ir más allá de generar ganancias para cumplir responsabilidades hacia la sociedad y el medio ambiente.",
+                    "c": "La ética empresarial es obligatoria por ley, mientras que la RSE es completamente voluntaria.",
+                    "d": "No existe diferencia, son términos sinónimos que se refieren a lo mismo."
+                },
+                "respuesta_correcta": "b"
+            },
+            {
+                "pregunta": "2. De acuerdo con la investigación de Aguinis & Glavas (2012) mencionada en el módulo, las prácticas éticas y de RSE están positivamente relacionadas con:",
+                "opciones": {
+                    "a": "La reducción de impuestos corporativos únicamente.",
+                    "b": "El desempeño financiero, la satisfacción de los empleados y la lealtad de los clientes.",
+                    "c": "La disminución de la competencia en el mercado.",
+                    "d": "El aumento de regulaciones gubernamentales."
+                },
+                "respuesta_correcta": "b"
+            },
+            {
+                "pregunta": "3. ¿Cuál de las siguientes opciones NO es mencionada en el módulo como una herramienta para asegurar el cumplimiento normativo?",
+                "opciones": {
+                    "a": "Sistemas de Gestión de Cumplimiento.",
+                    "b": "Auditorías y evaluaciones de cumplimiento periódicas.",
+                    "c": "Programas de incentivos financieros para accionistas.",
+                    "d": "Plataformas integradas para gestionar obligaciones regulatorias."
+                },
+                "respuesta_correcta": "c"
+            }
         ]
     }
 ]

@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useRef, useEffect, useState } from "react";
 import styles from "./index.module.css";
 import { getAllModules } from "../../../Api/module";
 
 export const Header = () => {
     const [modules, setModules] = useState([]);
-    
+    const navigate = useNavigate()
 
     useEffect(() => {
         // Cargamos los módulos al montar el componente
@@ -68,6 +68,9 @@ export const Header = () => {
         if (!vp) return;
         vp.scrollBy({ left: -itemWidth, behavior: "smooth" });
     };
+    const handleClick =(mod)=>{
+        navigate(`/modulo/${mod.id}`)
+    }
 
     return (
         <header className={styles.header__main__box}>
@@ -76,7 +79,6 @@ export const Header = () => {
                     <h5 className={styles.logo}>AprendIA</h5>
                     <li><a href="">Módulos</a></li>
                     <li><a href="">Chat IA</a></li>
-                    <li><a href="">Tests</a></li>
                 </ul>
                 <Link className={styles.login__btn} to="/login">
                     <img src="/assets/perfilline.svg" alt="" style={{ filter: "invert(1)" }} />
@@ -99,9 +101,9 @@ export const Header = () => {
 
                 <div className={styles.modules__nav} ref={viewportRef} role="list">
                     {modules.map((modulo, index) => (
-                        <div className={styles.module__item} key={index} role="listitem" tabIndex={0}>
+                        <Link className={styles.module__item} key={index} role="listitem" tabIndex={0} to={`/module/${modulo.id}`}>
                             {modulo.title}
-                        </div>
+                        </Link>
                     ))}
                 </div>
 

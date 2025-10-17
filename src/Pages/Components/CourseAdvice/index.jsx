@@ -1,7 +1,12 @@
 import { motion } from "framer-motion";
 import styles from "./index.module.css";
+import { useNavigate } from "react-router-dom";
 
-export const CourseAdvice = ({ title, subtitle, img, color }) => {
+export const CourseAdvice = ({ title, subtitle, img, color, id }) => {
+    const navigate = useNavigate()
+    const handleClick =()=>{
+        navigate(`/module/${id}`)
+    }
     return (
         <motion.section
             className={styles.course__section__container}
@@ -34,7 +39,47 @@ export const CourseAdvice = ({ title, subtitle, img, color }) => {
                         },
                     }}
                 >
-                    {[
+                    <motion.a
+                            
+                            href="#"
+                            className={`${styles.option} ${styles.aprende}`}
+                            variants={{
+                                hidden: { opacity: 0, y: 10 },
+                                visible: { opacity: 1, y: 0 },
+                            }}
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                            onClick={handleClick}
+                        >
+                            Aprende
+                        </motion.a>
+                        <motion.a
+                            
+                            href="#"
+                            className={`${styles.option} ${styles.video}`}
+                            variants={{
+                                hidden: { opacity: 0, y: 10 },
+                                visible: { opacity: 1, y: 0 },
+                            }}
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                        >
+                            Video tutorial
+                        </motion.a>
+                        <motion.a
+                            
+                            href="#"
+                            className={`${styles.option} ${styles.ref}`}
+                            variants={{
+                                hidden: { opacity: 0, y: 10 },
+                                visible: { opacity: 1, y: 0 },
+                            }}
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                        >
+                            Referencias
+                        </motion.a>
+                    {/*[
                         { label: "Aprende", style: styles.aprende },
                         { label: "Video Tutorial", style: styles.video },
                         { label: "Referencias", style: styles.ref },
@@ -52,7 +97,7 @@ export const CourseAdvice = ({ title, subtitle, img, color }) => {
                         >
                             {btn.label}
                         </motion.a>
-                    ))}
+                    ))*/}
                 </motion.div>
             </motion.div>
 
