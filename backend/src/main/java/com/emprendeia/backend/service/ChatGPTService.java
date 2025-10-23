@@ -1,13 +1,19 @@
 package com.emprendeia.backend.service;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import io.github.cdimascio.dotenv.Dotenv;
-import okhttp3.*;
-import org.springframework.stereotype.Service;
-
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
+
+import org.springframework.stereotype.Service;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import io.github.cdimascio.dotenv.Dotenv;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
 
 @Service
 public class ChatGPTService {
@@ -42,22 +48,23 @@ public class ChatGPTService {
         }
 
         String prompt = String.format(
-            "Eres un asistente educativo que ayuda a los estudiantes a comprender el contenido de un curso. " +
-            "No debes dar respuestas exactas a preguntas de examen, solo orientar. " +
-            "El contexto del módulo es el siguiente: %s. " +
-            "Además, estas son las preguntas oficiales del módulo: %s. " +
-            "El estudiante pregunta: %s. " +
-            "Si la pregunta del estudiante es una reformulación de una de las preguntas del módulo, no la respondas directamente y recomiéndale estudiar esa parte.",
-            contexto, preguntasModulo, pregunta
-        );
+                "Eres un asistente educativo especializado en apoyar a pequeños emprendedores de cualquier área. " +
+                        "Tu función es orientar y ayudar a comprender los conceptos del curso, brindando explicaciones claras y prácticas. "
+                        +
+                        "No debes ofrecer respuestas exactas a evaluaciones o exámenes, solo guiar al emprendedor para que entienda mejor el contenido. "
+                        +
+                        "El contexto del módulo es el siguiente: %s. " +
+                        "Además, estas son las preguntas oficiales del módulo: %s. " +
+                        "El emprendedor pregunta: %s. " +
+                        "Si la pregunta del emprendedor coincide o es una reformulación de una de las preguntas del módulo, no la respondas directamente y recomiéndale revisar esa parte del contenido.",
+                contexto, preguntasModulo, pregunta);
 
         String json = mapper.writeValueAsString(Map.of(
-            "model", "llama-3.3-70b-versatile",
-            "messages", List.of(
-                Map.of("role", "system", "content", "Eres un asistente educativo, amable y motivador, que guía al estudiante sin revelar respuestas de evaluación."),
-                Map.of("role", "user", "content", prompt)
-            )
-        ));
+                "model", "llama-3.3-70b-versatile",
+                "messages", List.of(
+                        Map.of("role", "system", "content",
+                                "Eres un asistente educativo, amable y motivador, que guía al estudiante sin revelar respuestas de evaluación."),
+                        Map.of("role", "user", "content", prompt))));
 
         Request request = new Request.Builder()
                 .url(API_URL)
