@@ -76,7 +76,7 @@ export const Header = () => {
         <header className={styles.header__main__box}>
             <div className={styles.header__container}>
                 <ul className={styles.header__navlist}>
-                    <h5 className={styles.logo}>AprendIA</h5>
+                    <h5 className={styles.logo}>EmprendIA</h5>
                     <li><a href="">Módulos</a></li>
                     <li><a href="">Chat IA</a></li>
                 </ul>
