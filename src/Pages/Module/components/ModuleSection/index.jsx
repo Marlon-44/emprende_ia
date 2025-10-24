@@ -17,7 +17,9 @@ export const ModuleSection = ({
     onJump = () => { },
 }) => {
     const navigate = useNavigate();
+    
     const current = sections[currentIndex] ?? null;
+    console.log("Current: ",current)
     const [testResult, setTestResult] = useState(null);
     // testResult: { score: number, total: number, details: [...] }
 
@@ -173,6 +175,7 @@ export const ModuleSection = ({
                         </>
                     ) : (
                         <img className={styles.slide} src={current} alt={`slide-${currentIndex}`} />
+                        
                     )}
                 </article>
             </div>

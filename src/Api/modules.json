@@ -5,9 +5,42 @@
         "subtitle": "Fortalece tu mentalidad y liderazgo para crear negocios exitosos.",
         "color": "#F9D5E5",
         "slides": [
-            "/assets/img1.jpg",
-            "/assets/img2.jpg",
-            "/assets/img3.jpg",
+            "/assets/mod1_slide1.png",
+            "/assets/mod1_slide2.png",
+            "/assets/mod1_slide3.png",
+            "/assets/mod1_slide4.png",
+            "/assets/mod1_slide5.png",
+            "/assets/mod1_slide6.png",
+            "/assets/mod1_slide7.png",
+            "/assets/mod1_slide8.png",
+            "/assets/mod1_slide9.png",
+            "/assets/mod1_slide10.png",
+            "/assets/mod1_slide11.png",
+            "/assets/mod1_slide12.png",
+            "/assets/mod1_slide13.png",
+            "/assets/mod1_slide14.png",
+            "/assets/mod1_slide15.png",
+            "/assets/mod1_slide16.png",
+            "/assets/mod1_slide17.png",
+            "/assets/mod1_slide18.png",
+            "/assets/mod1_slide19.png",
+            "/assets/mod1_slide20.png",
+            "/assets/mod1_slide21.png",
+            "/assets/mod1_slide22.png",
+            "/assets/mod1_slide23.png",
+            "/assets/mod1_slide24.png",
+            "/assets/mod1_slide25.png",
+            "/assets/mod1_slide26.png",
+            "/assets/mod1_slide27.png",
+            "/assets/mod1_slide28.png",
+            "/assets/mod1_slide29.png",
+            "/assets/mod1_slide30.png",
+            "/assets/mod1_slide31.png",
+            "/assets/mod1_slide32.png",
+            "/assets/mod1_slide33.png",
+            "/assets/mod1_slide34.png",
+            "/assets/mod1_slide35.png",
+            "/assets/mod1_slide36.png",
             "Test"
         ],
         "test": [
@@ -49,9 +82,44 @@
         "subtitle": "Aprende a definir objetivos claros y diseñar planes efectivos para lograrlos.",
         "color": "#FCE1A8",
         "slides": [
-            "/assets/img1.jpg",
-            "/assets/img2.jpg",
-            "/assets/img3.jpg",
+            "/assets/mod2_slide1.png",
+            "/assets/mod2_slide2.png",
+            "/assets/mod2_slide3.png",
+            "/assets/mod2_slide4.png",
+            "/assets/mod2_slide5.png",
+            "/assets/mod2_slide6.png",
+            "/assets/mod2_slide7.png",
+            "/assets/mod2_slide8.png",
+            "/assets/mod2_slide9.png",
+            "/assets/mod2_slide10.png",
+            "/assets/mod2_slide11.png",
+            "/assets/mod2_slide12.png",
+            "/assets/mod2_slide13.png",
+            "/assets/mod2_slide14.png",
+            "/assets/mod2_slide15.png",
+            "/assets/mod2_slide16.png",
+            "/assets/mod2_slide17.png",
+            "/assets/mod2_slide18.png",
+            "/assets/mod2_slide19.png",
+            "/assets/mod2_slide20.png",
+            "/assets/mod2_slide21.png",
+            "/assets/mod2_slide22.png",
+            "/assets/mod2_slide23.png",
+            "/assets/mod2_slide24.png",
+            "/assets/mod2_slide25.png",
+            "/assets/mod2_slide26.png",
+            "/assets/mod2_slide27.png",
+            "/assets/mod2_slide28.png",
+            "/assets/mod2_slide29.png",
+            "/assets/mod2_slide30.png",
+            "/assets/mod2_slide31.png",
+            "/assets/mod2_slide32.png",
+            "/assets/mod2_slide33.png",
+            "/assets/mod2_slide34.png",
+            "/assets/mod2_slide35.png",
+            "/assets/mod2_slide36.png",
+            "/assets/mod2_slide37.png",
+            "/assets/mod2_slide38.png",
             "Test"
         ],
         "test": [
@@ -93,9 +161,25 @@
         "subtitle": "Descubre cómo generar ideas disruptivas que impulsen la competitividad empresarial.",
         "color": "#C7CEEA",
         "slides": [
-            "/assets/img1.jpg",
-            "/assets/img2.jpg",
-            "/assets/img3.jpg",
+            "/assets/mod3_slide1.png",
+            "/assets/mod3_slide2.png",
+            "/assets/mod3_slide3.png",
+            "/assets/mod3_slide4.png",
+            "/assets/mod3_slide5.png",
+            "/assets/mod3_slide6.png",
+            "/assets/mod3_slide7.png",
+            "/assets/mod3_slide8.png",
+            "/assets/mod3_slide9.png",
+            "/assets/mod3_slide10.png",
+            "/assets/mod3_slide11.png",
+            "/assets/mod3_slide12.png",
+            "/assets/mod3_slide13.png",
+            "/assets/mod3_slide14.png",
+            "/assets/mod3_slide15.png",
+            "/assets/mod3_slide16.png",
+            "/assets/mod3_slide17.png",
+            "/assets/mod3_slide18.png",
+            "/assets/mod3_slide19.png",
             "Test"
         ],
         "test": [
@@ -276,34 +360,34 @@
         ],
         "test": [
             {
-                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "pregunta": "¿Cuál es el principal objetivo de la Gestión de Recursos Humanos (GRH) según el módulo?",
                 "opciones": {
-                    "a": "Comunicación efectiva",
-                    "b": "Desinterés total",
-                    "c": "Ignorar al equipo",
-                    "d": "Evitar tomar decisiones"
+                    "a": "Aumentar únicamente los beneficios financieros de la empresa.",
+                    "b": "Organizar, desarrollar y administrar el capital humano para mejorar el rendimiento y alcanzar los objetivos organizacionales.",
+                    "c": "Sustituir la gestión tradicional de personal por procesos totalmente automatizados.",
+                    "d": "Eliminar los costos asociados a la capacitación y el desarrollo profesional."
                 },
-                "respuesta_correcta": "a"
+                "respuesta_correcta": "b"
             },
             {
-                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "pregunta": "¿Cuál de las siguientes estrategias pertenece al desarrollo profesional dentro de la Gestión de Recursos Humanos?",
                 "opciones": {
-                    "a": "Comunicación efectiva",
-                    "b": "Desinterés total",
-                    "c": "Ignorar al equipo",
-                    "d": "Evitar tomar decisiones"
+                    "a": "Establecimiento de horarios flexibles para mejorar la retención del talento.",
+                    "b": "Aplicación de evaluaciones psicosociales en el entorno laboral.",
+                    "c": "Implementación de programas de tutoría inversa y desarrollo de liderazgo.",
+                    "d": "Creación de políticas de bienestar y salud ocupacional."
                 },
-                "respuesta_correcta": "a"
+                "respuesta_correcta": "c"
             },
             {
-                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "pregunta": "Según el módulo, una técnica de motivación laboral basada en rediseñar los roles para otorgar más autonomía, variedad y significado a las tareas se denomina:",
                 "opciones": {
-                    "a": "Comunicación efectiva",
-                    "b": "Desinterés total",
-                    "c": "Ignorar al equipo",
-                    "d": "Evitar tomar decisiones"
+                    "a": "Gamificación.",
+                    "b": "Enriquecimiento del trabajo.",
+                    "c": "Flexibilidad laboral.",
+                    "d": "Participación activa de los empleados."
                 },
-                "respuesta_correcta": "a"
+                "respuesta_correcta": "b"
             }
         ]
     },
@@ -320,34 +404,34 @@
         ],
         "test": [
             {
-                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "pregunta": "¿Cuál es el propósito principal de la transformación digital en las organizaciones según el módulo?",
                 "opciones": {
-                    "a": "Comunicación efectiva",
-                    "b": "Desinterés total",
-                    "c": "Ignorar al equipo",
-                    "d": "Evitar tomar decisiones"
+                    "a": "Sustituir completamente el talento humano por inteligencia artificial.",
+                    "b": "Integrar tecnologías digitales en todos los procesos para mejorar la eficiencia, la innovación y la creación de valor.",
+                    "c": "Aumentar los costos operativos para fortalecer la infraestructura tecnológica.",
+                    "d": "Implementar software sin modificar la cultura organizacional."
                 },
-                "respuesta_correcta": "a"
+                "respuesta_correcta": "b"
             },
             {
-                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "pregunta": "¿Qué herramienta se menciona en el módulo como clave para el análisis de datos y la toma de decisiones empresariales?",
                 "opciones": {
-                    "a": "Comunicación efectiva",
-                    "b": "Desinterés total",
-                    "c": "Ignorar al equipo",
-                    "d": "Evitar tomar decisiones"
+                    "a": "Google Drive.",
+                    "b": "Microsoft Word.",
+                    "c": "Power BI.",
+                    "d": "Adobe Photoshop."
                 },
-                "respuesta_correcta": "a"
+                "respuesta_correcta": "c"
             },
             {
-                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "pregunta": "Según el módulo, la Automatización de Procesos Robóticos (RPA) permite:",
                 "opciones": {
-                    "a": "Comunicación efectiva",
-                    "b": "Desinterés total",
-                    "c": "Ignorar al equipo",
-                    "d": "Evitar tomar decisiones"
+                    "a": "Aumentar la carga laboral del personal mediante procesos manuales repetitivos.",
+                    "b": "Reducir los costos y errores operativos al reemplazar tareas repetitivas con sistemas automatizados.",
+                    "c": "Eliminar la necesidad de capacitación en nuevas tecnologías.",
+                    "d": "Sustituir todos los departamentos humanos por algoritmos."
                 },
-                "respuesta_correcta": "a"
+                "respuesta_correcta": "b"
             }
         ]
     },
@@ -364,32 +448,32 @@
         ],
         "test": [
             {
-                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "pregunta": "Según el módulo, ¿qué define mejor el concepto de networking?",
                 "opciones": {
-                    "a": "Comunicación efectiva",
-                    "b": "Desinterés total",
-                    "c": "Ignorar al equipo",
-                    "d": "Evitar tomar decisiones"
+                    "a": "La competencia entre empresas por captar más clientes.",
+                    "b": "Un proceso estructurado de interacción social para construir relaciones profesionales y de negocio que generen oportunidades y recursos.",
+                    "c": "Una técnica exclusiva para buscar empleo mediante ferias laborales.",
+                    "d": "Un sistema informático destinado al almacenamiento de datos personales."
                 },
-                "respuesta_correcta": "a"
+                "respuesta_correcta": "b"
             },
             {
-                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "pregunta": "¿Cuál de las siguientes herramientas se menciona en el módulo como clave para gestionar contactos profesionales de manera efectiva?",
                 "opciones": {
-                    "a": "Comunicación efectiva",
-                    "b": "Desinterés total",
-                    "c": "Ignorar al equipo",
-                    "d": "Evitar tomar decisiones"
+                    "a": "Microsoft Excel.",
+                    "b": "LinkedIn y los sistemas CRM como Salesforce o HubSpot.",
+                    "c": "Adobe Illustrator.",
+                    "d": "WhatsApp y redes sociales de entretenimiento."
                 },
-                "respuesta_correcta": "a"
+                "respuesta_correcta": "b"
             },
             {
-                "pregunta": "¿Cuál es una habilidad clave para el liderazgo empresarial?",
+                "pregunta": "En los casos de estudio presentados en el módulo, ¿qué empresas ejemplifican una alianza estratégica exitosa basada en la innovación y la experiencia del cliente?",
                 "opciones": {
-                    "a": "Comunicación efectiva",
-                    "b": "Desinterés total",
-                    "c": "Ignorar al equipo",
-                    "d": "Evitar tomar decisiones"
+                    "a": "Apple y Nike, Starbucks y Spotify.",
+                    "b": "Google y Amazon.",
+                    "c": "Toyota y Microsoft.",
+                    "d": "IBM y Intel."
                 },
                 "respuesta_correcta": "a"
             }
