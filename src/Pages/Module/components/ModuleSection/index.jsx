@@ -11,6 +11,7 @@ import { useNavigate } from "react-router-dom";
 export const ModuleSection = ({
     course = null,
     sections = [],
+    
     currentIndex = 0,
     onPrev = () => { },
     onNext = () => { },
@@ -22,7 +23,7 @@ export const ModuleSection = ({
     console.log("Current: ",current)
     const [testResult, setTestResult] = useState(null);
     // testResult: { score: number, total: number, details: [...] }
-
+    console.log(sections)
     const handleTestSubmit = (answers) => {
         const test = Array.isArray(course?.test) ? course.test : [];
         const total = test.length;
