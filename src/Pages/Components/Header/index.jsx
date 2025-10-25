@@ -2,12 +2,14 @@ import { Link, useNavigate } from "react-router-dom";
 import { useRef, useEffect, useState } from "react";
 import styles from "./index.module.css";
 import { getAllModules } from "../../../Api/module";
+import { useModules } from "../../../hooks/useModules";
 
 export const Header = () => {
-    const [modules, setModules] = useState([]);
+    const [ setModules] = useState([]);
     const navigate = useNavigate()
+    const {modules} = useModules()
 
-    useEffect(() => {
+    /*useEffect(() => {
         // Cargamos los módulos al montar el componente
         const fetchModules = async () => {
             try {
@@ -19,7 +21,7 @@ export const Header = () => {
         };
 
         fetchModules();
-    }, []);
+    }, []);*/
 
 
     const viewportRef = useRef(null);
@@ -69,14 +71,14 @@ export const Header = () => {
         vp.scrollBy({ left: -itemWidth, behavior: "smooth" });
     };
     const handleClick =(mod)=>{
-        navigate(`/modulo/${mod.id}`)
+        navigate(`/`)
     }
 
     return (
         <header className={styles.header__main__box}>
             <div className={styles.header__container}>
                 <ul className={styles.header__navlist}>
-                    <h5 className={styles.logo}>EmprendIA</h5>
+                    <h5 className={styles.logo} onClick={handleClick}>EmprendIA</h5>
                     <li><a href="">Módulos</a></li>
                     <li><a href="">Chat IA</a></li>
                 </ul>
