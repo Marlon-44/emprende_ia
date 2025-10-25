@@ -1,5 +1,4 @@
-// src/components/ModuleSection/index.jsx
-import React, { useState } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import styles from "./index.module.css";
 import Test from "./Test";
 
@@ -11,24 +10,54 @@ import { useNavigate } from "react-router-dom";
 export const ModuleSection = ({
     course = null,
     sections = [],
-    
     currentIndex = 0,
     onPrev = () => { },
     onNext = () => { },
     onJump = () => { },
 }) => {
     const navigate = useNavigate();
-    
-    const current = sections[currentIndex] ?? null;
-    console.log("Current: ",current)
+
+    // Si la prop `sections` se reconstruye por referencia desde el padre,
+    // useMemo la estabiliza para evitar renders innecesarios en dependencias.
+    const stableSections = useMemo(() => sections, [JSON.stringify(sections)]);
+
+    const current = stableSections[currentIndex] ?? null;
     const [testResult, setTestResult] = useState(null);
-    // testResult: { score: number, total: number, details: [...] }
-    console.log(sections)
+
+    // Logging: solo cuando cambia el módulo actual (o al montar)
+    useEffect(() => {
+        console.log("Módulo cargado - index:", currentIndex);
+        console.log("URL actual:", current);
+        // si quieres ver todas las secciones solo cuando el módulo cambia:
+        console.log("Secciones:", stableSections);
+    }, [currentIndex, current, stableSections]);
+
+    // Preload: siguiente y previa cada vez que cambie currentIndex
+    useEffect(() => {
+        if (!stableSections || stableSections.length === 0) return;
+
+        const nextIndex = (currentIndex + 1) % stableSections.length;
+        const prevIndex = (currentIndex - 1 + stableSections.length) % stableSections.length;
+
+        const nextSrc = stableSections[nextIndex];
+        const prevSrc = stableSections[prevIndex];
+
+        const preload = (src) => {
+            if (!src) return;
+            const img = new Image();
+            img.src = src;
+            // opcional: img.onload = () => console.log('preloaded', src)
+            // opcional: img.onerror = () => console.log('preload error', src)
+        };
+
+        preload(nextSrc);
+        preload(prevSrc);
+    }, [currentIndex, stableSections]);
+
     const handleTestSubmit = (answers) => {
         const test = Array.isArray(course?.test) ? course.test : [];
         const total = test.length;
         let correct = 0;
-        
 
         const details = test.map((item, idx) => {
             const qKey = `q${idx + 1}`;
@@ -58,7 +87,6 @@ export const ModuleSection = ({
 
     const resetTestResult = () => setTestResult(null);
 
-    
     const getSeverity = (score, total) => {
         if (total === 0) return "info";
         if (total === 3) {
@@ -86,7 +114,6 @@ export const ModuleSection = ({
                 message: `Obtuviste ${score} de ${total} respuestas correctas. Revisa las preguntas que fallaste y vuelve a intentarlo.`,
             };
         }
-        // error
         return {
             title: "Necesitas practicar",
             message: `Obtuviste ${score} de ${total} respuestas correctas. Te recomendamos repasar el contenido y volver a intentarlo.`,
@@ -109,7 +136,7 @@ export const ModuleSection = ({
                     <button
                         className={styles.header__button}
                         onClick={onNext}
-                        disabled={currentIndex === sections.length - 1}
+                        disabled={currentIndex === stableSections.length - 1}
                     >
                         Siguiente &gt;
                     </button>
@@ -122,7 +149,7 @@ export const ModuleSection = ({
                     id={`module-section-${current?.id ?? currentIndex}`}
                     className={styles.module__section_content}
                 >
-                    {currentIndex === sections.length - 1 ? (
+                    {currentIndex === stableSections.length - 1 ? (
                         <>
                             {testResult && (
                                 <div className={styles.test__result__container}>
@@ -146,20 +173,13 @@ export const ModuleSection = ({
                                         })()}
                                     </Stack>
 
-                                    {/* botones de acción */}
                                     <div className={styles.test__result__actions} style={{ marginTop: 12 }}>
-                                        
-
                                         <button
                                             className={styles.header__button}
                                             onClick={() => {
-                                                // Avanzar a la siguiente sección (si la hay)
-                                                console.log(currentIndex)
-                                                console.log(sections.length)
-                                                if (currentIndex == sections.length-1 ) {
-                                                    navigate("/")
+                                                if (currentIndex === stableSections.length - 1) {
+                                                    navigate("/");
                                                 } else {
-                                                    // Si no hay siguiente, limpiamos el resultado
                                                     resetTestResult();
                                                 }
                                             }}
@@ -170,13 +190,14 @@ export const ModuleSection = ({
                                 </div>
                             )}
                             <Test test={course?.test ?? []} onSubmit={handleTestSubmit} />
-
-                            {/* REEMPLAZO: Muestra un Alert de MUI según el resultado */}
-
                         </>
                     ) : (
-                        <img className={styles.slide} src={current} alt={`slide-${currentIndex}`} />
-                        
+                        <img
+                            className={styles.slide}
+                            src={current}
+                            alt={`slide-${currentIndex}`}
+                            loading="eager"
+                        />
                     )}
                 </article>
             </div>
