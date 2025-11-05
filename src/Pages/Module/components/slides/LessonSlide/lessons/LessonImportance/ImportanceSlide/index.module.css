@@ -1,0 +1,152 @@
+.importance__page {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 10px);
+    background-image: url("/assets/cuadriculado.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.figures__backgorund {
+    width: 100vw;
+    height: calc(100vh - 10px);
+    position: absolute;
+    background-image: url("/assets/f1.png");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+
+}
+
+.text__container {
+    width: 55%;
+    background-color: transparent;
+    perspective: 1200px;
+    cursor: pointer;
+    align-self: center;
+    padding-left: 2rem;
+    z-index: 3;
+}
+
+
+.card__inner {
+    position: relative;
+    width: 80%;
+    padding: 3rem;
+    border-radius: 2rem;
+    background-color: #a64dff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    transform-style: preserve-3d;
+    transition: transform 0.8s ease;
+    transform: rotateY(0deg) rotate(8deg);
+    min-height: 400px;
+    left: 2rem;
+    transition: scale(1) ease-in 0.3s;
+    z-index: 2;
+}
+
+.card__inner:hover {
+    transform: scale(0.99);
+}
+
+/* cuando se da click (estado flipped) */
+.flipped .card__inner {
+    transform: rotateY(180deg);
+}
+
+.card__front,
+.card__back {
+    position: absolute;
+    width: 100%;
+    min-height: 500px;
+    backface-visibility: hidden;
+    /* oculta la cara trasera */
+    border-radius: 2rem;
+}
+
+.card__front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card__back {
+    transform: rotateY(180deg);
+    background-color: #a64dff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* Animación inicial sutil de "entrada" */
+@keyframes dropIn {
+    from {
+        transform: scale(1.5) rotate(-20deg);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1) rotate(10deg);
+        opacity: 1;
+    }
+}
+
+.text__container h1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.card__front img {
+    width: 10%;
+    animation: sizechange 2s ease-in-out infinite;
+
+}
+
+.card__front h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    animation: sizechange 2s ease-in-out infinite;
+
+}
+
+@keyframes sizechange {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.graphic__container {
+    display: flex;
+    width: 45%;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.graphic__container img {
+    width: 70%;
+    height: 80%;
+    z-index: 3;
+}

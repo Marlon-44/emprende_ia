@@ -3,14 +3,12 @@
     width: 99.5vw;
     display: flex;
     flex-direction: column;
-    border: none;  
+    border: none;
 }
 .module_main_container{
     width: 100%;
     display: flex;
-    padding-left: 2rem;
     border: none;
-    
 }
 
 .progress__bar{

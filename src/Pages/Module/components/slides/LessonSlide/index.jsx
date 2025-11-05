@@ -7,6 +7,7 @@ import { Home, HomeFilled, HomeMaxRounded, HomeOutlined, HomeRepairService, Home
 import ConceptosSlide from "./lessons/LessonsConcepts/ConceptosSlide";
 import PrincipiosSlide from "./lessons/LessonsConcepts/PrincipiosSlide";
 import styles from "./index.module.css"
+import ImportanceSlide from "./lessons/LessonImportance/ImportanceSlide";
 const LessonSlide = ({ slide }) => {
     // slide: { unidadIndex, leccionIndex, data }
     const { data } = slide;
@@ -29,16 +30,13 @@ function renderLessonContent(data) {
 
     // conceptos
     if (content.conceptos) {
-        return (<>          
-        <Link to="/" className={styles.logo__btn}>{content.unidad_id}</Link>
-        <ConceptosSlide content={content}></ConceptosSlide>
-
-        </>
+        return (
+            <ConceptosSlide content={content}></ConceptosSlide>
         );
     }
     if (content.principios) {
         return (
-            <PrincipiosSlide principios={content.principios}/>
+            <PrincipiosSlide principios={content.principios} />
         );
     }
 
@@ -46,10 +44,7 @@ function renderLessonContent(data) {
     // Si es una lección de importancia pura
     if (content.importancia) {
         return (
-            <div>
-                <Typography variant="h5">Importancia</Typography>
-                <Typography paragraph>{content.importancia}</Typography>
-            </div>
+            <ImportanceSlide importancia={content.importancia}/>
         );
     }
 
