@@ -31,8 +31,8 @@ export const CourseCard = ({ modulo }) => {
             whileTap={{ scale: 0.97 }}
             onClick={() => handleClick(modulo)}
         >
-            <h2>{`Modulo ${modulo.id}`}</h2>
-            <p>{modulo.title}</p>
+            <h2>{`Modulo ${modulo.id }`}</h2>
+            <p>{modulo.titulo}</p>
 
             {/* Si quieres que el botón también seleccione el módulo, lo hacemos aquí */}
             <Link to={`/module/${modulo.id}`}

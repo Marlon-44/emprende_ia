@@ -1,0 +1,50 @@
+.flip__card {
+    perspective: 1000px;
+    /* Permite el efecto 3D */
+    width: 75%;
+    height: 100%;
+}
+
+.card__inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s ease;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card__inner {
+    transform: rotateY(180deg);
+}
+
+/* Cara frontal */
+.card__front,
+.card__back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    backface-visibility: hidden;
+    /* Oculta el lado trasero al rotar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.card__front h2{
+    font-weight: 700;
+    text-align: center;
+}
+/* Frontal */
+
+
+/* Reverso */
+.card__back {
+    background: #222222be;
+    transform: rotateY(180deg);
+    padding: 1rem;
+    text-align: center;
+}

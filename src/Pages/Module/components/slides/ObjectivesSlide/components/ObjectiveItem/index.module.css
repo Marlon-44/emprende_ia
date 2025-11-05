@@ -1,0 +1,40 @@
+.objective__container{
+    display: flex;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;padding: 0;
+}
+
+.circle__mark{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 15%;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    flex: 1 1 0;
+    z-index: 2;
+}
+
+.circle__mark h2{
+    font-weight: 800;
+}
+.objective__info{
+    width: 70%;
+}
+.objective__info h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    
+}
+.vertical__line{
+    width: 5px;
+    height: 20%;
+    background-color: black;
+    position: relative;
+    align-self: center;
+    left: 90px;
+}

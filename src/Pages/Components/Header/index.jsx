@@ -104,7 +104,7 @@ export const Header = () => {
                 <div className={styles.modules__nav} ref={viewportRef} role="list">
                     {modules.map((modulo, index) => (
                         <Link className={styles.module__item} key={index} role="listitem" tabIndex={0} to={`/module/${modulo.id}`}>
-                            {modulo.title}
+                            {modulo.titulo}
                         </Link>
                     ))}
                 </div>

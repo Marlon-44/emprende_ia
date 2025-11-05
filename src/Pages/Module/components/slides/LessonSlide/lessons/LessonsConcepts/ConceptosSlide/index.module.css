@@ -1,0 +1,46 @@
+.conceptos__wrapper {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    padding: 6rem 0;
+    justify-self: center;
+}
+
+.concept__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    transition: all 0.3s ease;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+
+.index__number {
+    align-self: flex-start;
+    font-size: 4rem;
+    font-weight: 900;
+    color: #000;
+    text-align: center;
+}
+.logo__btn {
+    display: flex;
+    justify-content: space-between;
+    color: #5955b3;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px) saturate(150%);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.034);
+    border-radius: 10rem;
+    transition: all ease 0.8s;
+    position: absolute;
+
+}

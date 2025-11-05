@@ -1,0 +1,18 @@
+.principios__page{
+    width: 100%;
+    height: calc(100vh - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;gap: 5rem;
+}
+
+.principios__container{
+    display: flex;
+    width: 40%;
+    display: flex;
+    height: calc(100vh - 10px);
+    border-left: 5px #000 solid;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
