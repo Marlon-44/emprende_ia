@@ -11,11 +11,7 @@ import styles from "./index.module.css"
 const LandingPage = () => {
     const { modules, loading, error, loadModules } = useModules();
 
-    {/*useEffect(() => {
-        if (modules === null) {
-            loadModules().catch(err => console.error("loadModules failed:", err));
-        }
-    }, [modules, loadModules]);*/}
+    const {colors} = useModules();
     
     return (
         <section className={styles.container}>
@@ -32,6 +28,7 @@ const LandingPage = () => {
                         <CourseCard
                             modulo={modulo}
                             key={modulo.id ?? index}
+                            color={colors[index]}
 
                         />
 

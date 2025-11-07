@@ -67,7 +67,7 @@ const ConceptosSlide = ({ content }) => {
                                 concepto={c.termino}
                                 definicion={c.definicion}
                                 nota={c.nota}
-                                color={colors[i + 1]}
+                                color={colors[i +1]}
                             />
                         </motion.div>
 

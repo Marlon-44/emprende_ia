@@ -8,6 +8,8 @@ import ConceptosSlide from "./lessons/LessonsConcepts/ConceptosSlide";
 import PrincipiosSlide from "./lessons/LessonsConcepts/PrincipiosSlide";
 import styles from "./index.module.css"
 import ImportanceSlide from "./lessons/LessonImportance/ImportanceSlide";
+import BenefitsAndConsequencesSlide from "./lessons/LessonImportance/BenefitsAndConsequencesSlide";
+import MethodsAndModulesSlide from "./lessons/LessonsTools/MethodsAndModelsSlide";
 const LessonSlide = ({ slide }) => {
     // slide: { unidadIndex, leccionIndex, data }
     const { data } = slide;
@@ -28,6 +30,7 @@ function renderLessonContent(data) {
     // Tipos comunes en tu JSON: conceptos, importancia, herramientas, casos
     const content = data.contenido;
 
+
     // conceptos
     if (content.conceptos) {
         return (
@@ -40,64 +43,32 @@ function renderLessonContent(data) {
         );
     }
 
-    // importancia
-    // Si es una lección de importancia pura
     if (content.importancia) {
         return (
-            <ImportanceSlide importancia={content.importancia}/>
+            <ImportanceSlide importancia={content.importancia} />
         );
     }
 
     // Si es una lección de beneficios y consecuencias
-    if (content.beneficios || content.consecuencias_de_no_aplicar) {
+    if (content.beneficios && content.consecuencias_de_no_aplicar) {
         return (
             <div>
-                {content.beneficios && (
-                    <>
-                        <Typography variant="subtitle1">Beneficios</Typography>
-                        <ul>
-                            {content.beneficios.map((b, i) => <li key={i}>{b}</li>)}
-                        </ul>
-                    </>
-                )}
-
-                {content.consecuencias_de_no_aplicar && (
-                    <>
-                        <Typography variant="subtitle1">Consecuencias de no aplicar</Typography>
-                        <ul>
-                            {content.consecuencias_de_no_aplicar.map((c, i) => <li key={i}>{c}</li>)}
-                        </ul>
-                    </>
-                )}
+                <BenefitsAndConsequencesSlide beneficios={content.beneficios} consecuencias={content.consecuencias_de_no_aplicar} />
             </div>
         );
     }
 
-
-    // herramientas (metodos / modelos / procedimientos)
-    if (content.metodos || content.modelos || content.procedimiento) {
+    if (content.metodos && content.modelos) {
+        return (
+            <div>  
+                <MethodsAndModulesSlide metodos={content.metodos} modelos={content.modelos} />
+            </div>
+        );
+    }
+    if (content.procedimiento) {
         return (
             <div>
-                {content.metodos && (
-                    <>
-                        <Typography variant="subtitle1">Métodos</Typography>
-                        {content.metodos.map((m) => (
-                            <div key={m.id_metodo}>
-                                <strong>{m.titulo}</strong>
-                                <p>{m.descripcion}</p>
-                                {m.pasos && <ol>{m.pasos.map((p, i) => <li key={i}>{p}</li>)}</ol>}
-                            </div>
-                        ))}
-                    </>
-                )}
-                {content.modelos && (
-                    <>
-                        <Typography variant="subtitle1">Modelos</Typography>
-                        <ul>
-                            {content.modelos.map((mo) => <li key={mo.id_modelo}><strong>{mo.titulo}</strong>: {mo.descripcion}</li>)}
-                        </ul>
-                    </>
-                )}
+
                 {content.procedimiento && (
                     <>
                         <Typography variant="subtitle1">Procedimiento</Typography>
@@ -107,7 +78,6 @@ function renderLessonContent(data) {
             </div>
         );
     }
-
     // casos
     if (content.casos_exitosos || content.errores_comunes || content.errores_comunes) {
         return (

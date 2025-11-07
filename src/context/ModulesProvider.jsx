@@ -13,12 +13,17 @@ export function ModulesProvider({ children }) {
     const [error, setError] = useState(null);
     const colors = [
         "#da42daff", // rosa fucsia
-        "#A64DFF", // morado
-        "#4DB8FF", // azul celeste
-        "#66E066", // verde
-        "#FFB84D", // naranja claro
-        "#FF4D4D"  // rojo coral
+        "#A64DFF",   // morado
+        "#4DB8FF",   // azul celeste
+        "#66E066",   // verde
+        "#FFB84D",   // naranja claro
+        "#FF4D4D",   // rojo coral
+        "#FFD54F",   // amarillo brillante
+        "#40E0D0",   // turquesa
+        "#FF6EC7",   // rosado neón
+        "#7C4DFF"    // violeta intenso
     ];
+
     // 🔹 Cargar módulos (desde cache, JSON local o API)
     const loadModules = useCallback(async () => {
         try {

@@ -1,5 +1,7 @@
 .importance__page {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: calc(100vh - 10px);
     background-image: url("/assets/cuadriculado.svg");
@@ -24,7 +26,8 @@
 }
 
 .text__container {
-    width: 55%;
+    width: 60%;
+    height: 80%;
     background-color: transparent;
     perspective: 1200px;
     cursor: pointer;
@@ -36,7 +39,7 @@
 
 .card__inner {
     position: relative;
-    width: 80%;
+    width: 100%;
     padding: 3rem;
     border-radius: 2rem;
     background-color: #a64dff;
@@ -48,8 +51,7 @@
     gap: 1.5rem;
     transform-style: preserve-3d;
     transition: transform 0.8s ease;
-    transform: rotateY(0deg) rotate(8deg);
-    min-height: 400px;
+    height: 100%;
     left: 2rem;
     transition: scale(1) ease-in 0.3s;
     z-index: 2;
@@ -90,7 +92,7 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    padding: 2rem;
+    padding: 5rem;
 }
 
 /* Animación inicial sutil de "entrada" */

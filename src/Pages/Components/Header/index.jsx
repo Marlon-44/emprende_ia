@@ -3,6 +3,7 @@ import { useRef, useEffect, useState } from "react";
 import styles from "./index.module.css";
 import { getAllModules } from "../../../Api/module";
 import { useModules } from "../../../hooks/useModules";
+import { style } from "framer-motion/client";
 
 export const Header = () => {
     const [ setModules] = useState([]);
@@ -103,7 +104,7 @@ export const Header = () => {
 
                 <div className={styles.modules__nav} ref={viewportRef} role="list">
                     {modules.map((modulo, index) => (
-                        <Link className={styles.module__item} key={index} role="listitem" tabIndex={0} to={`/module/${modulo.id}`}>
+                        <Link className={styles.module__item} key={index} role="listitem" tabIndex={0} to={`/module/${modulo.id}` }>
                             {modulo.titulo}
                         </Link>
                     ))}

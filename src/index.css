@@ -26,7 +26,7 @@ html, body {
 }
 
 /* Eliminar estilos predeterminados de listas */
-ul, ol {
+ul {
   list-style: none;
 }
 

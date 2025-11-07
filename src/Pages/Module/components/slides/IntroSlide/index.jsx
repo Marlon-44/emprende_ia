@@ -8,7 +8,6 @@ import { motion } from "framer-motion";
 const IntroSlide = ({ module, onJump }) => {
     console.log("MODULE", module)
     const { colors } = useModules();
-    console.log(colors)
 
     return (
         <section className={styles.portada__container}>
@@ -43,6 +42,7 @@ const IntroSlide = ({ module, onJump }) => {
 
                 <div className={styles.colors__container}>
                     {colors.map((color, index) => (
+                        index<6?
                         <motion.div
                             key={index}
                             className={styles.circle}
@@ -54,7 +54,7 @@ const IntroSlide = ({ module, onJump }) => {
                                 delay: index * 0.2, // 🔥 hace que suban uno por uno
                                 ease: "easeOut",
                             }}
-                        />
+                        />:""
                     ))}
                 </div>
 

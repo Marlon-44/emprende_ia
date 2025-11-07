@@ -3,7 +3,7 @@ import styles from "./index.module.css";
 import { motion, useReducedMotion } from "framer-motion";
 import { useModules } from "../../hooks/useModules";
 
-export const CourseCard = ({ modulo }) => {
+export const CourseCard = ({ modulo, color }) => {
     const prefersReducedMotion = useReducedMotion();
     const navigate = useNavigate();
     const {selectedModule, setSelectedModule } = useModules();
@@ -18,7 +18,7 @@ export const CourseCard = ({ modulo }) => {
     return (
         <motion.div
             className={styles.course__card}
-            style={{ backgroundColor: modulo.color }}
+            style={{ backgroundColor: `${color}` }}
             initial={prefersReducedMotion ? {} : { opacity: 0, y: 40, scale: 0.95 }}
             whileInView={prefersReducedMotion ? {} : { opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: true, amount: 0.2 }}
