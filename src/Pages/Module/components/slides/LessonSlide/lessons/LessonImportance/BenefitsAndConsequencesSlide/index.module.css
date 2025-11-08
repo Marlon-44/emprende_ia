@@ -15,7 +15,8 @@
 }
 .ben__con__page h2{
     position: absolute;
-
+    font-size: 4rem;
+    font-weight: 900;
     right: 2rem;
 }
 

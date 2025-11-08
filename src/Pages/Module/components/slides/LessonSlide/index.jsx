@@ -10,6 +10,7 @@ import styles from "./index.module.css"
 import ImportanceSlide from "./lessons/LessonImportance/ImportanceSlide";
 import BenefitsAndConsequencesSlide from "./lessons/LessonImportance/BenefitsAndConsequencesSlide";
 import MethodsAndModulesSlide from "./lessons/LessonsTools/MethodsAndModelsSlide";
+import ProcedimientoSlide from "./lessons/LessonsTools/ProcedimientoSlide";
 const LessonSlide = ({ slide }) => {
     // slide: { unidadIndex, leccionIndex, data }
     const { data } = slide;
@@ -68,13 +69,7 @@ function renderLessonContent(data) {
     if (content.procedimiento) {
         return (
             <div>
-
-                {content.procedimiento && (
-                    <>
-                        <Typography variant="subtitle1">Procedimiento</Typography>
-                        <ol>{content.procedimiento.map((p, i) => <li key={i}>{p}</li>)}</ol>
-                    </>
-                )}
+                <ProcedimientoSlide procedimientos={content.procedimiento}/>
             </div>
         );
     }

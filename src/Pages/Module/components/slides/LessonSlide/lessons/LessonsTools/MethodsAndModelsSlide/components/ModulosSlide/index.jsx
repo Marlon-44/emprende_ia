@@ -17,15 +17,13 @@ const ModulosSlide = ({ modelos }) => {
         center: {
             hidden: { y: -500, opacity: 0 },
             visible: { y: 0, opacity: 1, transition: { duration: 0.8, ease: "easeOut" } },
-            exit: { y: -100, opacity: 0, transition: { duration: 0.6, ease: "easeIn" } },
+            exit: { y: 0, opacity: 0, transition: { duration: 0.6, ease: "easeIn" } },
         },
         circle: {
-            hidden: { y: -100, rotate: -90, opacity: 0, scale: 0.8 },
+            hidden: { y: 0, rotate: -180, },
             visible: {
                 y: 0,
                 rotate: 0,
-                opacity: 1,
-                scale: 1,
                 transition: { duration: 1, ease: "easeOut" },
             },
             exit: {
@@ -41,7 +39,6 @@ const ModulosSlide = ({ modelos }) => {
     return (
         <AnimatePresence mode="wait">
             <div className={styles.container}>
-                {/* Izquierda */}
                 <motion.div
                     className={`${styles.modelo} ${styles.left}`}
                     variants={variants.left}
@@ -58,7 +55,6 @@ const ModulosSlide = ({ modelos }) => {
                     </div>
                 </motion.div>
 
-                {/* Centro */}
                 <motion.div
                     className={`${styles.modelo} ${styles.center}`}
                     variants={variants.center}
@@ -75,7 +71,6 @@ const ModulosSlide = ({ modelos }) => {
                     </div>
                 </motion.div>
 
-                {/* Derecha */}
                 <motion.div
                     className={`${styles.modelo} ${styles.right}`}
                     variants={variants.right}
@@ -92,9 +87,8 @@ const ModulosSlide = ({ modelos }) => {
                     </div>
                 </motion.div>
 
-                {/* Imagen del círculo */}
                 <motion.img
-                    src="/assets/circle.svg"
+                    src="/assets/circle.png"
                     alt="circle"
                     className={styles.circle__figure}
                     variants={variants.circle}

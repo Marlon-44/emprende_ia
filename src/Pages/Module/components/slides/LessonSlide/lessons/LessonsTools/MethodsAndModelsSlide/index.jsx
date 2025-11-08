@@ -1,41 +1,44 @@
+import { useState } from "react";
+import styles from "./index.module.css";
+import ModulosSlide from "./components/ModulosSlide";
+import MetodosSlide from "./components/MetodosSlide";
 
-import { Info } from "@mui/icons-material"
-import styles from "./index.module.css"
-import ModulosSlide from "./components/ModulosSlide"
 const MethodsAndModulesSlide = ({ modelos, metodos }) => {
+    const [page, setPage] = useState(1);
+
+    const handleChange = ({ pageId }) => {
+        setPage(pageId);
+    };
+
+    const currentPageName = page === 1 ? "Modelos" : "Métodos";
+    const hiddenPageName = page === 1 ? "Métodos" : "Modelos";
+
+    console.log("PAGE: ",page)
     return (
         <div className={styles.met__mod__page}>
-            
-            <section className={styles.data__container}>
-                {metodos.map((m) => (
-                    <div key={m.id_metodo} className={styles.item__card}>
-                        
-                        <div className={styles.short__info__container}>
-                            <h4>{m.titulo}</h4>
-                            <p>{m.descripcion}</p>
-                        </div>
-
-                        <div className={styles.pasos__contianer}>
-                            {m.pasos &&
-                                <ol>
-                                    <h4>Pasos</h4>
-                                    {m.pasos.map((p, i) => <li key={i}>{p}</li>)}
-                                </ol>}
-                        </div>
-
-
+            {page === 1 ? (
+                <section className={styles.data__container}>
+                    <ModulosSlide modelos={modelos} />
+                    <div className={styles.page__title}>
+                        <h2>{currentPageName}</h2>
+                        <button onClick={() => handleChange({ pageId: 2 })}>
+                            {hiddenPageName}
+                        </button>
                     </div>
-                ))}
-                <ModulosSlide modelos={modelos}/>
-                <div className={styles.page__title}>
-                    <h2>Modulos</h2>
-                    <button>Metodos</button>
-                </div>
-            </section>
-
-            
+                </section>
+            ) : (
+                <section className={styles.data__container}>
+                    <MetodosSlide metodos={metodos} />
+                    <div className={styles.page__title}>
+                        <h2>{currentPageName}</h2>
+                        <button onClick={() => handleChange({ pageId: 1 })}>
+                            {hiddenPageName}
+                        </button>
+                    </div>
+                </section>
+            )}
         </div>
-    )
-}
+    );
+};
 
-export default MethodsAndModulesSlide
+export default MethodsAndModulesSlide;
