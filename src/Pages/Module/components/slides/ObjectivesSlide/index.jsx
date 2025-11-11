@@ -38,7 +38,7 @@ const ObjectivesSlide = ({ objetivos, titulo }) => {
                     Objetivos del módulo
                 </motion.h1>
 
-                <motion.h2
+                <motion.h3
                     variants={{
                         hidden: { x: -80, opacity: 0 },
                         show: {
@@ -54,7 +54,7 @@ const ObjectivesSlide = ({ objetivos, titulo }) => {
                     }}
                 >
                     {titulo}
-                </motion.h2>
+                </motion.h3>
             </motion.div>
 
             <div className={styles.objectives__section}>

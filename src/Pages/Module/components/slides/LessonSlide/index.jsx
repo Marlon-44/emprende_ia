@@ -11,6 +11,8 @@ import ImportanceSlide from "./lessons/LessonImportance/ImportanceSlide";
 import BenefitsAndConsequencesSlide from "./lessons/LessonImportance/BenefitsAndConsequencesSlide";
 import MethodsAndModulesSlide from "./lessons/LessonsTools/MethodsAndModelsSlide";
 import ProcedimientoSlide from "./lessons/LessonsTools/ProcedimientoSlide";
+import CasosSlide from "./lessons/LessonsCases/CasosSlide";
+import ErroresSlide from "./lessons/LessonsCases/ErroresSlide";
 const LessonSlide = ({ slide }) => {
     // slide: { unidadIndex, leccionIndex, data }
     const { data } = slide;
@@ -61,7 +63,7 @@ function renderLessonContent(data) {
 
     if (content.metodos && content.modelos) {
         return (
-            <div>  
+            <div>
                 <MethodsAndModulesSlide metodos={content.metodos} modelos={content.modelos} />
             </div>
         );
@@ -69,40 +71,25 @@ function renderLessonContent(data) {
     if (content.procedimiento) {
         return (
             <div>
-                <ProcedimientoSlide procedimientos={content.procedimiento}/>
+                <ProcedimientoSlide procedimientos={content.procedimiento} />
             </div>
         );
     }
-    // casos
-    if (content.casos_exitosos || content.errores_comunes || content.errores_comunes) {
+    if (content.casos_exitosos) {
         return (
             <div>
-                {content.casos_exitosos && (
-                    <>
-                        <Typography variant="subtitle1">Casos de éxito</Typography>
-                        {content.casos_exitosos.map((c) => (
-                            <div key={c.id_caso} style={{ marginBottom: 12 }}>
-                                <strong>{c.titulo}</strong> — <em>{c.organizacion}</em>
-                                <p>{c.que_hicieron}</p>
-                                <p><strong>Resultados:</strong> {c.resultados}</p>
-                            </div>
-                        ))}
-                    </>
-                )}
-                {content.errores_comunes && (
-                    <>
-                        <Typography variant="subtitle1">Errores comunes</Typography>
-                        {content.errores_comunes.map((e) => (
-                            <div key={e.id_error}>
-                                <strong>{e.titulo}</strong>
-                                <p>{e.descripcion}</p>
-                                <div style={{ fontStyle: "italic" }}>{e.leccion}</div>
-                            </div>
-                        ))}
-                    </>
-                )}
+                <CasosSlide casos={content.casos_exitosos}/>
             </div>
         );
+
+    }
+    if (content.errores_comunes) {
+        return (
+            <div>
+                <ErroresSlide errores={content.errores_comunes} />
+            </div>
+        );
+
     }
 
     // fallback: mostrar JSON crudo (útil para debugging)

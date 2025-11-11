@@ -46,7 +46,6 @@ export const Module = () => {
 
     const slides = selectedModule ? buildSlides(selectedModule) : [];
 
-    console.log("SLIDES: ", slides)
 
     // 🔹 Navegación (con useCallback)
     const goPrev = useCallback(() => {

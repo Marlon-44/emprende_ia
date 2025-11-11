@@ -13,7 +13,6 @@ const MethodsAndModulesSlide = ({ modelos, metodos }) => {
     const currentPageName = page === 1 ? "Modelos" : "Métodos";
     const hiddenPageName = page === 1 ? "Métodos" : "Modelos";
 
-    console.log("PAGE: ",page)
     return (
         <div className={styles.met__mod__page}>
             {page === 1 ? (

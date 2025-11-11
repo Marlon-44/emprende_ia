@@ -8,9 +8,9 @@
     color: #5955b3;
     font-size: 1.5rem;
     font-weight: 600;
-    margin-top: 1rem;
+    margin: 1rem;
     padding: 0.5rem 1.5rem;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgb(255, 255, 255);
     backdrop-filter: blur(12px) saturate(150%);
     -webkit-backdrop-filter: blur(12px) saturate(150%);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.034);
@@ -88,7 +88,7 @@ p {
 
 
 .footer__btn {
-    background-color: #5955b3;
+    background-color: #7298ff;
     color: #fff;
     padding: 0.4rem 2rem;
     border-radius: 10px;
@@ -96,7 +96,7 @@ p {
 }
 
 .footer__btn:hover {
-    background-color: #423f81;
+    background-color: #5a86ff;
     margin: auto;
 }
 

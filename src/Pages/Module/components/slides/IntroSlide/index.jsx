@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 
 
 const IntroSlide = ({ module, onJump }) => {
-    console.log("MODULE", module)
     const { colors } = useModules();
 
     return (

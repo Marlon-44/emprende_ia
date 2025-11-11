@@ -523,6 +523,7 @@
                 },
                 "respuesta_correcta": "c"
             }
+            
         ]
     },
     {
@@ -778,6 +779,24 @@
         "test": [
             {
                 "pregunta": "Según el modelo de innovación disruptiva de Christensen, ¿qué caracteriza típicamente a una innovación disruptiva?",
+                "opciones": {
+                    "a": "Comienza atendiendo mercados desatendidos o creando nuevos mercados",
+                    "b": "Mejora incrementalmente productos existentes para clientes actuales",
+                    "c": "Requiere inversiones masivas en investigación y desarrollo",
+                    "d": "Siempre involucra tecnología patentada exclusiva"
+                },
+                "respuesta_correcta": "a"
+            },{
+                "pregunta": "EJEMPLO DE PREGUNTA 2",
+                "opciones": {
+                    "a": "Comienza atendiendo mercados desatendidos o creando nuevos mercados",
+                    "b": "Mejora incrementalmente productos existentes para clientes actuales",
+                    "c": "Requiere inversiones masivas en investigación y desarrollo",
+                    "d": "Siempre involucra tecnología patentada exclusiva"
+                },
+                "respuesta_correcta": "a"
+            },{
+                "pregunta": "EJEMPLO DE PREGUNTA 3",
                 "opciones": {
                     "a": "Comienza atendiendo mercados desatendidos o creando nuevos mercados",
                     "b": "Mejora incrementalmente productos existentes para clientes actuales",

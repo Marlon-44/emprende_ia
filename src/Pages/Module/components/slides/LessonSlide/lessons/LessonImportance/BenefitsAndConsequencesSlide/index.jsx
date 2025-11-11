@@ -10,7 +10,6 @@ const BenefitsAndConsequencesSlide = ({ beneficios = [], consecuencias = [] }) =
         consecuencia: consecuencias[i] || "—", // por si no hay consecuencia en ese índice
     }));
 
-    console.log("COMBINADOS", combinedList);
 
     return (
         <div className={styles.ben__con__page}>
