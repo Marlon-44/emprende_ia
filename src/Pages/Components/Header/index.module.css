@@ -35,6 +35,15 @@
     justify-content: center;
     font-weight: 600;
 }
+.header__navlist li a{
+    padding: 1rem 1rem;
+    cursor: pointer;
+    min-width: 30%;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
 
 .header__navlist li:hover {
     background-color: #5955b3;

@@ -112,6 +112,10 @@
 .chat__exit {
     animation: chat-exit 0.3s forwards;
 }
+.chat__title{
+    font-size: 2rem;
+    font-weight: 600;
+}
 
 @keyframes chat-enter {
     0% {

@@ -1,29 +1,12 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useRef, useEffect, useState } from "react";
 import styles from "./index.module.css";
-import { getAllModules } from "../../../Api/module";
 import { useModules } from "../../../hooks/useModules";
-import { style } from "framer-motion/client";
 
 export const Header = () => {
     const [ setModules] = useState([]);
     const navigate = useNavigate()
     const {modules} = useModules()
-
-    /*useEffect(() => {
-        // Cargamos los módulos al montar el componente
-        const fetchModules = async () => {
-            try {
-                const data = await getAllModules();
-                setModules(data);
-            } catch (error) {
-                console.error("Error al cargar los módulos:", error);
-            }
-        };
-
-        fetchModules();
-    }, []);*/
-
 
     const viewportRef = useRef(null);
     const [itemWidth, setItemWidth] = useState(240); // ancho aproximado por item (se actualizará)
@@ -80,7 +63,7 @@ export const Header = () => {
             <div className={styles.header__container}>
                 <ul className={styles.header__navlist}>
                     <h5 className={styles.logo} onClick={handleClick}>EmprendIA</h5>
-                    <li><a href="">Módulos</a></li>
+                    <li><a href="#modulos">Módulos</a></li>
                     <li><a href="">Chat IA</a></li>
                 </ul>
                 <Link className={styles.login__btn} to="/login">
