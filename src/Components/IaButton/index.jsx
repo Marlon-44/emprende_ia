@@ -15,7 +15,7 @@ const IaButton = () => {
   const messagesRef = useRef(null);
 
   // endpoint desde .env (Vite). Fallback a localhost si no está la var.
-  const endpoint = import.meta.env.VITE_API_URL || "http://localhost:8080/api/chat";
+  const endpoint = import.meta.env.VITE_API_URL || "https://emprende-ia-service.onrender.com/api/chat";
 
   useEffect(() => {
     if (messagesRef.current) {
