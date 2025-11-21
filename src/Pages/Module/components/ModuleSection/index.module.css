@@ -1,21 +1,125 @@
-.module__section__container{
-    width: 100%;
-    padding: 2rem 1rem 2rem 13%;
+* {
+    font-family: "Montserrat";
 }
 
-.header__button__container{
+.logo__btn {
     display: flex;
     justify-content: space-between;
-    margin-top: 1rem;
-}
-.header__button{
-    background-color: #5955b3;
-    padding: 0.8rem 1rem;
-    border-radius: 0.5rem;
-    color: #fff;
+    color: #5955b3;
+    font-size: 1.5rem;
     font-weight: 600;
+    margin: 1rem;
+    padding: 0.5rem 1.5rem;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(12px) saturate(150%);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.034);
+    border-radius: 10rem;
+    transition: all ease 0.8s;
+
+}
+.logo__btn:hover{
+    transform: scale(0.95);
+
+}
+.fullscreen_container {
+    height: calc(100vh - 10px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: none;
 }
 
-.slide{
+.slide_wrapper {
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.slide_header {
+    display: flex;
+    position: absolute;
+    gap: 2rem;
+    padding-bottom: 8px;
+}
+
+.slide_header h4,
+p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.slide_main {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.slide_footer {
+    position: absolute;
+    bottom: 10px;
+    z-index: 3;
+    align-self: center;
+    width: 20%;
+    max-width: 500px;
+    padding: 5px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 3rem;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px) saturate(150%);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    transition: all 0.4s ease;
+}
+
+
+.footer__btn {
+    background-color: #7298ff;
+    color: #fff;
+    padding: 0.4rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer__btn:hover {
+    background-color: #5a86ff;
+    margin: auto;
+}
+
+.start__btn {
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    /* duración y suavidad */
+
+}
+
+.start__btn:hover {
+    transform: scale(0.97);
+    /* se reduce un poco */
+
+}
+
+.action__button__container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.empty {
+    padding: 32px;
+    text-align: center;
 }

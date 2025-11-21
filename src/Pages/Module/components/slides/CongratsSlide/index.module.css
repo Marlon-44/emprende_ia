@@ -1,0 +1,59 @@
+.congrats__page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #ffffff;
+    height: calc(100vh - 10px);
+    border: 5px solid #fff;
+    border-radius: 1rem;
+}
+.congrats__page h2{
+    font-family: "Changa One", sans-serif;
+    color: #7298ff;
+    font-weight: 300;
+    font-size: 5rem;
+}
+.congrats__page h3{
+    font-family: "Changa One", sans-serif;
+    color: #7298ff;
+    font-weight: 300;
+    font-size: 2rem;
+}
+.image{
+    position: fixed;
+    width: 50%;
+    bottom: -100px;
+    left: 25%;
+
+}
+.circle{
+    position: fixed;
+    width: 70%;
+    aspect-ratio: 1/1;
+    bottom: -100%;
+    left: 15%;
+    background-color: #7298ff;
+    border-radius: 50%;
+
+}
+.logo__btn{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin:1rem;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #7298ff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.034);
+    border-radius: 10rem;
+    transition: all ease 0.8s;
+}
+.logo__btn:hover{
+    transform: scale(0.9);
+}

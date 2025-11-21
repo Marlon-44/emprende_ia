@@ -1,0 +1,2651 @@
+[
+    {
+        "id": 1,
+        "titulo": "Desarrollo de habilidades empresariales",
+        "subtitulo": "Construyendo competencias para el éxito organizacional",
+        "descripcion": "Capacitación integral en habilidades esenciales para el liderazgo, gestión efectiva y alto desempeño en entornos empresariales competitivos",
+        "color": "#F9D5E5",
+        "objetivos": [
+            "Comprender los fundamentos teóricos de las habilidades empresariales esenciales",
+            "Desarrollar competencias de liderazgo y gestión efectiva de equipos",
+            "Aplicar técnicas avanzadas de resolución de problemas y toma de decisiones",
+            "Mejorar las habilidades de comunicación en contextos empresariales",
+            "Implementar estrategias de gestión del tiempo y productividad personal"
+        ],
+        "contenido": [
+            {
+                "unidad_id": "U1",
+                "unidad_titulo": "Conceptos y definiciones",
+                "unidad_subtitulo": "Fundamentos Esenciales: Construyendo la Base del Conocimiento",
+                "lecciones": [
+                    {
+                        "id_leccion": "1.1",
+                        "titulo": "Fundamentos de las habilidades empresariales",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "45 minutos",
+                        "contenido": {
+                            "conceptos": [
+                                {
+                                    "termino": "Habilidades técnicas",
+                                    "definicion": "Competencias específicas relacionadas con el conocimiento especializado, herramientas y procesos de una industria particular",
+                                    "nota": "Incluyen dominio de software, maquinaria, procesos productivos y conocimientos técnicos específicos del sector"
+                                },
+                                {
+                                    "termino": "Habilidades interpersonales",
+                                    "definicion": "Capacidades para relacionarse efectivamente con otros, incluyendo comunicación, empatía y trabajo en equipo",
+                                    "nota": "Conocidas como 'soft skills', son cruciales para el liderazgo y la colaboración efectiva"
+                                },
+                                {
+                                    "termino": "Habilidades conceptuales",
+                                    "definicion": "Aptitudes para pensar estratégicamente, analizar situaciones complejas y visualizar la organización como un todo",
+                                    "nota": "Especialmente importantes para gerentes y directivos en la toma de decisiones estratégicas"
+                                },
+                                {
+                                    "termino": "Habilidades de gestión",
+                                    "definicion": "Competencias para planificar, organizar, dirigir y controlar recursos y procesos organizacionales",
+                                    "nota": "Incluyen planificación estratégica, gestión de proyectos y administración de recursos"
+                                }
+                            ],
+                            "explicacion_ampliada": "Las habilidades empresariales representan un conjunto integral de competencias que permiten a los individuos y organizaciones operar de manera eficiente, adaptarse a los cambios del mercado y fomentar el crecimiento sostenido. Estas habilidades se categorizan en técnicas, interpersonales, conceptuales y de gestión, cada una esencial para diferentes niveles y funciones dentro de la organización."
+                        }
+                    },
+                    {
+                        "id_leccion": "1.2",
+                        "titulo": "Principios del desarrollo empresarial",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "35 minutos",
+                        "contenido": {
+                            "principios": [
+                                "Aprendizaje continuo y desarrollo profesional constante",
+                                "Adaptabilidad al cambio y flexibilidad organizacional",
+                                "Orientación a resultados y enfoque en el desempeño",
+                                "Ética profesional y responsabilidad corporativa",
+                                "Colaboración efectiva y trabajo en equipo",
+                                "Innovación y mejora continua en procesos"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U2",
+                "unidad_titulo": "Impacto Real: Por Qué Este Conocimiento Importa Hoy",
+                "unidad_subtitulo": "Importancia y Aplicación",
+                "lecciones": [
+                    {
+                        "id_leccion": "2.1",
+                        "titulo": "La relevancia estratégica de las habilidades empresariales",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "40 minutos",
+                        "contenido": {
+                            "importancia": "El desarrollo de habilidades empresariales es fundamental para la competitividad organizacional en el entorno empresarial actual. Estas competencias permiten a las empresas adaptarse rápidamente a los cambios del mercado, optimizar sus recursos humanos y técnicos, y mantener una ventaja competitiva sostenible. La investigación demuestra que organizaciones con programas robustos de desarrollo de habilidades experimentan mayores niveles de innovación, mejor clima laboral y superior desempeño financiero. En un contexto globalizado y altamente competitivo, la inversión en el desarrollo de capacidades empresariales se convierte en un diferenciador crítico para el crecimiento y la sostenibilidad organizacional."
+                        }
+                    },
+                    {
+                        "id_leccion": "2.2",
+                        "titulo": "Beneficios y consecuencias en el entorno empresarial",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "50 minutos",
+                        "contenido": {
+                            "beneficios": [
+                                "Aumento de la productividad y eficiencia operativa",
+                                "Mejora en la calidad de la toma de decisiones estratégicas",
+                                "Mayor capacidad de adaptación al cambio del mercado",
+                                "Fortalecimiento del liderazgo y la cultura organizacional",
+                                "Incremento en la satisfacción y retención del talento",
+                                "Optimización del uso de recursos y reducción de costos"
+                            ],
+                            "consecuencias_de_no_aplicar": [
+                                "Estancamiento profesional y obsolescencia de competencias",
+                                "Baja productividad y eficiencia operativa",
+                                "Pérdida de ventaja competitiva en el mercado",
+                                "Alta rotación de personal y fuga de talento",
+                                "Dificultades para innovar y adaptarse al cambio",
+                                "Conflictos internos y pobre clima laboral"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U3",
+                "unidad_titulo": "De la Teoría a la Acción: Métodos y Técnicas Aplicables",
+                "unidad_subtitulo": "Herramientas y Técnicas",
+                "lecciones": [
+                    {
+                        "id_leccion": "3.1",
+                        "titulo": "Métodos y modelos de desarrollo empresarial",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "55 minutos",
+                        "contenido": {
+                            "metodos": [
+                                {
+                                    "id_metodo": "M1",
+                                    "titulo": "Método SMART para establecimiento de objetivos",
+                                    "descripcion": "Enfoque sistemático para definir objetivos específicos, medibles, alcanzables, relevantes y con tiempo definido",
+                                    "pasos": [
+                                        "Definir el objetivo específico y claramente delimitado",
+                                        "Establecer criterios medibles para evaluar el progreso",
+                                        "Asegurar que el objetivo sea realista y alcanzable",
+                                        "Verificar la relevancia con los objetivos organizacionales",
+                                        "Establecer un plazo temporal definido para su consecución"
+                                    ]
+                                },
+                                {
+                                    "id_metodo": "M2",
+                                    "titulo": "Método de resolución sistemática de problemas",
+                                    "descripcion": "Enfoque estructurado para identificar, analizar y resolver problemas empresariales complejos",
+                                    "pasos": [
+                                        "Identificación y definición clara del problema",
+                                        "Análisis de causas raíz y factores contribuyentes",
+                                        "Generación de alternativas de solución",
+                                        "Evaluación y selección de la mejor alternativa",
+                                        "Implementación y seguimiento de la solución elegida"
+                                    ]
+                                }
+                            ],
+                            "modelos": [
+                                {
+                                    "id_modelo": "MOD1",
+                                    "titulo": "Modelo de liderazgo situacional",
+                                    "descripcion": "Enfoque de liderazgo que adapta el estilo directivo según la madurez y competencia de los colaboradores"
+                                },
+                                {
+                                    "id_modelo": "MOD2",
+                                    "titulo": "Modelo de comunicación efectiva",
+                                    "descripcion": "Marco para optimizar la transmisión y recepción de mensajes en contextos organizacionales"
+                                },
+                                {
+                                    "id_modelo": "MOD3",
+                                    "titulo": "Modelo de gestión del tiempo por prioridades",
+                                    "descripcion": "Sistema para organizar tareas según su urgencia e impacto en los objetivos organizacionales"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "3.2",
+                        "titulo": "Procedimiento de desarrollo de habilidades",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "45 minutos",
+                        "contenido": {
+                            "procedimiento": [
+                                "Realizar autoevaluación de competencias actuales y brechas",
+                                "Establecer plan de desarrollo individual con objetivos claros",
+                                "Identificar recursos formativos y oportunidades de aprendizaje",
+                                "Implementar prácticas deliberadas y aplicación en contexto real",
+                                "Solicitar feedback continuo y realizar ajustes necesarios",
+                                "Evaluar progreso y celebrar logros alcanzados"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U4",
+                "unidad_titulo": "Aprendiendo del Mundo Real: Casos Que Transforman",
+                "unidad_subtitulo": "Casos de Estudio",
+                "lecciones": [
+                    {
+                        "id_leccion": "4.1",
+                        "titulo": "Casos de éxito en desarrollo empresarial",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "60 minutos",
+                        "contenido": {
+                            "casos_exitosos": [
+                                {
+                                    "id_caso": "C1",
+                                    "titulo": "Transformación de liderazgo en Microsoft",
+                                    "organizacion": "Microsoft Corporation",
+                                    "que_hicieron": "Implementaron un programa integral de desarrollo de habilidades de liderazgo bajo Satya Nadella",
+                                    "procedimiento": "Crearon una cultura de aprendizaje continuo, fomentaron la mentalidad de crecimiento, implementaron programas de mentoring y coaching ejecutivo, y priorizaron el desarrollo de habilidades emocionales y técnicas",
+                                    "resultados": "Aumento del 25% en satisfacción empleados, crecimiento de market cap en $500 billones, y transformación exitosa hacia modelo cloud-first"
+                                },
+                                {
+                                    "id_caso": "C2",
+                                    "titulo": "Programa de desarrollo de talento en Unilever",
+                                    "organizacion": "Unilever",
+                                    "que_hicieron": "Establecieron el programa 'Unilever Leadership Development' para formar líderes globales",
+                                    "procedimiento": "Diseñaron rotaciones internacionales, asignaciones desafiantes, formación en habilidades comerciales y liderazgo, y mentoring ejecutivo personalizado",
+                                    "resultados": "90% de posiciones directivas cubiertas internamente, reducción del 30% en costos de reclutamiento externo, y mejora consistente en resultados empresariales"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "4.2",
+                        "titulo": "Errores comunes en el desarrollo empresarial",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "50 minutos",
+                        "contenido": {
+                            "errores_comunes": [
+                                {
+                                    "id_error": "E1",
+                                    "titulo": "Falta de alineación con objetivos estratégicos",
+                                    "descripcion": "Invertir en desarrollo de habilidades que no están alineadas con la dirección estratégica de la organización",
+                                    "leccion": "Todo programa de desarrollo debe conectarse directamente con los objetivos empresariales y necesidades futuras de la organización"
+                                },
+                                {
+                                    "id_error": "E2",
+                                    "titulo": "Enfoque único para todos",
+                                    "descripcion": "Aplicar el mismo programa de desarrollo para todos los empleados sin considerar sus necesidades individuales y roles específicos",
+                                    "leccion": "El desarrollo efectivo requiere personalización según niveles, funciones y aspiraciones profesionales individuales"
+                                },
+                                {
+                                    "id_error": "E3",
+                                    "titulo": "Falta de seguimiento y medición",
+                                    "descripcion": "No establecer sistemas para medir el impacto y retorno de la inversión en programas de desarrollo",
+                                    "leccion": "Implementar métricas claras y seguimiento continuo es esencial para demostrar valor y hacer ajustes necesarios"
+                                },
+                                {
+                                    "id_error": "E4",
+                                    "titulo": "Resistencia al cambio cultural",
+                                    "descripcion": "Subestimar la importancia de transformar la cultura organizacional para sostener el desarrollo de habilidades",
+                                    "leccion": "El desarrollo sostenible requiere cambios culturales que apoyen el aprendizaje continuo y la aplicación de nuevas habilidades"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "test": [
+            {
+                "pregunta": "¿Cuál de las siguientes habilidades se considera más crucial para los altos directivos según el modelo de habilidades empresariales?",
+                "opciones": {
+                    "a": "Habilidades técnicas específicas",
+                    "b": "Habilidades conceptuales y estratégicas",
+                    "c": "Habilidades operativas detalladas",
+                    "d": "Habilidades de ejecución táctica"
+                },
+                "respuesta_correcta": "b"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "Planificación estratégica",
+        "subtitulo": "Diseñando el futuro organizacional con visión y método",
+        "descripcion": "Desarrollo de capacidades para formular, implementar y controlar estrategias que direccionen el crecimiento sostenible de las organizaciones",
+        "color": "#FCE1A8",
+        "objetivos": [
+            "Comprender los fundamentos teóricos de la planificación estratégica moderna",
+            "Dominar herramientas para el análisis interno y externo organizacional",
+            "Aplicar metodologías para la formulación de estrategias competitivas",
+            "Desarrollar habilidades para la implementación efectiva de planes estratégicos",
+            "Establecer sistemas de control y evaluación del desempeño estratégico"
+        ],
+        "contenido": [
+            {
+                "unidad_id": "U1",
+                "unidad_titulo": "Conceptos y definiciones",
+                "unidad_subtitulo": "Fundamentos Esenciales: Construyendo la Base del Conocimiento",
+                "lecciones": [
+                    {
+                        "id_leccion": "1.1",
+                        "titulo": "Conceptos fundamentales de planificación estratégica",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "50 minutos",
+                        "contenido": {
+                            "conceptos": [
+                                {
+                                    "termino": "Planificación estratégica",
+                                    "definicion": "Proceso sistemático para definir la dirección a largo plazo de una organización y tomar decisiones sobre asignación de recursos",
+                                    "nota": "Se enfoca en el 'qué' y 'por qué' más que en el 'cómo' operativo"
+                                },
+                                {
+                                    "termino": "Visión organizacional",
+                                    "definicion": "Declaración que describe el estado futuro deseado de la organización y sirve como guía para la toma de decisiones",
+                                    "nota": "Responde a la pregunta: ¿Qué queremos llegar a ser?"
+                                },
+                                {
+                                    "termino": "Misión corporativa",
+                                    "definicion": "Declaración del propósito fundamental y razón de ser de la organización en el presente",
+                                    "nota": "Responde a la pregunta: ¿Cuál es nuestro negocio y por qué existimos?"
+                                },
+                                {
+                                    "termino": "Ventaja competitiva",
+                                    "definicion": "Atributo que permite a una organización superar a sus competidores en el mercado",
+                                    "nota": "Puede basarse en costos, diferenciación, enfoque o capacidades distintivas"
+                                }
+                            ],
+                            "explicacion_ampliada": "La planificación estratégica constituye el proceso formalizado mediante el cual las organizaciones definen sus objetivos a largo plazo, desarrollan estrategias para alcanzarlos y asignan recursos de manera efectiva. Este proceso integra análisis del entorno, evaluación de capacidades internas y toma de decisiones fundamentadas que orientan el rumbo organizacional hacia el éxito sostenible."
+                        }
+                    },
+                    {
+                        "id_leccion": "1.2",
+                        "titulo": "Principios de la estrategia organizacional",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "40 minutos",
+                        "contenido": {
+                            "principios": [
+                                "Orientación al largo plazo con flexibilidad táctica",
+                                "Alineación entre capacidades internas y oportunidades externas",
+                                "Enfoque sistemático en la creación de valor sostenible",
+                                "Integración de perspectivas múltiples y diversos stakeholders",
+                                "Adaptabilidad continua ante cambios del entorno",
+                                "Articulación clara entre estrategia y ejecución operativa"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U2",
+                "unidad_titulo": "Impacto Real: Por Qué Este Conocimiento Importa Hoy",
+                "unidad_subtitulo": "Importancia y Aplicación",
+                "lecciones": [
+                    {
+                        "id_leccion": "2.1",
+                        "titulo": "La relevancia de la planificación estratégica en la competitividad",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "45 minutos",
+                        "contenido": {
+                            "importancia": "La planificación estratégica se ha convertido en un imperativo organizacional en entornos empresariales caracterizados por la volatilidad, incertidumbre, complejidad y ambigüedad. Las organizaciones que practican una planificación estratégica rigurosa demuestran significativamente mayor resiliencia ante crisis, mejor capacidad de anticipación a cambios del mercado y superior desempeño financiero a largo plazo. En la economía actual, donde la disrupción tecnológica y la globalización redefinen industrias completas, la falta de planificación estratégica equivale a navegar sin brújula en aguas turbulentas, exponiendo a la organización a riesgos innecesarios y oportunidades perdidas."
+                        }
+                    },
+                    {
+                        "id_leccion": "2.2",
+                        "titulo": "Beneficios y riesgos de la planificación estratégica",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "55 minutos",
+                        "contenido": {
+                            "beneficios": [
+                                "Mayor claridad en la dirección y propósito organizacional",
+                                "Mejor asignación de recursos y optimización de inversiones",
+                                "Capacidad anticipatoria para aprovechar oportunidades emergentes",
+                                "Coordinación efectiva entre diferentes áreas funcionales",
+                                "Fortalecimiento de la ventaja competitiva sostenible",
+                                "Mejora en la toma de decisiones a todos los niveles"
+                            ],
+                            "consecuencias_de_no_aplicar": [
+                                "Desperdicio de recursos en iniciativas no alineadas",
+                                "Pérdida de oportunidades de mercado por falta de anticipación",
+                                "Reactividad constante en lugar de proactividad estratégica",
+                                "Conflictos internos por falta de dirección compartida",
+                                "Vulnerabilidad ante cambios disruptivos del entorno",
+                                "Erosión progresiva de la posición competitiva"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U3",
+                "unidad_titulo": "De la Teoría a la Acción: Métodos y Técnicas Aplicables",
+                "unidad_subtitulo": "Herramientas y Técnicas",
+                "lecciones": [
+                    {
+                        "id_leccion": "3.1",
+                        "titulo": "Metodologías y modelos de planificación estratégica",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "60 minutos",
+                        "contenido": {
+                            "metodos": [
+                                {
+                                    "id_metodo": "M1",
+                                    "titulo": "Metodología de análisis FODA estratégico",
+                                    "descripcion": "Enfoque sistemático para evaluar Fortalezas, Oportunidades, Debilidades y Amenazas organizacionales",
+                                    "pasos": [
+                                        "Identificar y listar fortalezas internas de la organización",
+                                        "Reconocer debilidades internas que requieren atención",
+                                        "Analizar oportunidades externas en el entorno competitivo",
+                                        "Evaluar amenazas externas que podrían impactar negativamente",
+                                        "Cruzar análisis para generar estrategias específicas"
+                                    ]
+                                },
+                                {
+                                    "id_metodo": "M2",
+                                    "titulo": "Metodología de planificación por escenarios",
+                                    "descripcion": "Enfoque para desarrollar múltiples futuros posibles y preparar estrategias flexibles",
+                                    "pasos": [
+                                        "Identificar factores críticos de incertidumbre",
+                                        "Desarrollar escenarios plausibles extremos",
+                                        "Analizar implicaciones estratégicas de cada escenario",
+                                        "Diseñar estrategias robustas para múltiples futuros",
+                                        "Establecer sistemas de alerta temprana"
+                                    ]
+                                }
+                            ],
+                            "modelos": [
+                                {
+                                    "id_modelo": "MOD1",
+                                    "titulo": "Modelo de las 5 Fuerzas de Porter",
+                                    "descripcion": "Marco analítico para evaluar la intensidad competitiva y atractivo de una industria"
+                                },
+                                {
+                                    "id_modelo": "MOD2",
+                                    "titulo": "Matriz BCG de portfolio de negocio",
+                                    "descripcion": "Herramienta para gestionar cartera de productos según participación de mercado y crecimiento"
+                                },
+                                {
+                                    "id_modelo": "MOD3",
+                                    "titulo": "Balanced Scorecard (Cuadro de Mando Integral)",
+                                    "descripcion": "Sistema de gestión estratégica que alinea actividades con visión y estrategia"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "3.2",
+                        "titulo": "Procedimiento de formulación estratégica",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "50 minutos",
+                        "contenido": {
+                            "procedimiento": [
+                                "Realizar diagnóstico estratégico interno y externo",
+                                "Definir o revisar visión, misión y valores organizacionales",
+                                "Establecer objetivos estratégicos a largo plazo",
+                                "Formular estrategias competitivas y funcionales",
+                                "Desarrollar planes de acción con recursos asignados",
+                                "Implementar sistema de monitoreo y control estratégico"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U4",
+                "unidad_titulo": "Aprendiendo del Mundo Real: Casos Que Transforman",
+                "unidad_subtitulo": "Casos de Estudio",
+                "lecciones": [
+                    {
+                        "id_leccion": "4.1",
+                        "titulo": "Casos emblemáticos de planificación estratégica",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "65 minutos",
+                        "contenido": {
+                            "casos_exitosos": [
+                                {
+                                    "id_caso": "C1",
+                                    "titulo": "Transformación estratégica de IBM",
+                                    "organizacion": "International Business Machines (IBM)",
+                                    "que_hicieron": "Reorientaron su estrategia de hardware a servicios y soluciones empresariales",
+                                    "procedimiento": "Realizaron análisis de mercado exhaustivo, identificaron tendencias emergentes, reasignaron recursos masivamente, adquirieron empresas de software y servicios, y transformaron su modelo de negocio completamente",
+                                    "resultados": "Aumento del 45% en ingresos por servicios, recuperación de rentabilidad, y posicionamiento como líder en soluciones empresariales integradas"
+                                },
+                                {
+                                    "id_caso": "C2",
+                                    "titulo": "Estrategia de diversificación de Amazon",
+                                    "organizacion": "Amazon.com Inc.",
+                                    "que_hicieron": "Expandieron estratégicamente de librería online a ecommerce masivo y servicios cloud",
+                                    "procedimiento": "Aplicaron visión a largo plazo, invirtieron agresivamente en AWS, desarrollaron ecosistema de servicios complementarios, y priorizaron crecimiento sobre ganancias a corto plazo",
+                                    "resultados": "Dominio del mercado cloud con AWS generando $80B anuales, expansión global, y valoración de mercado superior a $1.5 trillones"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "4.2",
+                        "titulo": "Errores estratégicos comunes",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "55 minutos",
+                        "contenido": {
+                            "errores_comunes": [
+                                {
+                                    "id_error": "E1",
+                                    "titulo": "Falta de ejecución efectiva",
+                                    "descripcion": "Desarrollar planes estratégicos sofisticados que nunca se implementan completamente",
+                                    "leccion": "La excelencia en ejecución es tan importante como la calidad de la planificación estratégica"
+                                },
+                                {
+                                    "id_error": "E2",
+                                    "titulo": "Análisis excesivo y parálisis",
+                                    "descripcion": "Dedicar demasiado tiempo al análisis sin llegar a la toma de decisiones oportuna",
+                                    "leccion": "El equilibrio entre análisis suficiente y acción oportuna es crítico en entornos dinámicos"
+                                },
+                                {
+                                    "id_error": "E3",
+                                    "titulo": "Rigidez estratégica",
+                                    "descripcion": "Aferrarse a estrategias obsoletas cuando el entorno ha cambiado significativamente",
+                                    "leccion": "La estrategia debe ser dinámica y adaptarse continuamente a nuevas realidades del mercado"
+                                },
+                                {
+                                    "id_error": "E4",
+                                    "titulo": "Desconexión con la operación",
+                                    "descripcion": "Desarrollar estrategias en torres de marfil sin considerar capacidades operativas reales",
+                                    "leccion": "La estrategia efectiva debe estar firmemente anclada en las realidades operativas de la organización"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "test": [
+            {
+                "pregunta": "¿Cuál de los siguientes elementos NO forma parte típica del proceso de planificación estratégica?",
+                "opciones": {
+                    "a": "Análisis FODA del entorno competitivo",
+                    "b": "Definición de visión y misión organizacional",
+                    "c": "Elaboración de presupuesto operativo detallado",
+                    "d": "Establecimiento de objetivos estratégicos a largo plazo"
+                },
+                "respuesta_correcta": "c"
+            }
+            
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "Innovación y creatividad",
+        "subtitulo": "Cultivando la capacidad de transformar ideas en valor",
+        "descripcion": "Desarrollo de competencias para generar, implementar y gestionar ideas innovadoras que generen ventajas competitivas sostenibles",
+        "color": "#C7CEEA",
+        "objetivos": [
+            "Comprender los fundamentos teóricos de la innovación organizacional",
+            "Desarrollar habilidades de pensamiento creativo y solución de problemas",
+            "Aplicar metodologías para la generación sistemática de ideas",
+            "Implementar procesos de gestión de la innovación en organizaciones",
+            "Crear culturas organizacionales que fomenten la creatividad"
+        ],
+        "contenido": [
+            {
+                "unidad_id": "U1",
+                "unidad_titulo": "Conceptos y definiciones",
+                "unidad_subtitulo": "Fundamentos Esenciales: Construyendo la Base del Conocimiento",
+                "lecciones": [
+                    {
+                        "id_leccion": "1.1",
+                        "titulo": "Conceptos fundamentales de innovación y creatividad",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "48 minutos",
+                        "contenido": {
+                            "conceptos": [
+                                {
+                                    "termino": "Innovación",
+                                    "definicion": "Proceso de implementar nuevas ideas que crean valor para la organización y sus stakeholders",
+                                    "nota": "No debe confundirse con invención; la innovación requiere implementación exitosa"
+                                },
+                                {
+                                    "termino": "Creatividad organizacional",
+                                    "definicion": "Capacidad de una organización para generar ideas novedosas y útiles de manera sistemática",
+                                    "nota": "Involucra tanto procesos individuales como sistemas organizacionales que los facilitan"
+                                },
+                                {
+                                    "termino": "Innovación disruptiva",
+                                    "definicion": "Tipo de innovación que crea nuevos mercados y redes de valor, eventualmente disruptiendo existentes",
+                                    "nota": "Concepto popularizado por Clayton Christensen para describir innovaciones que transforman industrias"
+                                },
+                                {
+                                    "termino": "Cultura de innovación",
+                                    "definicion": "Conjunto de valores, comportamientos y procesos que fomentan y recompensan la innovación en una organización",
+                                    "nota": "Incluye tolerancia al fracaso, experimentación y aprendizaje continuo"
+                                }
+                            ],
+                            "explicacion_ampliada": "La innovación y creatividad representan capacidades organizacionales críticas en la economía del conocimiento actual. Mientras la creatividad se enfoca en la generación de ideas novedosas, la innovación implica la implementación exitosa de esas ideas para crear valor tangible. Las organizaciones que dominan estas capacidades demuestran mayor resiliencia, adaptabilidad y crecimiento en entornos competitivos dinámicos."
+                        }
+                    },
+                    {
+                        "id_leccion": "1.2",
+                        "titulo": "Principios de la innovación efectiva",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "42 minutos",
+                        "contenido": {
+                            "principios": [
+                                "Enfoque centrado en la creación de valor para el cliente",
+                                "Experimentación rápida y aprendizaje iterativo",
+                                "Diversidad de perspectivas y pensamiento multidisciplinario",
+                                "Tolerancia calculada al riesgo y fracaso inteligente",
+                                "Combinación de exploración y explotación organizacional",
+                                "Colaboración abierta y ecosistemas de innovación"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U2",
+                "unidad_titulo": "Impacto Real: Por Qué Este Conocimiento Importa Hoy",
+                "unidad_subtitulo": "Importancia y Aplicación",
+                "lecciones": [
+                    {
+                        "id_leccion": "2.1",
+                        "titulo": "El imperativo de la innovación en la economía actual",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "46 minutes",
+                        "contenido": {
+                            "importancia": "En la era de la disrupción digital y la globalización acelerada, la innovación ha dejado de ser un lujo opcional para convertirse en una necesidad de supervivencia organizacional. Las empresas que no innovan sistemáticamente enfrentan obsolescencia acelerada, marginación competitiva y eventual desaparición. La investigación muestra que organizaciones con capacidades de innovación robustas no solo sobreviven sino que prosperan en entornos volátiles, capturando nuevas oportunidades de mercado, atrayendo talento de alto nivel y construyendo ventajas competitivas difíciles de replicar. La innovación continua representa la única garantía de relevancia futura en un mundo empresarial en transformación constante."
+                        }
+                    },
+                    {
+                        "id_leccion": "2.2",
+                        "titulo": "Beneficios y riesgos de la gestión de innovación",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "52 minutes",
+                        "contenido": {
+                            "beneficios": [
+                                "Diferenciación competitiva sostenible en el mercado",
+                                "Mayor resiliencia ante cambios disruptivos del entorno",
+                                "Mejora continua en eficiencia y efectividad operativa",
+                                "Atracción y retención de talento creativo y emprendedor",
+                                "Creación de nuevas fuentes de crecimiento y rentabilidad",
+                                "Fortalecimiento de la marca y posicionamiento en el mercado"
+                            ],
+                            "consecuencias_de_no_aplicar": [
+                                "Erosión progresiva de la ventaja competitiva",
+                                "Pérdida de participación de mercado frente a innovadores",
+                                "Obsolescencia tecnológica y de procesos operativos",
+                                "Dificultades para atraer y retener talento de calidad",
+                                "Dependencia excesiva de productos o servicios maduros",
+                                "Vulnerabilidad ante disrupciones competitivas inesperadas"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U3",
+                "unidad_titulo": "De la Teoría a la Acción: Métodos y Técnicas Aplicables",
+                "unidad_subtitulo": "Herramientas y Técnicas",
+                "lecciones": [
+                    {
+                        "id_leccion": "3.1",
+                        "titulo": "Metodologías y modelos de innovación",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "58 minutes",
+                        "contenido": {
+                            "metodos": [
+                                {
+                                    "id_metodo": "M1",
+                                    "titulo": "Design Thinking para innovación centrada en usuarios",
+                                    "descripcion": "Enfoque human-centered para resolver problemas complejos mediante empatía, ideación y prototipado",
+                                    "pasos": [
+                                        "Empatizar con usuarios y comprender necesidades profundas",
+                                        "Definir el problema desde la perspectiva del usuario",
+                                        "Idear generando múltiples soluciones creativas",
+                                        "Prototipar desarrollando representaciones tangibles",
+                                        "Testear con usuarios reales y iterar basado en feedback"
+                                    ]
+                                },
+                                {
+                                    "id_metodo": "M2",
+                                    "titulo": "Lean Startup para desarrollo ágil de innovaciones",
+                                    "descripcion": "Metodología para desarrollar productos y negocios mediante experimentación y aprendizaje validado",
+                                    "pasos": [
+                                        "Formular hipótesis sobre problema y solución",
+                                        "Crear producto mínimo viable (PMV) para testear",
+                                        "Medir resultados con métricas relevantes",
+                                        "Aprender del feedback y datos recogidos",
+                                        "Perseverar o pivotar basado en aprendizajes"
+                                    ]
+                                }
+                            ],
+                            "modelos": [
+                                {
+                                    "id_modelo": "MOD1",
+                                    "titulo": "Modelo de las 4 Lentes de la Innovación",
+                                    "descripcion": "Marco para enfocar esfuerzos innovadores en retirar barreras, aprovechar competencias, etc."
+                                },
+                                {
+                                    "id_modelo": "MOD2",
+                                    "titulo": "Ambidexterity Organizacional",
+                                    "descripcion": "Modelo para balancear exploración de nuevas oportunidades con explotación de negocios existentes"
+                                },
+                                {
+                                    "id_modelo": "MOD3",
+                                    "titulo": "Innovación Abierta (Open Innovation)",
+                                    "descripcion": "Paradigma que sugiere que las organizaciones deben usar ideas internas y externas para avanzar"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "3.2",
+                        "titulo": "Procedimiento de gestión de innovación",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "47 minutes",
+                        "contenido": {
+                            "procedimiento": [
+                                "Establecer estrategia de innovación y criterios de selección",
+                                "Crear sistemas para captura y evaluación sistemática de ideas",
+                                "Asignar recursos y equipos multidisciplinarios a proyectos",
+                                "Implementar procesos de desarrollo iterativo y prototipado",
+                                "Establecer métricas para medir progreso e impacto",
+                                "Crear sistemas de recompensa y reconocimiento a innovadores"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U4",
+                "unidad_titulo": "Aprendiendo del Mundo Real: Casos Que Transforman",
+                "unidad_subtitulo": "Casos de Estudio",
+                "lecciones": [
+                    {
+                        "id_leccion": "4.1",
+                        "titulo": "Casos emblemáticos de innovación disruptiva",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "63 minutes",
+                        "contenido": {
+                            "casos_exitosos": [
+                                {
+                                    "id_caso": "C1",
+                                    "titulo": "Revolución del iPhone en Apple",
+                                    "organizacion": "Apple Inc.",
+                                    "que_hicieron": "Crearon y lanzaron el iPhone reinventando completamente la categoría de teléfonos móviles",
+                                    "procedimiento": "Combinaron tecnologías existentes de nueva manera, enfocándose en experiencia de usuario, diseño intuitivo y ecosistema integrado, desafiando convenciones de la industria",
+                                    "resultados": "Creación de mercado de smartphones de $500B+, transformación de múltiples industrias, y establecimiento de Apple como empresa más valiosa del mundo"
+                                },
+                                {
+                                    "id_caso": "C2",
+                                    "titulo": "Innovación en modelo de negocio de Netflix",
+                                    "organizacion": "Netflix Inc.",
+                                    "que_hicieron": "Transformaron de servicio de renta DVD por correo a plataforma de streaming global y productora de contenido",
+                                    "procedimiento": "Anticiparon tendencias tecnológicas, invirtieron agresivamente en tecnología streaming, desarrollieron algoritmo de recomendación, y luego en producción original propia",
+                                    "resultados": "Dominio del mercado streaming global con 250M+ suscriptores, disrupción de industria del entretenimiento, y valoración de $200B+"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "4.2",
+                        "titulo": "Errores comunes en gestión de innovación",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "54 minutes",
+                        "contenido": {
+                            "errores_comunes": [
+                                {
+                                    "id_error": "E1",
+                                    "titulo": "Miedo excesivo al fracaso",
+                                    "descripcion": "Crear culturas donde el fracaso es penalizado severamente, matando la experimentación",
+                                    "leccion": "El fracaso inteligente debe ser celebrado como oportunidad de aprendizaje, no castigado"
+                                },
+                                {
+                                    "id_error": "E2",
+                                    "titulo": "Sobre-inversión en ideas no validadas",
+                                    "descripcion": "Asignar grandes recursos a proyectos sin validación temprana de supuestos críticos",
+                                    "leccion": "Enfoque iterativo con inversiones crecientes basadas en aprendizaje validado"
+                                },
+                                {
+                                    "id_error": "E3",
+                                    "titulo": "Innovación aislada del core business",
+                                    "descripcion": "Desarrollar innovaciones desconectadas de las capacidades y estrategia central de la organización",
+                                    "leccion": "La innovación más efectiva suele construir sobre fortalezas existentes de la organización"
+                                },
+                                {
+                                    "id_error": "E4",
+                                    "titulo": "Falta de diversidad en equipos innovadores",
+                                    "descripcion": "Formar equipos homogéneos que reproducen pensamiento grupal y pierden perspectivas valiosas",
+                                    "leccion": "La diversidad cognitiva y de antecedentes es combustible esencial para la creatividad"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "test": [
+            {
+                "pregunta": "Según el modelo de innovación disruptiva de Christensen, ¿qué caracteriza típicamente a una innovación disruptiva?",
+                "opciones": {
+                    "a": "Comienza atendiendo mercados desatendidos o creando nuevos mercados",
+                    "b": "Mejora incrementalmente productos existentes para clientes actuales",
+                    "c": "Requiere inversiones masivas en investigación y desarrollo",
+                    "d": "Siempre involucra tecnología patentada exclusiva"
+                },
+                "respuesta_correcta": "a"
+            },{
+                "pregunta": "EJEMPLO DE PREGUNTA 2",
+                "opciones": {
+                    "a": "Comienza atendiendo mercados desatendidos o creando nuevos mercados",
+                    "b": "Mejora incrementalmente productos existentes para clientes actuales",
+                    "c": "Requiere inversiones masivas en investigación y desarrollo",
+                    "d": "Siempre involucra tecnología patentada exclusiva"
+                },
+                "respuesta_correcta": "a"
+            },{
+                "pregunta": "EJEMPLO DE PREGUNTA 3",
+                "opciones": {
+                    "a": "Comienza atendiendo mercados desatendidos o creando nuevos mercados",
+                    "b": "Mejora incrementalmente productos existentes para clientes actuales",
+                    "c": "Requiere inversiones masivas en investigación y desarrollo",
+                    "d": "Siempre involucra tecnología patentada exclusiva"
+                },
+                "respuesta_correcta": "a"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "titulo": "Gestión financiera",
+        "subtitulo": "Optimizando recursos para la sostenibilidad y crecimiento empresarial",
+        "descripcion": "Desarrollo de competencias para la planificación, control y optimización de recursos financieros que aseguren la salud económica organizacional",
+        "color": "#B5EAD7",
+        "objetivos": [
+            "Comprender los principios fundamentales de la gestión financiera corporativa",
+            "Desarrollar habilidades para el análisis e interpretación de estados financieros",
+            "Aplicar técnicas de planificación y control presupuestario efectivo",
+            "Dominar herramientas para la evaluación de inversiones y gestión de riesgos financieros",
+            "Implementar sistemas de control financiero que aseguren la sostenibilidad organizacional"
+        ],
+        "contenido": [
+            {
+                "unidad_id": "U1",
+                "unidad_titulo": "Conceptos y definiciones",
+                "unidad_subtitulo": "Fundamentos Esenciales: Construyendo la Base del Conocimiento",
+                "lecciones": [
+                    {
+                        "id_leccion": "1.1",
+                        "titulo": "Conceptos fundamentales de gestión financiera",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "50 minutos",
+                        "contenido": {
+                            "conceptos": [
+                                {
+                                    "termino": "Gestión financiera",
+                                    "definicion": "Conjunto de actividades relacionadas con la planificación, obtención y uso eficiente de los recursos financieros de una organización",
+                                    "nota": "Involucra decisiones de inversión, financiamiento y distribución de dividendos"
+                                },
+                                {
+                                    "termino": "Estado de flujo de efectivo",
+                                    "definicion": "Estado financiero que muestra los movimientos de efectivo de operación, inversión y financiamiento durante un período",
+                                    "nota": "Esencial para evaluar la liquidez y solvencia a corto plazo de la empresa"
+                                },
+                                {
+                                    "termino": "Presupuesto de capital",
+                                    "definicion": "Proceso de planificación y evaluación de inversiones a largo plazo en activos fijos",
+                                    "nota": "Incluye análisis de viabilidad, riesgo y retorno de proyectos de inversión"
+                                },
+                                {
+                                    "termino": "Capital de trabajo",
+                                    "definicion": "Diferencia entre activos corrientes y pasivos corrientes, indicando la liquidez operativa de la empresa",
+                                    "nota": "Refleja la capacidad de la empresa para cumplir con obligaciones a corto plazo"
+                                }
+                            ],
+                            "explicacion_ampliada": "La gestión financiera constituye el sistema nervioso central de cualquier organización, integrando todas las actividades relacionadas con la obtención y uso eficiente de recursos monetarios. Esta disciplina combina principios contables, herramientas analíticas y criterios estratégicos para asegurar que la organización mantenga salud financiera, optimice su estructura de capital y maximice el valor para los accionistas en el largo plazo."
+                        }
+                    },
+                    {
+                        "id_leccion": "1.2",
+                        "titulo": "Principios de la administración financiera",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "45 minutos",
+                        "contenido": {
+                            "principios": [
+                                "Principio del valor del dinero en el tiempo",
+                                "Balance entre riesgo y rendimiento en decisiones financieras",
+                                "Maximización del valor para el accionista como objetivo primordial",
+                                "Matching principle entre fuentes y usos de financiamiento",
+                                "Diversificación para mitigación de riesgos financieros",
+                                "Transparencia y ética en la información financiera"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U2",
+                "unidad_titulo": "Impacto Real: Por Qué Este Conocimiento Importa Hoy",
+                "unidad_subtitulo": "Importancia y Aplicación",
+                "lecciones": [
+                    {
+                        "id_leccion": "2.1",
+                        "titulo": "La relevancia estratégica de la gestión financiera",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "48 minutos",
+                        "contenido": {
+                            "importancia": "En el entorno empresarial actual caracterizado por la volatilidad de mercados, competencia global acelerada y ciclos económicos impredecibles, la gestión financiera se ha convertido en un pilar estratégico para la supervivencia y crecimiento organizacional. Las empresas que dominan sus finanzas demuestran significativamente mayor resiliencia ante crisis económicas, mejor capacidad para aprovechar oportunidades de inversión y superior habilidad para atraer capital en condiciones favorables. La falta de control financiero riguroso representa una de las principales causas de fracaso empresarial, mientras que la excelencia en gestión financiera constituye el fundamento para decisiones estratégicas informadas y crecimiento sostenible."
+                        }
+                    },
+                    {
+                        "id_leccion": "2.2",
+                        "titulo": "Beneficios y riesgos de la gestión financiera",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "55 minutos",
+                        "contenido": {
+                            "beneficios": [
+                                "Mayor capacidad de anticipación y preparación para contingencias financieras",
+                                "Optimización en el uso de recursos y reducción de costos financieros",
+                                "Mejor acceso a fuentes de financiamiento en condiciones favorables",
+                                "Fortalecimiento de la credibilidad ante inversionistas y acreedores",
+                                "Toma de decisiones estratégicas basadas en análisis financiero sólido",
+                                "Maximización del valor organizacional y rentabilidad sostenible"
+                            ],
+                            "consecuencias_de_no_aplicar": [
+                                "Falta de liquidez que compromete la operación continua del negocio",
+                                "Sobreexposición a riesgos financieros no gestionados adecuadamente",
+                                "Costos financieros elevados por mala estructura de capital",
+                                "Pérdida de oportunidades de crecimiento por falta de recursos",
+                                "Deterioro de la confianza de inversionistas y proveedores",
+                                "Vulnerabilidad ante crisis económicas y cambios del mercado"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U3",
+                "unidad_titulo": "De la Teoría a la Acción: Métodos y Técnicas Aplicables",
+                "unidad_subtitulo": "Herramientas y Técnicas",
+                "lecciones": [
+                    {
+                        "id_leccion": "3.1",
+                        "titulo": "Metodologías y modelos de análisis financiero",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "60 minutos",
+                        "contenido": {
+                            "metodos": [
+                                {
+                                    "id_metodo": "M1",
+                                    "titulo": "Método de análisis de estados financieros por ratios",
+                                    "descripcion": "Enfoque sistemático para evaluar salud financiera mediante indicadores de liquidez, solvencia, rentabilidad y eficiencia",
+                                    "pasos": [
+                                        "Recopilar estados financieros completos y auditados",
+                                        "Calcular ratios clave de liquidez corriente y rápida",
+                                        "Analizar ratios de endeudamiento y estructura de capital",
+                                        "Evaluar ratios de rentabilidad sobre ventas y patrimonio",
+                                        "Interpretar resultados en contexto sectorial e histórico"
+                                    ]
+                                },
+                                {
+                                    "id_metodo": "M2",
+                                    "titulo": "Método de presupuestación basada en actividades (ABB)",
+                                    "descripcion": "Enfoque de presupuestación que asigna recursos según actividades que generan valor",
+                                    "pasos": [
+                                        "Identificar actividades clave que generan valor en la organización",
+                                        "Establecer inductores de costo para cada actividad",
+                                        "Estimar demanda esperada para cada inductor de costo",
+                                        "Calcular recursos necesarios por actividad",
+                                        "Asignar presupuesto según contribución al valor organizacional"
+                                    ]
+                                }
+                            ],
+                            "modelos": [
+                                {
+                                    "id_modelo": "MOD1",
+                                    "titulo": "Modelo de valor presente neto (VPN)",
+                                    "descripcion": "Herramienta para evaluar inversiones descontando flujos futuros a valor presente"
+                                },
+                                {
+                                    "id_modelo": "MOD2",
+                                    "titulo": "Modelo de punto de equilibrio",
+                                    "descripcion": "Análisis para determinar nivel de ventas donde ingresos igualan costos totales"
+                                },
+                                {
+                                    "id_modelo": "MOD3",
+                                    "titulo": "Modelo de estructura de capital óptima",
+                                    "descripcion": "Marco para determinar combinación ideal de deuda y patrimonio que minimice costo de capital"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "3.2",
+                        "titulo": "Procedimiento de planificación financiera",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "52 minutos",
+                        "contenido": {
+                            "procedimiento": [
+                                "Realizar diagnóstico financiero completo de la situación actual",
+                                "Establecer objetivos financieros alineados con estrategia organizacional",
+                                "Desarrollar presupuestos operativos y de capital detallados",
+                                "Diseñar estrategias de financiamiento e inversión",
+                                "Implementar sistemas de control y seguimiento financiero",
+                                "Realizar ajustes basados en desempeño real vs. proyectado"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U4",
+                "unidad_titulo": "Aprendiendo del Mundo Real: Casos Que Transforman",
+                "unidad_subtitulo": "Casos de Estudio",
+                "lecciones": [
+                    {
+                        "id_leccion": "4.1",
+                        "titulo": "Casos emblemáticos de excelencia financiera",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "65 minutos",
+                        "contenido": {
+                            "casos_exitosos": [
+                                {
+                                    "id_caso": "C1",
+                                    "titulo": "Transformación financiera de Toyota",
+                                    "organizacion": "Toyota Motor Corporation",
+                                    "que_hicieron": "Implementaron el Sistema de Producción Toyota con enfoque en eficiencia de capital y reducción de desperdicios financieros",
+                                    "procedimiento": "Desarrollaron sistema just-in-time para minimizar inventarios, optimizaron estructura de capital manteniendo reservas de efectivo estratégicas, e implementaron controles rigurosos de costo en toda la cadena de valor",
+                                    "resultados": "Mantenimiento de calificación crediticia AAA por décadas, rentabilidad consistentemente superior al sector, y capacidad de autofinanciar expansiones globales sin endeudamiento excesivo"
+                                },
+                                {
+                                    "id_caso": "C2",
+                                    "titulo": "Gestión de tesorería en Berkshire Hathaway",
+                                    "organizacion": "Berkshire Hathaway Inc.",
+                                    "que_hicieron": "Desarrollaron estrategia única de gestión de efectivo y asignación de capital bajo liderazgo de Warren Buffett",
+                                    "procedimiento": "Mantuvieron reservas de efectivo significativas para oportunidades, asignaron capital disciplinadamente basado en análisis fundamental, y evitaron endeudamiento riesgoso mientras aprovecharon seguro float como fuente de financiamiento",
+                                    "resultados": "Crecimiento compuesto anual del 20% por 5 décadas, transformación de empresa textil en conglomerado de $600B, y creación de valor extraordinario para accionistas"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "4.2",
+                        "titulo": "Errores comunes en gestión financiera",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "58 minutos",
+                        "contenido": {
+                            "errores_comunes": [
+                                {
+                                    "id_error": "E1",
+                                    "titulo": "Falta de previsión de flujo de efectivo",
+                                    "descripcion": "Enfocarse exclusivamente en utilidades contables sin monitorear flujos de efectivo operativos",
+                                    "leccion": "Las empresas quebrantan por falta de efectivo, no por falta de utilidades; el cash flow es el oxígeno del negocio"
+                                },
+                                {
+                                    "id_error": "E2",
+                                    "titulo": "Sobreexpansión con deuda excesiva",
+                                    "descripcion": "Financiar crecimiento agresivo con niveles de endeudamiento que comprometen sostenibilidad",
+                                    "leccion": "El crecimiento debe financiarse con estructura de capital que permita resistir ciclos económicos adversos"
+                                },
+                                {
+                                    "id_error": "E3",
+                                    "titulo": "Falta de diversificación de riesgos",
+                                    "descripcion": "Concentrar exposición en pocos clientes, productos o mercados sin coberturas adecuadas",
+                                    "leccion": "La diversificación es la única protección gratuita contra riesgos específicos no sistemáticos"
+                                },
+                                {
+                                    "id_error": "E4",
+                                    "titulo": "Descuido del capital de trabajo",
+                                    "descripcion": "Descuidar gestión de inventarios, cuentas por cobrar y por pagar afectando liquidez operativa",
+                                    "leccion": "La gestión eficiente del capital de trabajo genera financiamiento espontáneo y mejora rentabilidad"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "test": [
+            {
+                "pregunta": "¿Cuál de los siguientes ratios financieros es más útil para evaluar la capacidad de una empresa para cumplir con obligaciones a corto plazo sin depender de ventas de inventario?",
+                "opciones": {
+                    "a": "Ratio de liquidez corriente (activo corriente/pasivo corriente)",
+                    "b": "Ratio de prueba ácida ((activo corriente - inventarios)/pasivo corriente)",
+                    "c": "Ratio de endeudamiento (pasivo total/activo total)",
+                    "d": "Margen de utilidad neta (utilidad neta/ventas)"
+                },
+                "respuesta_correcta": "b"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "Marketing y ventas",
+        "subtitulo": "Conectando productos con mercados a través de estrategias efectivas",
+        "descripcion": "Desarrollo de competencias para identificar oportunidades de mercado, diseñar estrategias comerciales y ejecutar procesos de venta que generen crecimiento sostenible",
+        "color": "#FFDAC1",
+        "objetivos": [
+            "Comprender los fundamentos teóricos del marketing moderno y procesos comerciales",
+            "Desarrollar habilidades para investigación de mercados y segmentación efectiva",
+            "Aplicar metodologías para diseño de estrategias de marketing mix",
+            "Dominar técnicas de ventas consultivas y gestión de cartera de clientes",
+            "Implementar sistemas de medición y optimización del desempeño comercial"
+        ],
+        "contenido": [
+            {
+                "unidad_id": "U1",
+                "unidad_titulo": "Conceptos y definiciones",
+                "unidad_subtitulo": "Fundamentos Esenciales: Construyendo la Base del Conocimiento",
+                "lecciones": [
+                    {
+                        "id_leccion": "1.1",
+                        "titulo": "Conceptos fundamentales de marketing y ventas",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "48 minutos",
+                        "contenido": {
+                            "conceptos": [
+                                {
+                                    "termino": "Marketing estratégico",
+                                    "definicion": "Proceso de analizar, planificar, implementar y controlar programas diseñados para crear intercambios de valor con mercados objetivo",
+                                    "nota": "Se enfoca en decisiones a largo plazo sobre productos, precios, distribución y comunicación"
+                                },
+                                {
+                                    "termino": "Proceso de ventas consultivas",
+                                    "definicion": "Enfoque de ventas que prioriza entender y resolver necesidades del cliente sobre la simple transacción",
+                                    "nota": "Requiere diagnóstico, propuesta de valor y construcción de relaciones a largo plazo"
+                                },
+                                {
+                                    "termino": "Posicionamiento de marca",
+                                    "definicion": "Lugar que ocupa una marca en la mente del consumidor respecto a competidores y atributos valorados",
+                                    "nota": "Determinado por percepciones más que por características objetivas del producto"
+                                },
+                                {
+                                    "termino": "Embudo de conversión",
+                                    "definicion": "Modelo que describe el proceso gradual por el cual prospectos se convierten en clientes a través de etapas",
+                                    "nota": "Incluye etapas de awareness, consideración, conversión y fidelización"
+                                }
+                            ],
+                            "explicacion_ampliada": "El marketing y las ventas representan dos funciones complementarias esenciales para la generación de ingresos organizacionales. Mientras el marketing se enfoca en crear demanda y construir valor de marca, las ventas se concentran en convertir esa demanda en transacciones reales. En la era digital, estas funciones se han integrado significativamente, requiendo enfoques omnicanal, data-driven y centrados en la experiencia del cliente para lograr resultados sostenibles."
+                        }
+                    },
+                    {
+                        "id_leccion": "1.2",
+                        "titulo": "Principios del marketing y ventas efectivas",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "42 minutos",
+                        "contenido": {
+                            "principios": [
+                                "Orientación al cliente y creación de valor superior",
+                                "Segmentación y targeting basado en datos y comportamiento",
+                                "Integración consistente de mensajes a través de todos los touchpoints",
+                                "Medición y optimización continua del ROI comercial",
+                                "Construcción de relaciones a largo plazo sobre transacciones puntuales",
+                                "Adaptación ágil a cambios en comportamiento del consumidor"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U2",
+                "unidad_titulo": "Impacto Real: Por Qué Este Conocimiento Importa Hoy",
+                "unidad_subtitulo": "Importancia y Aplicación",
+                "lecciones": [
+                    {
+                        "id_leccion": "2.1",
+                        "titulo": "La relevancia del marketing y ventas en la economía digital",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "50 minutos",
+                        "contenido": {
+                            "importancia": "En la economía actual caracterizada por la hipercompetencia, digitalización acelerada y empoderamiento del consumidor, las capacidades de marketing y ventas han evolucionado de funciones tácticas a competencias estratégicas críticas. Las organizaciones que dominan estas disciplinas demuestran significativamente mayor capacidad para capturar valor de mercado, construir lealtad de cliente sostenible y adaptarse a disrupciones competitivas. La convergencia entre data analytics, tecnologías digitales y psicología del consumidor ha transformado radicalmente cómo las empresas conectan con sus mercados, requiriendo profesionales que integren creatividad con análisis riguroso y capacidades técnicas con inteligencia emocional."
+                        }
+                    },
+                    {
+                        "id_leccion": "2.2",
+                        "titulo": "Beneficios y riesgos de la gestión comercial",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "52 minutos",
+                        "contenido": {
+                            "beneficios": [
+                                "Crecimiento sostenible de ingresos y participación de mercado",
+                                "Mayor eficiencia en asignación de recursos comerciales",
+                                "Construcción de activos intangibles valiosos (marca, lealtad)",
+                                "Mejor comprensión y anticipación de necesidades del cliente",
+                                "Optimización del customer lifetime value y rentabilidad por cliente",
+                                "Diferenciación competitiva difícil de replicar"
+                            ],
+                            "consecuencias_de_no_aplicar": [
+                                "Erosión progresiva de participación de mercado",
+                                "Dependencia excesiva de descuentos y promociones costosas",
+                                "Pérdida de relevancia ante cambios en preferencias del consumidor",
+                                "Ineficiencias en gasto comercial sin retorno medible",
+                                "Fuga de clientes hacia competidores con mejor experiencia",
+                                "Incapacidad para justificar valor y competir en precio solamente"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U3",
+                "unidad_titulo": "De la Teoría a la Acción: Métodos y Técnicas Aplicables",
+                "unidad_subtitulo": "Herramientas y Técnicas",
+                "lecciones": [
+                    {
+                        "id_leccion": "3.1",
+                        "titulo": "Metodologías y modelos comerciales",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "58 minutos",
+                        "contenido": {
+                            "metodos": [
+                                {
+                                    "id_metodo": "M1",
+                                    "titulo": "Método de marketing mix (4Ps extendido)",
+                                    "descripcion": "Enfoque sistemático para diseñar estrategias integradas de Producto, Precio, Plaza y Promoción",
+                                    "pasos": [
+                                        "Definir propuesta de valor y características del producto/servicio",
+                                        "Establecer estrategia de precios basada en valor y competencia",
+                                        "Diseñar canales de distribución y experiencia de compra",
+                                        "Desarrollar estrategia de comunicación integrada",
+                                        "Implementar, medir y ajustar mix continuamente"
+                                    ]
+                                },
+                                {
+                                    "id_metodo": "M2",
+                                    "titulo": "Método de ventas consultivas SPIN",
+                                    "descripcion": "Metodología de ventas que utiliza preguntas de Situación, Problema, Implicación y Necesidad-payoff",
+                                    "pasos": [
+                                        "Realizar preguntas de situación para entender contexto cliente",
+                                        "Explorar problemas y dificultades actuales del cliente",
+                                        "Investigar implicaciones y consecuencias de no resolver",
+                                        "Plantear necesidades-payoff y beneficios de solución",
+                                        "Presentar propuesta alineada con necesidades identificadas"
+                                    ]
+                                }
+                            ],
+                            "modelos": [
+                                {
+                                    "id_modelo": "MOD1",
+                                    "titulo": "Modelo de journey mapping del cliente",
+                                    "descripcion": "Herramienta para visualizar experiencia completa del cliente a través de todos los touchpoints"
+                                },
+                                {
+                                    "id_modelo": "MOD2",
+                                    "titulo": "Modelo AIDA (Atención, Interés, Deseo, Acción)",
+                                    "descripcion": "Marco clásico que describe etapas por las que pasa un consumidor en proceso de compra"
+                                },
+                                {
+                                    "id_modelo": "MOD3",
+                                    "titulo": "Modelo de buyer persona development",
+                                    "descripcion": "Enfoque para crear representaciones semi-ficticias de clientes ideales basadas en data real"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "3.2",
+                        "titulo": "Procedimiento de planificación comercial",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "47 minutos",
+                        "contenido": {
+                            "procedimiento": [
+                                "Realizar análisis de mercado, competencia y tendencias",
+                                "Definir segmentos objetivo y desarrollar buyer personas",
+                                "Establecer objetivos comerciales SMART y métricas de éxito",
+                                "Diseñar estrategias de marketing mix integradas",
+                                "Desarrollar plan de ventas y proyecciones financieras",
+                                "Implementar sistemas de medición y dashboards de control"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U4",
+                "unidad_titulo": "Aprendiendo del Mundo Real: Casos Que Transforman",
+                "unidad_subtitulo": "Casos de Estudio",
+                "lecciones": [
+                    {
+                        "id_leccion": "4.1",
+                        "titulo": "Casos emblemáticos de excelencia comercial",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "62 minutos",
+                        "contenido": {
+                            "casos_exitosos": [
+                                {
+                                    "id_caso": "C1",
+                                    "titulo": "Revolución del marketing de contenidos de HubSpot",
+                                    "organizacion": "HubSpot Inc.",
+                                    "que_hicieron": "Pioneros en inbound marketing creando ecosistema educativo que atrae millones de visitantes",
+                                    "procedimiento": "Desarrollaron contenido educativo masivo y gratuito, implementaron sistemas de lead nurturing sofisticados, crearon certificaciones reconocidas, y construyeron comunidad alrededor de metodología inbound",
+                                    "resultados": "Crecimiento de $0 a $1B+ en ingresos anuales, establecimiento como thought leader en marketing digital, y adquisición de 120,000+ clientes en 120+ países"
+                                },
+                                {
+                                    "id_caso": "C2",
+                                    "titulo": "Estrategia de experiencia de cliente de Zappos",
+                                    "organizacion": "Zappos.com Inc.",
+                                    "que_hicieron": "Revolucionaron comercio electrónico enfocándose en servicio al cliente excepcional como ventaja competitiva",
+                                    "procedimiento": "Implementaron políticas de devolución extremadamente generosas, empoderaron empleados para tomar decisiones centradas en cliente, priorizaron satisfacción sobre métricas de eficiencia, y construyeron cultura de servicio legendaria",
+                                    "resultados": "Adquisición por Amazon por $1.2B principalmente por valor de marca y cultura, tasas de repetición de compra del 75%, y referencias orgánicas que redujeron costo de adquisición"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "4.2",
+                        "titulo": "Errores comunes en estrategias comerciales",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "55 minutos",
+                        "contenido": {
+                            "errores_comunes": [
+                                {
+                                    "id_error": "E1",
+                                    "titulo": "Falta de diferenciación real",
+                                    "descripcion": "Competir principalmente en precio sin propuesta de valor distintiva",
+                                    "leccion": "La diferenciación sostenible requiere ventajas reales en producto, servicio o experiencia, no solo mensajes de marketing"
+                                },
+                                {
+                                    "id_error": "E2",
+                                    "titulo": "Desalineación entre marketing y ventas",
+                                    "descripcion": "Departamentos trabajando con objetivos, métricas y procesos desconectados",
+                                    "leccion": "La alineación comercial requiere shared goals, procesos integrados y comunicación constante entre equipos"
+                                },
+                                {
+                                    "id_error": "E3",
+                                    "titulo": "Sobreenfoque en adquisición vs retención",
+                                    "descripcion": "Invertir desproporcionadamente en capturar nuevos clientes descuidando los existentes",
+                                    "leccion": "El crecimiento más rentable viene de expandir relación con clientes actuales, no solo adquirir nuevos"
+                                },
+                                {
+                                    "id_error": "E4",
+                                    "titulo": "Falta de medición de ROI comercial",
+                                    "descripcion": "Invertir en actividades comerciales sin sistemas para medir impacto en ingresos",
+                                    "leccion": "Lo que no se mide no se puede mejorar; la atribución precisa es esencial para optimización continua"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "test": [
+            {
+                "pregunta": "Según el método de ventas consultivas SPIN, ¿qué tipo de preguntas buscan explorar las consecuencias y efectos de los problemas del cliente?",
+                "opciones": {
+                    "a": "Preguntas de Situación",
+                    "b": "Preguntas de Problema",
+                    "c": "Preguntas de Implicación",
+                    "d": "Preguntas de Necesidad-payoff"
+                },
+                "respuesta_correcta": "c"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "titulo": "Desarrollo de productos/servicios",
+        "subtitulo": "De la idea al mercado: creando soluciones que los clientes aman",
+        "descripcion": "Desarrollo de competencias para gestionar el ciclo completo de vida de productos y servicios, desde ideación hasta lanzamiento y mejora continua",
+        "color": "#E2F0CB",
+        "objetivos": [
+            "Comprender los fundamentos del desarrollo de productos y gestión de portafolio",
+            "Desarrollar habilidades para investigación de usuarios y definición de requerimientos",
+            "Aplicar metodologías ágiles y tradicionales de desarrollo de productos",
+            "Dominar técnicas de testing y validación con usuarios reales",
+            "Implementar procesos de lanzamiento y medición de desempeño en mercado"
+        ],
+        "contenido": [
+            {
+                "unidad_id": "U1",
+                "unidad_titulo": "Conceptos y definiciones",
+                "unidad_subtitulo": "Fundamentos Esenciales: Construyendo la Base del Conocimiento",
+                "lecciones": [
+                    {
+                        "id_leccion": "1.1",
+                        "titulo": "Conceptos fundamentales de desarrollo de productos",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "52 minutos",
+                        "contenido": {
+                            "conceptos": [
+                                {
+                                    "termino": "Ciclo de vida del producto",
+                                    "definicion": "Proceso evolutivo que atraviesa un producto desde su concepción hasta su retiro del mercado",
+                                    "nota": "Incluye etapas de introducción, crecimiento, madurez y declive con estrategias específicas para cada fase"
+                                },
+                                {
+                                    "termino": "Product-Market Fit",
+                                    "definicion": "Grado en que un producto satisface fuerte demanda de mercado y genera alta satisfacción en usuarios",
+                                    "nota": "Considerado el 'santo grial' del emprendimiento y desarrollo de productos exitosos"
+                                },
+                                {
+                                    "termino": "Minimum Viable Product (MVP)",
+                                    "definicion": "Versión más simple de un producto que permite validar hipótesis críticas con el menor esfuerzo",
+                                    "nota": "No es un producto de baja calidad, sino el mínimo necesario para aprender del mercado"
+                                },
+                                {
+                                    "termino": "Roadmap de producto",
+                                    "definicion": "Plan estratégico que comunica la visión, dirección y progreso planeado de un producto en el tiempo",
+                                    "nota": "Sirve como guía alineadora para equipos y stakeholders sobre el futuro del producto"
+                                }
+                            ],
+                            "explicacion_ampliada": "El desarrollo de productos y servicios representa el núcleo de la creación de valor en cualquier organización. Este proceso integra investigación de mercado, diseño centrado en el usuario, desarrollo técnico y estrategias de lanzamiento para crear soluciones que resuelvan problemas reales de manera efectiva y sostenible. En la economía actual, la excelencia en desarrollo de productos requiere combinar creatividad con rigor analítico, velocidad con calidad, y visión a largo plazo con capacidad de iteración rápida."
+                        }
+                    },
+                    {
+                        "id_leccion": "1.2",
+                        "titulo": "Principios del desarrollo efectivo de productos",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "45 minutos",
+                        "contenido": {
+                            "principios": [
+                                "Enfoque centrado en el usuario y comprensión profunda de necesidades",
+                                "Iteración rápida basada en feedback real y datos cuantitativos",
+                                "Balance entre visión a largo plazo y flexibilidad para pivotar",
+                                "Colaboración cross-functional entre equipos técnicos y comerciales",
+                                "Enfoque en outcomes sobre outputs (resultados sobre características)",
+                                "Medición rigurosa de impacto y valor entregado al usuario"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U2",
+                "unidad_titulo": "Impacto Real: Por Qué Este Conocimiento Importa Hoy",
+                "unidad_subtitulo": "Importancia y Aplicación",
+                "lecciones": [
+                    {
+                        "id_leccion": "2.1",
+                        "titulo": "La relevancia estratégica del desarrollo de productos",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "48 minutos",
+                        "contenido": {
+                            "importancia": "En la economía digital actual donde la innovación disruptiva y las expectativas de los consumidores evolucionan a velocidad sin precedentes, las capacidades de desarrollo de productos se han convertido en ventajas competitivas determinantes. Las organizaciones que dominan el arte y ciencia de llevar soluciones exitosas al mercado demuestran significativamente mayor resiliencia ante cambios del mercado, mejor capacidad para capturar nuevas oportunidades de crecimiento y superior rentabilidad a largo plazo. La diferencia entre productos mediocres y extraordinarios ya no reside únicamente en características técnicas, sino en la profundidad de comprensión del usuario, la excelencia en experiencia y la capacidad de evolucionar continuamente basándose en datos y feedback del mundo real."
+                        }
+                    },
+                    {
+                        "id_leccion": "2.2",
+                        "titulo": "Beneficios y riesgos de la gestión de productos",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "54 minutos",
+                        "contenido": {
+                            "beneficios": [
+                                "Mayor tasa de éxito en lanzamientos de nuevos productos/servicios",
+                                "Reducción significativa de costos por desarrollo iterativo temprano",
+                                "Mejor alineación entre oferta del producto y necesidades del mercado",
+                                "Optimización del portafolio de productos y recursos de desarrollo",
+                                "Fortalecimiento de lealtad del cliente y valor de marca",
+                                "Capacidad de respuesta rápida a cambios competitivos y de mercado"
+                            ],
+                            "consecuencias_de_no_aplicar": [
+                                "Altas tasas de fracaso en lanzamientos de nuevos productos",
+                                "Desperdicio de recursos en desarrollo de características no valoradas",
+                                "Pérdida de oportunidades de mercado por tiempo excesivo de desarrollo",
+                                "Desalineación entre capacidades técnicas y necesidades del usuario",
+                                "Erosión de ventaja competitiva por productos obsoletos o irrelevantes",
+                                "Fuga de talento hacia organizaciones con mejores prácticas de producto"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U3",
+                "unidad_titulo": "De la Teoría a la Acción: Métodos y Técnicas Aplicables",
+                "unidad_subtitulo": "Herramientas y Técnicas",
+                "lecciones": [
+                    {
+                        "id_leccion": "3.1",
+                        "titulo": "Metodologías y modelos de desarrollo de productos",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "62 minutos",
+                        "contenido": {
+                            "metodos": [
+                                {
+                                    "id_metodo": "M1",
+                                    "titulo": "Método de Design Sprint",
+                                    "descripcion": "Proceso de cinco días para resolver problemas críticos y testear ideas con usuarios reales",
+                                    "pasos": [
+                                        "Understand: Mapear el problema y contexto mediante expertos",
+                                        "Sketch: Generar soluciones creativas de manera individual",
+                                        "Decide: Evaluar y seleccionar las mejores ideas para prototipar",
+                                        "Prototype: Crear prototipo realista de la solución seleccionada",
+                                        "Test: Validar con usuarios reales y obtener feedback cualitativo"
+                                    ]
+                                },
+                                {
+                                    "id_metodo": "M2",
+                                    "titulo": "Método de desarrollo ágil de productos",
+                                    "descripcion": "Enfoque iterativo e incremental para desarrollo de productos con entregas frecuentes",
+                                    "pasos": [
+                                        "Planificar sprint con historias de usuario priorizadas",
+                                        "Diseñar y desarrollar funcionalidades en iteraciones cortas",
+                                        "Realizar testing continuo y integración durante desarrollo",
+                                        "Revisar incremento con stakeholders y obtener feedback",
+                                        "Reflexionar y ajustar proceso para siguiente iteración"
+                                    ]
+                                }
+                            ],
+                            "modelos": [
+                                {
+                                    "id_modelo": "MOD1",
+                                    "titulo": "Modelo de Pirámide de Maslow para productos",
+                                    "descripcion": "Adaptación que prioriza necesidades básicas del usuario antes de funcionalidades avanzadas"
+                                },
+                                {
+                                    "id_modelo": "MOD2",
+                                    "titulo": "Modelo de Jobs to Be Done (JTBD)",
+                                    "descripcion": "Marco que enfoca en 'trabajos' que los usuarios están tratando de realizar más que en características"
+                                },
+                                {
+                                    "id_modelo": "MOD3",
+                                    "titulo": "Modelo de Product-Market Fit Engine",
+                                    "descripcion": "Enfoque sistemático para medir y mejorar el ajuste entre producto y mercado"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "3.2",
+                        "titulo": "Procedimiento de gestión del ciclo de vida",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "50 minutos",
+                        "contenido": {
+                            "procedimiento": [
+                                "Realizar investigación de mercado y análisis de oportunidades",
+                                "Definir visión, estrategia y roadmap del producto",
+                                "Desarrollar y validar MVP con usuarios reales",
+                                "Iterar y escalar basado en métricas y feedback",
+                                "Gestionar lanzamiento y adopción en el mercado",
+                                "Monitorear desempeño y planificar mejoras o sunset"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U4",
+                "unidad_titulo": "Aprendiendo del Mundo Real: Casos Que Transforman",
+                "unidad_subtitulo": "Casos de Estudio",
+                "lecciones": [
+                    {
+                        "id_leccion": "4.1",
+                        "titulo": "Casos emblemáticos de excelencia en productos",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "68 minutos",
+                        "contenido": {
+                            "casos_exitosos": [
+                                {
+                                    "id_caso": "C1",
+                                    "titulo": "Desarrollo del iPhone y ecosistema iOS",
+                                    "organizacion": "Apple Inc.",
+                                    "que_hicieron": "Crearon producto que redefinió categorías enteras mediante integración hardware-software-services",
+                                    "procedimiento": "Combinaron visión de futuro con ejecución meticulosa, diseño centrado en experiencia de usuario, desarrollo de ecosistema cerrado pero expansivo, y iteración constante basada en datos de uso",
+                                    "resultados": "Lanzamiento de producto que generó $300B+ en ingresos, creación de categoría de smartphones premium, y establecimiento de estándares de industria para experiencia de usuario"
+                                },
+                                {
+                                    "id_caso": "C2",
+                                    "titulo": "Evolución de Amazon Web Services (AWS)",
+                                    "organizacion": "Amazon.com Inc.",
+                                    "que_hicieron": "Transformaron infraestructura interna en servicio cloud que revolucionó industria tecnológica",
+                                    "procedimiento": "Identificaron oportunidad al escalar su propia infraestructura, desarrollaron API-first architecture, lanzaron con modelo pay-as-you-go, y expandieron continuamente portafolio basado en feedback clientes",
+                                    "resultados": "Dominio de mercado cloud con 33% participación, generación de $80B+ en ingresos anuales, y habilitación de ecosistema completo de startups y empresas"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "4.2",
+                        "titulo": "Errores comunes en desarrollo de productos",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "56 minutos",
+                        "contenido": {
+                            "errores_comunes": [
+                                {
+                                    "id_error": "E1",
+                                    "titulo": "Feature creep y sobre-ingeniería",
+                                    "descripcion": "Agregar características continuamente sin priorización clara o validación de valor",
+                                    "leccion": "Menos es más; la simplicidad enfocada generalmente supera a la complejidad indiscriminada"
+                                },
+                                {
+                                    "id_error": "E2",
+                                    "titulo": "Falta de validación temprana con usuarios reales",
+                                    "descripcion": "Desarrollar productos basados en suposiciones internas sin testing con mercado real",
+                                    "leccion": "La validación temprana evita costosos desarrollos en dirección equivocada"
+                                },
+                                {
+                                    "id_error": "E3",
+                                    "titulo": "Confusión entre problemas y soluciones",
+                                    "descripcion": "Enamorarse de una solución particular antes de entender profundamente el problema",
+                                    "leccion": "Los grandes productos resuelven problemas importantes, no simplemente implementan características cool"
+                                },
+                                {
+                                    "id_error": "E4",
+                                    "titulo": "Ignorar métricas de engagement real",
+                                    "descripcion": "Enfocarse en métricas vanidosas (descargas, registros) sobre comportamiento real de uso",
+                                    "leccion": "Las métricas que importan reflejan valor entregado y retención, no solo adquisición"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "test": [
+            {
+                "pregunta": "Según el concepto de Minimum Viable Product (MVP), ¿cuál es el objetivo principal de desarrollar un MVP?",
+                "opciones": {
+                    "a": "Crear un producto con todas las características planeadas pero a bajo costo",
+                    "b": "Validar las hipótesis más críticas sobre el producto con el menor esfuerzo",
+                    "c": "Lanzar rápidamente un producto básico para generar ingresos inmediatos",
+                    "d": "Desarrollar un prototipo interno para demostración a inversionistas"
+                },
+                "respuesta_correcta": "b"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "titulo": "Gestión de Recursos Humanos",
+        "subtitulo": "Potenciando el capital humano para el éxito organizacional",
+        "descripcion": "Desarrollo de competencias para atraer, desarrollar, retener y optimizar el talento humano que impulsa el crecimiento y sostenibilidad organizacional",
+        "color": "#CFF1EF",
+        "objetivos": [
+            "Comprender los fundamentos teóricos de la gestión estratégica de recursos humanos",
+            "Desarrollar habilidades para reclutamiento, selección y retención de talento",
+            "Aplicar metodologías para gestión del desempeño y desarrollo de competencias",
+            "Dominar técnicas de compensación, beneficios y clima organizacional",
+            "Implementar sistemas de gestión de personas alineados con objetivos estratégicos"
+        ],
+        "contenido": [
+            {
+                "unidad_id": "U1",
+                "unidad_titulo": "Conceptos y definiciones",
+                "unidad_subtitulo": "Fundamentos Esenciales: Construyendo la Base del Conocimiento",
+                "lecciones": [
+                    {
+                        "id_leccion": "1.1",
+                        "titulo": "Conceptos fundamentales de gestión de recursos humanos",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "50 minutos",
+                        "contenido": {
+                            "conceptos": [
+                                {
+                                    "termino": "Gestión estratégica de recursos humanos",
+                                    "definicion": "Enfoque que alinea las prácticas de gestión de personas con los objetivos estratégicos organizacionales para crear ventaja competitiva",
+                                    "nota": "Va más allá de funciones administrativas tradicionales hacia un rol estratégico y consultivo"
+                                },
+                                {
+                                    "termino": "Capital humano",
+                                    "definicion": "Conjunto de conocimientos, habilidades, competencias y atributos que poseen los individuos y que contribuyen al desempeño organizacional",
+                                    "nota": "Considerado el activo más valioso y diferenciador en organizaciones modernas"
+                                },
+                                {
+                                    "termino": "Clima organizacional",
+                                    "definicion": "Percepción compartida por los miembros de una organización sobre el ambiente de trabajo, valores y prácticas organizacionales",
+                                    "nota": "Influye directamente en satisfacción, compromiso y desempeño del personal"
+                                },
+                                {
+                                    "termino": "Desarrollo de talento",
+                                    "definicion": "Proceso sistemático de identificación, desarrollo y retención de empleados con alto potencial y desempeño para roles futuros críticos",
+                                    "nota": "Incluye programas de mentoring, coaching, rotaciones y formación especializada"
+                                }
+                            ],
+                            "explicacion_ampliada": "La gestión de recursos humanos ha evolucionado de una función administrativa a una disciplina estratégica que reconoce el capital humano como el factor diferenciador más importante en la competitividad organizacional. Esta gestión integra procesos de atracción, desarrollo, retención y optimización del talento, creando sistemas que no solo gestionan personas sino que las potencian como fuente de ventaja competitiva sostenible."
+                        }
+                    },
+                    {
+                        "id_leccion": "1.2",
+                        "titulo": "Principios de la gestión efectiva de recursos humanos",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "45 minutos",
+                        "contenido": {
+                            "principios": [
+                                "Alineación estratégica entre gestión de personas y objetivos organizacionales",
+                                "Enfoque en desarrollo de competencias y crecimiento profesional continuo",
+                                "Equidad y justicia en procesos de evaluación y compensación",
+                                "Comunicación transparente y feedback constructivo constante",
+                                "Diversidad e inclusión como fuente de innovación y competitividad",
+                                "Balance entre bienestar del empleado y resultados organizacionales"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U2",
+                "unidad_titulo": "Impacto Real: Por Qué Este Conocimiento Importa Hoy",
+                "unidad_subtitulo": "Importancia y Aplicación",
+                "lecciones": [
+                    {
+                        "id_leccion": "2.1",
+                        "titulo": "La relevancia estratégica de la gestión de recursos humanos",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "48 minutos",
+                        "contenido": {
+                            "importancia": "En la economía del conocimiento donde el talento se ha convertido en el activo más valioso, la gestión estratégica de recursos humanos ha emergido como un diferenciador crítico entre organizaciones exitosas y aquellas que luchan por competir. Las organizaciones que invierten sistemáticamente en atraer, desarrollar y retener talento de clase mundial demuestran significativamente mayor innovación, mejor desempeño financiero y superior capacidad de adaptación al cambio. En un mercado laboral cada vez más competitivo caracterizado por la escasez de talento especializado y altas expectativas de los empleados, la excelencia en gestión de recursos humanos no es opcional sino esencial para la supervivencia y crecimiento organizacional sostenible."
+                        }
+                    },
+                    {
+                        "id_leccion": "2.2",
+                        "titulo": "Beneficios y riesgos de la gestión de recursos humanos",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "55 minutos",
+                        "contenido": {
+                            "beneficios": [
+                                "Mayor retención de talento y reducción de costos de rotación",
+                                "Mejora en productividad y desempeño organizacional",
+                                "Fortalecimiento de cultura organizacional y compromiso del empleado",
+                                "Mejor capacidad para atraer talento de alta calidad en el mercado",
+                                "Desarrollo de pipeline interno de liderazgo y sucesión",
+                                "Mayor satisfacción laboral y bienestar del personal"
+                            ],
+                            "consecuencias_de_no_aplicar": [
+                                "Alta rotación de personal y fuga de talento clave",
+                                "Bajo desempeño y productividad organizacional",
+                                "Clima laboral tóxico y conflictos internos",
+                                "Dificultades para atraer y retener talento competitivo",
+                                "Falta de preparación para sucesión y vacíos de liderazgo",
+                                "Costos elevados por reclutamiento constante y pérdida de conocimiento"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U3",
+                "unidad_titulo": "De la Teoría a la Acción: Métodos y Técnicas Aplicables",
+                "unidad_subtitulo": "Herramientas y Técnicas",
+                "lecciones": [
+                    {
+                        "id_leccion": "3.1",
+                        "titulo": "Metodologías y modelos de gestión de recursos humanos",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "60 minutos",
+                        "contenido": {
+                            "metodos": [
+                                {
+                                    "id_metodo": "M1",
+                                    "titulo": "Método de gestión del desempeño por competencias",
+                                    "descripcion": "Enfoque sistemático para evaluar y desarrollar el desempeño basado en competencias clave requeridas para el rol",
+                                    "pasos": [
+                                        "Definir competencias críticas para cada posición y nivel",
+                                        "Establecer criterios de evaluación y estándares de desempeño",
+                                        "Realizar evaluaciones periódicas con feedback constructivo",
+                                        "Identificar brechas de competencias y oportunidades de desarrollo",
+                                        "Diseñar planes de desarrollo personalizados y seguimiento continuo"
+                                    ]
+                                },
+                                {
+                                    "id_metodo": "M2",
+                                    "titulo": "Método de reclutamiento basado en competencias",
+                                    "descripcion": "Proceso de selección que evalúa candidatos según competencias y valores alineados con la organización",
+                                    "pasos": [
+                                        "Definir perfil de competencias requeridas para el puesto",
+                                        "Diseñar proceso de selección con técnicas de evaluación objetivas",
+                                        "Aplicar entrevistas estructuradas y pruebas de competencias",
+                                        "Evaluar ajuste cultural y valores organizacionales",
+                                        "Seleccionar candidato que mejor combine competencias y cultura fit"
+                                    ]
+                                }
+                            ],
+                            "modelos": [
+                                {
+                                    "id_modelo": "MOD1",
+                                    "titulo": "Modelo de Gestión del Talento por Niveles (9 Box Grid)",
+                                    "descripcion": "Herramienta para categorizar empleados según potencial y desempeño para identificar estrategias de desarrollo"
+                                },
+                                {
+                                    "id_modelo": "MOD2",
+                                    "titulo": "Modelo de Engagement y Compromiso Organizacional",
+                                    "descripcion": "Marco para medir y mejorar el compromiso emocional y cognitivo de los empleados con la organización"
+                                },
+                                {
+                                    "id_modelo": "MOD3",
+                                    "titulo": "Modelo de Compensación Total y Valor del Empleado",
+                                    "descripcion": "Enfoque integral que considera salario, beneficios, desarrollo y experiencia como componentes de compensación"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "3.2",
+                        "titulo": "Procedimiento de gestión integral de recursos humanos",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "52 minutos",
+                        "contenido": {
+                            "procedimiento": [
+                                "Realizar análisis de necesidades de talento y brechas organizacionales",
+                                "Diseñar estrategias de atracción y reclutamiento de talento",
+                                "Implementar procesos de selección y onboarding efectivos",
+                                "Establecer sistemas de gestión del desempeño y desarrollo continuo",
+                                "Diseñar programas de compensación, beneficios y retención",
+                                "Monitorear clima organizacional y ajustar prácticas según resultados"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U4",
+                "unidad_titulo": "Aprendiendo del Mundo Real: Casos Que Transforman",
+                "unidad_subtitulo": "Casos de Estudio",
+                "lecciones": [
+                    {
+                        "id_leccion": "4.1",
+                        "titulo": "Casos emblemáticos de excelencia en gestión de recursos humanos",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "65 minutos",
+                        "contenido": {
+                            "casos_exitosos": [
+                                {
+                                    "id_caso": "C1",
+                                    "titulo": "Revolución de cultura y gestión de personas en Google",
+                                    "organizacion": "Google LLC",
+                                    "que_hicieron": "Crearon modelo de gestión de recursos humanos basado en data science y cultura de innovación",
+                                    "procedimiento": "Implementaron People Analytics para decisiones basadas en datos, crearon programas de desarrollo masivos, diseñaron espacios de trabajo que fomentan colaboración, establecieron políticas de flexibilidad y bienestar, y desarrollaron sistemas de evaluación y promoción meritocráticos",
+                                    "resultados": "Consistente ranking como mejor lugar para trabajar, retención de talento del 95%, tasa de satisfacción de empleados del 92%, y capacidad de atraer talento de élite globalmente"
+                                },
+                                {
+                                    "id_caso": "C2",
+                                    "titulo": "Estrategia de desarrollo de liderazgo en General Electric",
+                                    "organizacion": "General Electric (GE)",
+                                    "que_hicieron": "Establecieron el Centro de Desarrollo de Liderazgo en Crotonville como referente mundial en formación ejecutiva",
+                                    "procedimiento": "Crearon programas de desarrollo de liderazgo estructurados, implementaron rotaciones internacionales para alta dirección, desarrollaron procesos de sucesión rigurosos, y establecieron cultura de feedback y coaching continuo",
+                                    "resultados": "Formación de generaciones de CEOs que lideraron GE por décadas, reconocimiento como 'CEO Factory', y creación de pipeline de liderazgo que abasteció a múltiples Fortune 500"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "4.2",
+                        "titulo": "Errores comunes en gestión de recursos humanos",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "58 minutos",
+                        "contenido": {
+                            "errores_comunes": [
+                                {
+                                    "id_error": "E1",
+                                    "titulo": "Tratar RRHH como función administrativa solamente",
+                                    "descripcion": "Limitar gestión de recursos humanos a tareas operativas sin conexión estratégica con objetivos organizacionales",
+                                    "leccion": "RRHH estratégico requiere alineación directa con visión, misión y objetivos de negocio para crear valor real"
+                                },
+                                {
+                                    "id_error": "E2",
+                                    "titulo": "Falta de desarrollo de talento interno",
+                                    "descripcion": "Depender exclusivamente de reclutamiento externo sin invertir en desarrollo y promoción interna",
+                                    "leccion": "El desarrollo interno es más rentable, mejora retención y construye cultura de crecimiento organizacional"
+                                },
+                                {
+                                    "id_error": "E3",
+                                    "titulo": "Evaluación de desempeño sin feedback continuo",
+                                    "descripcion": "Realizar evaluaciones anuales formales sin procesos de feedback y coaching continuo durante el año",
+                                    "leccion": "El feedback constante permite ajustes oportunos y desarrollo más efectivo que evaluaciones anuales aisladas"
+                                },
+                                {
+                                    "id_error": "E4",
+                                    "titulo": "Ignorar señales de clima organizacional",
+                                    "descripcion": "No medir ni actuar sobre indicadores de clima laboral, satisfacción y engagement del personal",
+                                    "leccion": "El clima organizacional es predictor temprano de rotación y desempeño; su monitoreo proactivo previene problemas costosos"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "test": [
+            {
+                "pregunta": "Según el modelo de gestión estratégica de recursos humanos, ¿cuál es el principal objetivo de alinear las prácticas de RRHH con los objetivos organizacionales?",
+                "opciones": {
+                    "a": "Reducir costos administrativos y operativos",
+                    "b": "Crear ventaja competitiva a través del capital humano",
+                    "c": "Simplificar procesos de contratación y evaluación",
+                    "d": "Cumplir con regulaciones laborales y normativas"
+                },
+                "respuesta_correcta": "b"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "titulo": "Tecnología y transformación digital",
+        "subtitulo": "Adaptando organizaciones para la era digital",
+        "descripcion": "Desarrollo de competencias para liderar la adopción tecnológica, digitalización de procesos y creación de culturas organizacionales que prosperen en la economía digital",
+        "color": "#D0E6A5",
+        "objetivos": [
+            "Comprender los fundamentos de la transformación digital y su impacto organizacional",
+            "Desarrollar habilidades para evaluar y adoptar tecnologías emergentes estratégicamente",
+            "Aplicar metodologías para digitalización de procesos y automatización inteligente",
+            "Dominar técnicas de análisis de datos y toma de decisiones basada en evidencia",
+            "Implementar culturas organizacionales que fomenten innovación tecnológica y agilidad"
+        ],
+        "contenido": [
+            {
+                "unidad_id": "U1",
+                "unidad_titulo": "Conceptos y definiciones",
+                "unidad_subtitulo": "Fundamentos Esenciales: Construyendo la Base del Conocimiento",
+                "lecciones": [
+                    {
+                        "id_leccion": "1.1",
+                        "titulo": "Conceptos fundamentales de transformación digital",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "52 minutos",
+                        "contenido": {
+                            "conceptos": [
+                                {
+                                    "termino": "Transformación digital",
+                                    "definicion": "Proceso de integración de tecnologías digitales en todas las áreas de una organización, cambiando fundamentalmente cómo opera y entrega valor",
+                                    "nota": "Va más allá de digitalización; implica cambio cultural y de modelos de negocio"
+                                },
+                                {
+                                    "termino": "Digitalización de procesos",
+                                    "definicion": "Conversión de procesos manuales y analógicos a formatos digitales para mejorar eficiencia, precisión y velocidad",
+                                    "nota": "Incluye automatización, sistemas de gestión y flujos de trabajo digitales"
+                                },
+                                {
+                                    "termino": "Cultura digital",
+                                    "definicion": "Conjunto de valores, comportamientos y prácticas organizacionales que fomentan adopción tecnológica, innovación y agilidad digital",
+                                    "nota": "Caracterizada por experimentación, aprendizaje continuo y toma de decisiones basada en datos"
+                                },
+                                {
+                                    "termino": "Análisis de datos y business intelligence",
+                                    "definicion": "Proceso de recopilación, análisis e interpretación de datos organizacionales para informar decisiones estratégicas y operativas",
+                                    "nota": "Incluye big data, analytics, machine learning y visualización de datos"
+                                }
+                            ],
+                            "explicacion_ampliada": "La transformación digital representa uno de los cambios más disruptivos en la historia empresarial moderna, redefiniendo industrias completas y creando nuevas formas de crear y capturar valor. Esta transformación no se limita a la adopción de tecnologías, sino que requiere cambios profundos en cultura organizacional, modelos de negocio y formas de trabajar. Las organizaciones que lideran esta transformación demuestran mayor agilidad, mejor capacidad de innovación y superior desempeño competitivo."
+                        }
+                    },
+                    {
+                        "id_leccion": "1.2",
+                        "titulo": "Principios de la transformación digital efectiva",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "46 minutos",
+                        "contenido": {
+                            "principios": [
+                                "Orientación al cliente y experiencia digital superior",
+                                "Agilidad organizacional y capacidad de adaptación rápida",
+                                "Toma de decisiones basada en datos y evidencia",
+                                "Innovación continua y experimentación con nuevas tecnologías",
+                                "Colaboración cross-functional y breaking down silos",
+                                "Seguridad y privacidad como fundamentos del diseño digital"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U2",
+                "unidad_titulo": "Impacto Real: Por Qué Este Conocimiento Importa Hoy",
+                "unidad_subtitulo": "Importancia y Aplicación",
+                "lecciones": [
+                    {
+                        "id_leccion": "2.1",
+                        "titulo": "El imperativo de la transformación digital en la economía actual",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "50 minutos",
+                        "contenido": {
+                            "importancia": "En la era actual caracterizada por disrupción tecnológica acelerada, la transformación digital ha dejado de ser una opción estratégica para convertirse en un imperativo de supervivencia organizacional. Las empresas que no se transforman digitalmente enfrentan obsolescencia competitiva, pérdida de relevancia en el mercado y eventual desaparición. La investigación demuestra que organizaciones con capacidades digitales avanzadas experimentan significativamente mayor crecimiento, mejor rentabilidad y superior capacidad de innovación. En un mundo donde la tecnología redefine constantemente las reglas de la competencia, la falta de transformación digital equivale a navegar el siglo XXI con herramientas del siglo pasado, exponiendo a la organización a riesgos existenciales y oportunidades perdidas."
+                        }
+                    },
+                    {
+                        "id_leccion": "2.2",
+                        "titulo": "Beneficios y riesgos de la transformación digital",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "54 minutos",
+                        "contenido": {
+                            "beneficios": [
+                                "Mayor eficiencia operativa y reducción de costos significativa",
+                                "Mejora en experiencia del cliente y satisfacción",
+                                "Nuevas fuentes de ingresos y modelos de negocio innovadores",
+                                "Mejor capacidad de análisis y toma de decisiones informadas",
+                                "Mayor agilidad y velocidad de respuesta al mercado",
+                                "Fortalecimiento de ventaja competitiva y diferenciación"
+                            ],
+                            "consecuencias_de_no_aplicar": [
+                                "Obsolescencia tecnológica y pérdida de competitividad",
+                                "Ineficiencias operativas y costos más altos que competidores digitales",
+                                "Pérdida de participación de mercado ante disrupciones digitales",
+                                "Incapacidad para aprovechar oportunidades de crecimiento digital",
+                                "Fuga de talento hacia organizaciones más innovadoras tecnológicamente",
+                                "Vulnerabilidad ante cambios disruptivos del mercado y nuevos competidores"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U3",
+                "unidad_titulo": "De la Teoría a la Acción: Métodos y Técnicas Aplicables",
+                "unidad_subtitulo": "Herramientas y Técnicas",
+                "lecciones": [
+                    {
+                        "id_leccion": "3.1",
+                        "titulo": "Metodologías y modelos de transformación digital",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "62 minutos",
+                        "contenido": {
+                            "metodos": [
+                                {
+                                    "id_metodo": "M1",
+                                    "titulo": "Método de roadmap de transformación digital",
+                                    "descripcion": "Enfoque estructurado para planificar y ejecutar la transformación digital en etapas priorizadas",
+                                    "pasos": [
+                                        "Realizar diagnóstico de madurez digital y brechas organizacionales",
+                                        "Definir visión digital y objetivos estratégicos de transformación",
+                                        "Priorizar iniciativas digitales según impacto y viabilidad",
+                                        "Desarrollar roadmap por fases con recursos y responsables asignados",
+                                        "Implementar, medir y ajustar continuamente el progreso"
+                                    ]
+                                },
+                                {
+                                    "id_metodo": "M2",
+                                    "titulo": "Método de digitalización de procesos (BPM Digital)",
+                                    "descripcion": "Enfoque sistemático para mapear, optimizar y digitalizar procesos organizacionales",
+                                    "pasos": [
+                                        "Mapear procesos actuales identificando cuellos de botella y oportunidades",
+                                        "Rediseñar procesos considerando capacidades digitales disponibles",
+                                        "Seleccionar y implementar tecnologías de automatización apropiadas",
+                                        "Capacitar equipos y ajustar flujos de trabajo digitales",
+                                        "Monitorear métricas y optimizar continuamente procesos digitalizados"
+                                    ]
+                                }
+                            ],
+                            "modelos": [
+                                {
+                                    "id_modelo": "MOD1",
+                                    "titulo": "Modelo de Madurez Digital (Digital Maturity Model)",
+                                    "descripcion": "Marco para evaluar el nivel de madurez digital en diferentes dimensiones organizacionales"
+                                },
+                                {
+                                    "id_modelo": "MOD2",
+                                    "titulo": "Modelo de Arquitectura Digital y Tecnología",
+                                    "descripcion": "Enfoque para diseñar arquitectura tecnológica que soporte transformación y escalabilidad digital"
+                                },
+                                {
+                                    "id_modelo": "MOD3",
+                                    "titulo": "Modelo de Cultura Digital y Change Management",
+                                    "descripcion": "Marco para gestionar cambio cultural necesario para éxito en transformación digital"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "3.2",
+                        "titulo": "Procedimiento de implementación de transformación digital",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "50 minutos",
+                        "contenido": {
+                            "procedimiento": [
+                                "Realizar diagnóstico completo de estado digital actual y brechas",
+                                "Definir visión y estrategia digital alineada con objetivos organizacionales",
+                                "Priorizar iniciativas de transformación y asignar recursos",
+                                "Implementar tecnologías y procesos digitales en fases piloto",
+                                "Capacitar equipos y gestionar cambio organizacional",
+                                "Monitorear resultados, aprender y escalar transformaciones exitosas"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U4",
+                "unidad_titulo": "Aprendiendo del Mundo Real: Casos Que Transforman",
+                "unidad_subtitulo": "Casos de Estudio",
+                "lecciones": [
+                    {
+                        "id_leccion": "4.1",
+                        "titulo": "Casos emblemáticos de transformación digital exitosa",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "68 minutos",
+                        "contenido": {
+                            "casos_exitosos": [
+                                {
+                                    "id_caso": "C1",
+                                    "titulo": "Transformación digital de Microsoft bajo Satya Nadella",
+                                    "organizacion": "Microsoft Corporation",
+                                    "que_hicieron": "Transformaron de empresa orientada a software desktop a líder en cloud computing y servicios empresariales",
+                                    "procedimiento": "Cambiaron cultura de 'know-it-all' a 'learn-it-all', migraron a modelo cloud-first, adoptaron open source, implementaron Azure como plataforma dominante, y repensaron productos para modelos de suscripción",
+                                    "resultados": "Aumento de valoración de mercado de $300B a $2T+, Azure se convirtió en segundo cloud provider global, y transformación exitosa hacia modelo de servicios y suscripciones"
+                                },
+                                {
+                                    "id_caso": "C2",
+                                    "titulo": "Digitalización de operaciones en Starbucks",
+                                    "organizacion": "Starbucks Corporation",
+                                    "que_hicieron": "Revolucionaron experiencia de cliente mediante integración digital de pedidos móviles, lealtad y personalización",
+                                    "procedimiento": "Desarrollaron app móvil con sistema de recompensas, implementaron pedidos digitales y pickup, crearon red WiFi global, y utilizaron data analytics para personalización de ofertas",
+                                    "resultados": "25% de pedidos digitales, programa de lealtad con 19M miembros activos, aumento en frecuencia de visitas y ticket promedio, y mejora significativa en experiencia del cliente"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "4.2",
+                        "titulo": "Errores comunes en transformación digital",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "56 minutos",
+                        "contenido": {
+                            "errores_comunes": [
+                                {
+                                    "id_error": "E1",
+                                    "titulo": "Enfoque exclusivamente tecnológico sin cambio cultural",
+                                    "descripcion": "Invertir en tecnologías sin transformar cultura organizacional, procesos y formas de trabajar",
+                                    "leccion": "La transformación digital requiere cambio cultural profundo, no solo adopción de herramientas tecnológicas"
+                                },
+                                {
+                                    "id_error": "E2",
+                                    "titulo": "Falta de visión estratégica y roadmap claro",
+                                    "descripcion": "Adoptar tecnologías de manera ad-hoc sin estrategia integrada y visión a largo plazo",
+                                    "leccion": "La transformación exitosa requiere visión clara, roadmap estructurado y alineación con objetivos estratégicos"
+                                },
+                                {
+                                    "id_error": "E3",
+                                    "titulo": "Resistencia al cambio sin gestión adecuada",
+                                    "descripcion": "Subestimar la resistencia humana al cambio y no implementar estrategias efectivas de change management",
+                                    "leccion": "El factor humano es el mayor determinante de éxito; la gestión del cambio es tan crítica como la tecnología"
+                                },
+                                {
+                                    "id_error": "E4",
+                                    "titulo": "Subestimar importancia de seguridad y privacidad digital",
+                                    "descripcion": "Priorizar velocidad de implementación descuidando aspectos de seguridad cibernética y protección de datos",
+                                    "leccion": "La seguridad digital debe ser fundamento del diseño, no añadido posterior; los riesgos de ciberseguridad pueden destruir valor creado"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "test": [
+            {
+                "pregunta": "Según el concepto de transformación digital, ¿qué diferencia fundamental existe entre digitalización y transformación digital?",
+                "opciones": {
+                    "a": "Digitalización es automatización, transformación es solo adopción de software",
+                    "b": "Digitalización convierte procesos a digital, transformación cambia fundamentalmente modelos de negocio y cultura",
+                    "c": "No hay diferencia, ambos términos son sinónimos",
+                    "d": "Digitalización es para grandes empresas, transformación para startups"
+                },
+                "respuesta_correcta": "b"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "titulo": "Networking y colaboración",
+        "subtitulo": "Construyendo relaciones estratégicas para el crecimiento sostenible",
+        "descripcion": "Desarrollo de competencias para construir y gestionar redes profesionales internas y externas, alianzas estratégicas y colaboraciones que generen valor mutuo y crecimiento organizacional",
+        "color": "#FFB7B2",
+        "objetivos": [
+            "Comprender los fundamentos del networking estratégico y colaboración efectiva",
+            "Desarrollar habilidades para construcción de redes profesionales internas y externas",
+            "Aplicar metodologías para formación de alianzas estratégicas y ecosistemas de colaboración",
+            "Dominar técnicas de gestión de relaciones y construcción de confianza mutua",
+            "Implementar sistemas de colaboración que generen valor sostenible para todas las partes"
+        ],
+        "contenido": [
+            {
+                "unidad_id": "U1",
+                "unidad_titulo": "Conceptos y definiciones",
+                "unidad_subtitulo": "Fundamentos Esenciales: Construyendo la Base del Conocimiento",
+                "lecciones": [
+                    {
+                        "id_leccion": "1.1",
+                        "titulo": "Conceptos fundamentales de networking y colaboración",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "48 minutos",
+                        "contenido": {
+                            "conceptos": [
+                                {
+                                    "termino": "Networking estratégico",
+                                    "definicion": "Proceso sistemático de construir y mantener relaciones profesionales mutuamente beneficiosas que crean valor a largo plazo",
+                                    "nota": "Va más allá de contactos superficiales hacia relaciones profundas basadas en confianza y valor compartido"
+                                },
+                                {
+                                    "termino": "Colaboración organizacional",
+                                    "definicion": "Capacidad de trabajar efectivamente con otros dentro y fuera de la organización para lograr objetivos comunes",
+                                    "nota": "Requiere comunicación clara, confianza mutua y alineación de intereses"
+                                },
+                                {
+                                    "termino": "Alianzas estratégicas",
+                                    "definicion": "Relaciones formales o informales entre organizaciones para lograr objetivos mutuos que ninguna podría alcanzar sola",
+                                    "nota": "Pueden ser de recursos compartidos, conocimiento, acceso a mercados o capacidades complementarias"
+                                },
+                                {
+                                    "termino": "Ecosistema de colaboración",
+                                    "definicion": "Red interconectada de organizaciones, individuos y recursos que colaboran para crear valor colectivo mayor que la suma de partes individuales",
+                                    "nota": "Incluye partners, proveedores, clientes, competidores colaborativos y comunidades"
+                                }
+                            ],
+                            "explicacion_ampliada": "El networking y la colaboración representan competencias críticas en la economía moderna donde el éxito depende cada vez más de la capacidad de construir relaciones estratégicas y trabajar en red. Estas habilidades permiten acceso a recursos, conocimiento, oportunidades y capacidades que amplifican el impacto individual y organizacional. La colaboración efectiva crea ventajas competitivas sostenibles a través de ecosistemas de valor que ninguna organización podría construir en aislamiento."
+                        }
+                    },
+                    {
+                        "id_leccion": "1.2",
+                        "titulo": "Principios del networking y colaboración efectiva",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "44 minutos",
+                        "contenido": {
+                            "principios": [
+                                "Enfoque en dar valor antes de recibir (principio de reciprocidad)",
+                                "Construcción de relaciones genuinas basadas en confianza mutua",
+                                "Diversidad de redes y perspectivas para mayor valor",
+                                "Mantenimiento consistente y comunicación regular con contactos",
+                                "Colaboración win-win donde todas las partes se benefician",
+                                "Transparencia y comunicación clara sobre expectativas e intereses"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U2",
+                "unidad_titulo": "Impacto Real: Por Qué Este Conocimiento Importa Hoy",
+                "unidad_subtitulo": "Importancia y Aplicación",
+                "lecciones": [
+                    {
+                        "id_leccion": "2.1",
+                        "titulo": "La relevancia estratégica del networking y colaboración",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "49 minutos",
+                        "contenido": {
+                            "importancia": "En la economía interconectada actual donde el conocimiento se distribuye globalmente y las oportunidades emergen de colaboraciones, las capacidades de networking y colaboración se han convertido en ventajas competitivas determinantes. Las organizaciones y profesionales que dominan el arte de construir relaciones estratégicas y colaborar efectivamente demuestran significativamente mayor acceso a oportunidades, mejor capacidad de innovación y superior crecimiento. La investigación muestra que ejecutivos con redes profesionales amplias y diversas alcanzan mayores niveles de éxito, mientras que organizaciones que colaboran estratégicamente experimentan mayor innovación y rentabilidad. En un mundo donde el aislamiento competitivo es sinónimo de obsolescencia, el networking y la colaboración representan pasaportes al crecimiento sostenible."
+                        }
+                    },
+                    {
+                        "id_leccion": "2.2",
+                        "titulo": "Beneficios y riesgos del networking y colaboración",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "53 minutos",
+                        "contenido": {
+                            "beneficios": [
+                                "Acceso a oportunidades, recursos y conocimiento exclusivo",
+                                "Mayor capacidad de innovación a través de colaboración diversa",
+                                "Expansión de mercado y acceso a nuevos clientes y mercados",
+                                "Reducción de riesgos mediante compartir recursos y capacidades",
+                                "Aprendizaje acelerado y desarrollo de competencias",
+                                "Fortalecimiento de marca y reputación a través de asociaciones"
+                            ],
+                            "consecuencias_de_no_aplicar": [
+                                "Pérdida de oportunidades de mercado y crecimiento",
+                                "Aislamiento competitivo y limitación de acceso a recursos",
+                                "Menor capacidad de innovación sin perspectivas diversas",
+                                "Costos más altos al desarrollar capacidades internamente",
+                                "Desventaja competitiva frente a organizaciones colaborativas",
+                                "Falta de acceso a conocimiento y mejores prácticas del sector"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U3",
+                "unidad_titulo": "De la Teoría a la Acción: Métodos y Técnicas Aplicables",
+                "unidad_subtitulo": "Herramientas y Técnicas",
+                "lecciones": [
+                    {
+                        "id_leccion": "3.1",
+                        "titulo": "Metodologías y modelos de networking y colaboración",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "59 minutos",
+                        "contenido": {
+                            "metodos": [
+                                {
+                                    "id_metodo": "M1",
+                                    "titulo": "Método de construcción de red estratégica (Strategic Networking)",
+                                    "descripcion": "Enfoque sistemático para construir y mantener redes profesionales que generen valor mutuo",
+                                    "pasos": [
+                                        "Identificar objetivos profesionales y recursos necesarios",
+                                        "Mapear red actual y brechas de conexiones clave",
+                                        "Identificar y conectar con personas estratégicas en sectores relevantes",
+                                        "Proporcionar valor genuino y construir relaciones auténticas",
+                                        "Mantener contacto regular y nutrir relaciones a largo plazo"
+                                    ]
+                                },
+                                {
+                                    "id_metodo": "M2",
+                                    "titulo": "Método de formación de alianzas estratégicas",
+                                    "descripcion": "Proceso estructurado para identificar, evaluar y formar colaboraciones estratégicas",
+                                    "pasos": [
+                                        "Identificar objetivos organizacionales y capacidades complementarias necesarias",
+                                        "Evaluar posibles partners según alineación estratégica y valores",
+                                        "Desarrollar propuesta de valor mutuo y estructura de colaboración",
+                                        "Negociar términos, roles y expectativas claramente",
+                                        "Implementar, monitorear y ajustar alianza según resultados"
+                                    ]
+                                }
+                            ],
+                            "modelos": [
+                                {
+                                    "id_modelo": "MOD1",
+                                    "titulo": "Modelo de Mapeo de Redes (Network Mapping)",
+                                    "descripcion": "Herramienta para visualizar y analizar estructura de redes profesionales y organizacionales"
+                                },
+                                {
+                                    "id_modelo": "MOD2",
+                                    "titulo": "Modelo de Colaboración Interorganizacional",
+                                    "descripcion": "Marco para diseñar y gestionar colaboraciones efectivas entre organizaciones"
+                                },
+                                {
+                                    "id_modelo": "MOD3",
+                                    "titulo": "Modelo de Ecosistemas de Innovación",
+                                    "descripcion": "Enfoque para construir y participar en ecosistemas que fomenten innovación colaborativa"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "3.2",
+                        "titulo": "Procedimiento de gestión de networking y colaboración",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "48 minutos",
+                        "contenido": {
+                            "procedimiento": [
+                                "Realizar auditoría de red actual y oportunidades de colaboración",
+                                "Definir objetivos de networking y tipos de relaciones necesarias",
+                                "Identificar y conectar con contactos estratégicos relevantes",
+                                "Proporcionar valor y construir relaciones basadas en confianza",
+                                "Desarrollar y gestionar alianzas estratégicas con objetivos claros",
+                                "Monitorear y nutrir relaciones continuamente para mantener valor mutuo"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U4",
+                "unidad_titulo": "Aprendiendo del Mundo Real: Casos Que Transforman",
+                "unidad_subtitulo": "Casos de Estudio",
+                "lecciones": [
+                    {
+                        "id_leccion": "4.1",
+                        "titulo": "Casos emblemáticos de networking y colaboración exitosa",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "64 minutos",
+                        "contenido": {
+                            "casos_exitosos": [
+                                {
+                                    "id_caso": "C1",
+                                    "titulo": "Ecosistema de colaboración de Apple y sus partners",
+                                    "organizacion": "Apple Inc.",
+                                    "que_hicieron": "Construyeron ecosistema colaborativo masivo con desarrolladores, proveedores y partners que multiplicó valor de plataforma",
+                                    "procedimiento": "Crearon App Store como plataforma abierta para desarrolladores, establecieron programas de partners certificados, desarrollaron relaciones estratégicas con proveedores clave, y construyeron ecosistema de servicios complementarios",
+                                    "resultados": "App Store con $260B+ pagados a desarrolladores, creación de millones de empleos indirectos, ecosistema de $1T+ en valor económico, y fortalecimiento de posición competitiva a través de red de efectos"
+                                },
+                                {
+                                    "id_caso": "C2",
+                                    "titulo": "Alianzas estratégicas de IBM para transformación",
+                                    "organizacion": "International Business Machines (IBM)",
+                                    "que_hicieron": "Lideraron transformación hacia servicios empresariales mediante alianzas estratégicas con Microsoft, SAP, Salesforce y otros",
+                                    "procedimiento": "Establecieron partnerships con líderes tecnológicos, crearon programas de co-innovación, desarrollaron soluciones integradas con partners, y construyeron ecosistema de colaboración que amplificó capacidades",
+                                    "resultados": "Ingresos de $20B+ anuales de alianzas estratégicas, acceso a mercados y capacidades que requerirían décadas desarrollar internamente, y posicionamiento como integrador de soluciones empresariales"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "4.2",
+                        "titulo": "Errores comunes en networking y colaboración",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "55 minutos",
+                        "contenido": {
+                            "errores_comunes": [
+                                {
+                                    "id_error": "E1",
+                                    "titulo": "Enfoque transaccional en lugar de relacional",
+                                    "descripcion": "Tratar networking como intercambios puntuales sin invertir en construcción de relaciones genuinas a largo plazo",
+                                    "leccion": "El networking efectivo requiere inversión continua en relaciones basadas en confianza y valor mutuo, no transacciones aisladas"
+                                },
+                                {
+                                    "id_error": "E2",
+                                    "titulo": "Falta de claridad en expectativas y objetivos de colaboración",
+                                    "descripcion": "Entrar en alianzas sin definir claramente objetivos, roles, responsabilidades y métricas de éxito",
+                                    "leccion": "La claridad en expectativas desde el inicio previene conflictos y asegura que todas las partes se beneficien de la colaboración"
+                                },
+                                {
+                                    "id_error": "E3",
+                                    "titulo": "Descuido de mantenimiento de relaciones",
+                                    "descripcion": "Construir contactos inicialmente pero no mantener comunicación regular y valor continuo en la relación",
+                                    "leccion": "Las redes requieren mantenimiento activo; relaciones sin nutrir se debilitan y pierden valor potencial"
+                                },
+                                {
+                                    "id_error": "E4",
+                                    "titulo": "Colaboración sin alineación de valores y cultura",
+                                    "descripcion": "Formar alianzas sin evaluar compatibilidad de valores, cultura organizacional y estándares éticos",
+                                    "leccion": "La alineación cultural es tan importante como la alineación estratégica; desalineación cultural puede destruir colaboraciones prometedoras"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "test": [
+            {
+                "pregunta": "Según el concepto de networking estratégico, ¿cuál es la diferencia principal entre networking transaccional y networking estratégico?",
+                "opciones": {
+                    "a": "No hay diferencia, ambos son lo mismo",
+                    "b": "Transaccional busca contactos puntuales, estratégico construye relaciones a largo plazo basadas en confianza",
+                    "c": "Estratégico es solo para directivos, transaccional para empleados",
+                    "d": "Transaccional es más efectivo porque es más rápido"
+                },
+                "respuesta_correcta": "b"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "titulo": "Ética empresarial y responsabilidad social",
+        "subtitulo": "Construyendo organizaciones sostenibles y socialmente responsables",
+        "descripcion": "Desarrollo de competencias para implementar prácticas éticas, sistemas de compliance, responsabilidad social corporativa y sostenibilidad que generen valor compartido para stakeholders y sociedad",
+        "color": "#B5D8EB",
+        "objetivos": [
+            "Comprender los fundamentos de ética empresarial y responsabilidad social corporativa",
+            "Desarrollar habilidades para implementar sistemas de compliance y gobernanza ética",
+            "Aplicar metodologías para diseño e implementación de programas de RSE efectivos",
+            "Dominar técnicas de gestión de sostenibilidad y creación de valor compartido",
+            "Implementar culturas organizacionales basadas en integridad y responsabilidad social"
+        ],
+        "contenido": [
+            {
+                "unidad_id": "U1",
+                "unidad_titulo": "Conceptos y definiciones",
+                "unidad_subtitulo": "Fundamentos Esenciales: Construyendo la Base del Conocimiento",
+                "lecciones": [
+                    {
+                        "id_leccion": "1.1",
+                        "titulo": "Conceptos fundamentales de ética empresarial y responsabilidad social",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "51 minutos",
+                        "contenido": {
+                            "conceptos": [
+                                {
+                                    "termino": "Ética empresarial",
+                                    "definicion": "Conjunto de principios y valores que guían el comportamiento organizacional en la toma de decisiones y relaciones con stakeholders",
+                                    "nota": "Incluye integridad, transparencia, justicia y responsabilidad en todas las operaciones empresariales"
+                                },
+                                {
+                                    "termino": "Responsabilidad Social Corporativa (RSE)",
+                                    "definicion": "Compromiso voluntario de las organizaciones con el desarrollo sostenible y bienestar de la sociedad más allá de obligaciones legales",
+                                    "nota": "Incluye aspectos económicos, sociales y ambientales en la gestión organizacional"
+                                },
+                                {
+                                    "termino": "Compliance y gobernanza ética",
+                                    "definicion": "Sistemas y procesos para asegurar que la organización cumple con regulaciones, estándares éticos y mejores prácticas de gobierno corporativo",
+                                    "nota": "Incluye códigos de conducta, políticas, controles internos y monitoreo continuo"
+                                },
+                                {
+                                    "termino": "Valor compartido",
+                                    "definicion": "Enfoque que busca crear valor económico generando simultáneamente valor para la sociedad mediante solución de problemas sociales",
+                                    "nota": "Reconceptualiza relación entre empresa y sociedad, viendo problemas sociales como oportunidades de negocio"
+                                }
+                            ],
+                            "explicacion_ampliada": "La ética empresarial y la responsabilidad social representan pilares fundamentales para la sostenibilidad organizacional en el siglo XXI. Estas disciplinas reconocen que las organizaciones exitosas no solo generan valor para accionistas, sino que crean valor compartido para todos los stakeholders mientras contribuyen positivamente a la sociedad. La integración de principios éticos, compliance riguroso y responsabilidad social no es solo lo correcto moralmente, sino que genera ventajas competitivas sostenibles, reputación de marca valiosa y resiliencia organizacional."
+                        }
+                    },
+                    {
+                        "id_leccion": "1.2",
+                        "titulo": "Principios de ética empresarial y responsabilidad social",
+                        "tipo_leccion": "conceptos",
+                        "duracion_estimada": "47 minutos",
+                        "contenido": {
+                            "principios": [
+                                "Integridad y transparencia en todas las operaciones y comunicaciones",
+                                "Responsabilidad ante stakeholders y sociedad en general",
+                                "Sostenibilidad ambiental y gestión responsable de recursos",
+                                "Equidad y respeto por derechos humanos y laborales",
+                                "Compliance riguroso con regulaciones y estándares éticos",
+                                "Creación de valor compartido que beneficie empresa y sociedad simultáneamente"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U2",
+                "unidad_titulo": "Impacto Real: Por Qué Este Conocimiento Importa Hoy",
+                "unidad_subtitulo": "Importancia y Aplicación",
+                "lecciones": [
+                    {
+                        "id_leccion": "2.1",
+                        "titulo": "El imperativo de la ética empresarial y responsabilidad social",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "49 minutos",
+                        "contenido": {
+                            "importancia": "En la era actual caracterizada por mayor transparencia, expectativas sociales elevadas y regulaciones más estrictas, la ética empresarial y la responsabilidad social han dejado de ser opcionales para convertirse en imperativos estratégicos. Las organizaciones que integran estos principios demuestran significativamente mayor resiliencia ante crisis, mejor reputación de marca, superior capacidad para atraer talento y inversionistas, y mayor rentabilidad a largo plazo. La investigación muestra que empresas con sólidas prácticas éticas y de RSE experimentan menor riesgo reputacional, mejor desempeño financiero y mayor lealtad de clientes. En un mundo donde los stakeholders exigen cada vez más transparencia y responsabilidad, la falta de ética empresarial y RSE no solo es moralmente incorrecta sino estratégicamente riesgosa, exponiendo a la organización a sanciones, pérdida de confianza y eventual obsolescencia."
+                        }
+                    },
+                    {
+                        "id_leccion": "2.2",
+                        "titulo": "Beneficios y riesgos de la ética empresarial y RSE",
+                        "tipo_leccion": "importancia",
+                        "duracion_estimada": "54 minutos",
+                        "contenido": {
+                            "beneficios": [
+                                "Fortalecimiento de reputación y confianza de stakeholders",
+                                "Mayor capacidad para atraer y retener talento de calidad",
+                                "Mejor acceso a capital e inversión responsable (ESG)",
+                                "Reducción de riesgos legales, regulatorios y reputacionales",
+                                "Diferenciación competitiva y construcción de marca valiosa",
+                                "Mayor resiliencia y sostenibilidad organizacional a largo plazo"
+                            ],
+                            "consecuencias_de_no_aplicar": [
+                                "Daño reputacional severo y pérdida de confianza de stakeholders",
+                                "Sanciones legales, multas y riesgos regulatorios significativos",
+                                "Dificultades para atraer talento y capital en mercados éticos",
+                                "Pérdida de clientes y mercados que valoran sostenibilidad",
+                                "Exposición a crisis y escándalos que pueden destruir valor",
+                                "Vulnerabilidad ante cambios regulatorios y expectativas sociales"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U3",
+                "unidad_titulo": "De la Teoría a la Acción: Métodos y Técnicas Aplicables",
+                "unidad_subtitulo": "Herramientas y Técnicas",
+                "lecciones": [
+                    {
+                        "id_leccion": "3.1",
+                        "titulo": "Metodologías y modelos de ética empresarial y RSE",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "61 minutos",
+                        "contenido": {
+                            "metodos": [
+                                {
+                                    "id_metodo": "M1",
+                                    "titulo": "Método de implementación de programa de compliance ético",
+                                    "descripcion": "Enfoque sistemático para establecer sistemas de cumplimiento ético y prevención de riesgos",
+                                    "pasos": [
+                                        "Definir código de conducta y políticas éticas organizacionales",
+                                        "Establecer sistemas de monitoreo, controles internos y canales de denuncia",
+                                        "Capacitar a todos los empleados en estándares éticos y compliance",
+                                        "Implementar procesos de auditoría y evaluación continua",
+                                        "Crear cultura de integridad con liderazgo que modele comportamientos éticos"
+                                    ]
+                                },
+                                {
+                                    "id_metodo": "M2",
+                                    "titulo": "Método de diseño de programas de RSE estratégicos",
+                                    "descripcion": "Proceso para diseñar e implementar programas de responsabilidad social que generen valor compartido",
+                                    "pasos": [
+                                        "Identificar problemas sociales relevantes alineados con capacidades organizacionales",
+                                        "Diseñar programas que generen valor tanto para sociedad como para negocio",
+                                        "Establecer métricas y KPIs para medir impacto social y empresarial",
+                                        "Implementar programas con stakeholders relevantes y recursos asignados",
+                                        "Monitorear resultados, aprender y ajustar para maximizar impacto"
+                                    ]
+                                }
+                            ],
+                            "modelos": [
+                                {
+                                    "id_modelo": "MOD1",
+                                    "titulo": "Modelo de Triple Bottom Line (People, Planet, Profit)",
+                                    "descripcion": "Marco para evaluar desempeño organizacional en dimensiones social, ambiental y económica"
+                                },
+                                {
+                                    "id_modelo": "MOD2",
+                                    "titulo": "Modelo de Stakeholder Management y Engagement",
+                                    "descripcion": "Enfoque para identificar, priorizar y gestionar relaciones con todos los grupos de interés"
+                                },
+                                {
+                                    "id_modelo": "MOD3",
+                                    "titulo": "Modelo de ESG (Environmental, Social, Governance)",
+                                    "descripcion": "Marco para evaluar y reportar desempeño en sostenibilidad ambiental, social y gobernanza"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "3.2",
+                        "titulo": "Procedimiento de gestión de ética empresarial y RSE",
+                        "tipo_leccion": "herramientas",
+                        "duracion_estimada": "51 minutos",
+                        "contenido": {
+                            "procedimiento": [
+                                "Realizar diagnóstico de prácticas éticas actuales y brechas de RSE",
+                                "Definir valores organizacionales y código de conducta ético",
+                                "Establecer sistemas de compliance y gobernanza ética",
+                                "Diseñar e implementar programas estratégicos de RSE alineados con negocio",
+                                "Capacitar equipos y crear cultura de integridad y responsabilidad social",
+                                "Monitorear impacto, medir resultados y reportar transparencia a stakeholders"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "unidad_id": "U4",
+                "unidad_titulo": "Aprendiendo del Mundo Real: Casos Que Transforman",
+                "unidad_subtitulo": "Casos de Estudio",
+                "lecciones": [
+                    {
+                        "id_leccion": "4.1",
+                        "titulo": "Casos emblemáticos de excelencia en ética empresarial y RSE",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "66 minutos",
+                        "contenido": {
+                            "casos_exitosos": [
+                                {
+                                    "id_caso": "C1",
+                                    "titulo": "Programa de sostenibilidad y RSE de Patagonia",
+                                    "organizacion": "Patagonia Inc.",
+                                    "que_hicieron": "Construyeron modelo de negocio donde responsabilidad social y ambiental es core del negocio, no añadido",
+                                    "procedimiento": "Implementaron cadena de suministro 100% sustentable, donaron 1% de ventas a causas ambientales, crearon programa de reparación de productos, promovieron activismo ambiental, y construyeron marca en valores de sostenibilidad",
+                                    "resultados": "Crecimiento constante a pesar de desalentar consumo innecesario, valoración de marca de $3B+, lealtad de cliente excepcional, y reconocimiento como líder en sostenibilidad corporativa"
+                                },
+                                {
+                                    "id_caso": "C2",
+                                    "titulo": "Iniciativa de valor compartido de Unilever",
+                                    "organizacion": "Unilever PLC",
+                                    "que_hicieron": "Lanzaron Plan de Vida Sostenible Unilever integrando sostenibilidad en core business para crear valor compartido",
+                                    "procedimiento": "Redujeron impacto ambiental a la mitad mientras duplicaban negocio, integraron objetivos sociales y ambientales en métricas de gestión, desarrollaron productos que resuelven problemas sociales, y midieron impacto con metodología rigurosa",
+                                    "resultados": "Marca Unilever creció 69% más rápido que resto del negocio, reducción de 32% en emisiones de CO2, mejoramiento de vida de 1.2B personas, y demostración de que RSE puede ser motor de crecimiento rentable"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id_leccion": "4.2",
+                        "titulo": "Errores comunes en ética empresarial y RSE",
+                        "tipo_leccion": "casos",
+                        "duracion_estimada": "57 minutos",
+                        "contenido": {
+                            "errores_comunes": [
+                                {
+                                    "id_error": "E1",
+                                    "titulo": "RSE como fachada o greenwashing",
+                                    "descripcion": "Implementar programas de RSE superficiales principalmente para marketing sin compromiso real o impacto medible",
+                                    "leccion": "La RSE efectiva requiere autenticidad, compromiso real y medición de impacto; el greenwashing es detectado y castigado por stakeholders"
+                                },
+                                {
+                                    "id_error": "E2",
+                                    "titulo": "Desconexión entre valores declarados y comportamientos reales",
+                                    "descripcion": "Establecer códigos de ética y valores organizacionales que no se reflejan en decisiones y comportamientos diarios",
+                                    "leccion": "La integridad requiere alineación consistente entre valores declarados y acciones; la desconexión destruye credibilidad y confianza"
+                                },
+                                {
+                                    "id_error": "E3",
+                                    "titulo": "Compliance como fin en lugar de medio",
+                                    "descripcion": "Enfocarse exclusivamente en cumplir regulaciones mínimas sin construir cultura ética proactiva",
+                                    "leccion": "El compliance es necesario pero insuficiente; la excelencia ética requiere cultura de integridad que va más allá de cumplimiento legal"
+                                },
+                                {
+                                    "id_error": "E4",
+                                    "titulo": "RSE desconectada de estrategia de negocio",
+                                    "descripcion": "Desarrollar programas de RSE como actividades filantrópicas separadas sin conexión con objetivos estratégicos organizacionales",
+                                    "leccion": "La RSE más efectiva crea valor compartido alineando objetivos sociales con capacidades y estrategia de negocio para maximizar impacto"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "test": [
+            {
+                "pregunta": "Según el concepto de valor compartido, ¿cuál es la diferencia fundamental entre RSE tradicional y creación de valor compartido?",
+                "opciones": {
+                    "a": "No hay diferencia, ambos conceptos son sinónimos",
+                    "b": "RSE tradicional es filantropía separada del negocio, valor compartido integra problemas sociales en estrategia de negocio",
+                    "c": "Valor compartido es solo para grandes empresas, RSE tradicional para pequeñas",
+                    "d": "RSE tradicional es más rentable que valor compartido"
+                },
+                "respuesta_correcta": "b"
+            }
+        ]
+    }
+]

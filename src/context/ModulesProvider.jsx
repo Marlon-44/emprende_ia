@@ -1,44 +1,100 @@
 // src/context/ModulesProvider.jsx
-import React, { useState, useCallback, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import ModulesContext from "./ModulesContext";
 import { getAllModules } from "../Api/module";
-import modulesData from "/src/Api/modules.json"
+import modulesData from "/src/Api/cursos.json";
 
-// cache en memoria (a nivel de módulo)
 let modulesCache = null;
 
-export function ModulesProvider({ children, autoLoad = true }) {
-    const [modules, setModules] = useState(modulesData);
+export function ModulesProvider({ children }) {
+    const [modules, setModules] = useState(modulesCache || []);
+    const [selectedModule, setSelectedModule] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const [selectedModule, setSelectedModule] = useState(null)
-    
-    {/*useEffect(() => {
-        const cargarModulos = async () => {
+    const colors = [
+        "#da42daff", // rosa fucsia
+        "#A64DFF",   // morado
+        "#4DB8FF",   // azul celeste
+        "#66E066",   // verde
+        "#FFB84D",   // naranja claro
+        "#FF4D4D",   // rojo coral
+        "#FFD54F",   // amarillo brillante
+        "#40E0D0",   // turquesa
+        "#FF6EC7",   // rosado neón
+        "#7C4DFF"    // violeta intenso
+    ];
+
+    // 🔹 Cargar módulos (desde cache, JSON local o API)
+    const loadModules = useCallback(async () => {
+        try {
             setLoading(true);
-            const data = await getAllModules();
-            setModules(data);
+
+            if (modulesCache) {
+                setModules(modulesCache);
+                setLoading(false);
+                return;
+            }
+
+            // Si no hay API externa, usa el JSON local
+            let data = modulesData;
+            if (!data || data.length === 0) {
+                data = await getAllModules();
+            }
+
+            if (Array.isArray(data)) {
+                setModules(data);
+                modulesCache = data;
+            } else {
+                throw new Error("Formato de módulos inválido");
+            }
+
+        } catch (err) {
+            console.error("Error al cargar módulos:", err);
+            setError(err.message);
+        } finally {
             setLoading(false);
-        };
-        cargarModulos();
-    }, []);*/}
+        }
+    }, []);
 
-    // función que carga desde la API y actualiza cache + estado
-    
+    // 🔹 Seleccionar módulo y guardarlo en localStorage
+    const selectModule = useCallback(
+        (id) => {
+            if (!modules || modules.length === 0) return null;
+            const found = modules.find((m) => Number(m.id) === Number(id)) || null;
+            setSelectedModule(found);
+            if (found) {
+                localStorage.setItem("selectedModuleId", String(found.id));
+            } else {
+                localStorage.removeItem("selectedModuleId");
+            }
+            return found;
+        },
+        [modules]
+    );
 
-    // mutadores locales opcionales (si quieres editar en runtime)
-    
+    // 🔹 Cargar módulo guardado o inicializar
+    useEffect(() => {
+        loadModules();
+    }, [loadModules]);
 
-    
+    useEffect(() => {
+        if (modules.length > 0) {
+            const storedId = localStorage.getItem("selectedModuleId");
+            if (storedId) selectModule(Number(storedId));
+        }
+    }, [modules, selectModule]);
 
     const value = {
-        modules,         // null (no cargado) | [] | [..]
+        modules,
+        setModules,
         loading,
-        error,     // función para cargar (o recargar con { force: true })
-        setModules, 
-        isCached: modulesCache !== null,
+        error,
         selectedModule,
-        setSelectedModule
+        setSelectedModule,
+        selectModule,
+        loadModules,
+        isCached: modulesCache !== null,
+        colors
     };
 
     return <ModulesContext.Provider value={value}>{children}</ModulesContext.Provider>;

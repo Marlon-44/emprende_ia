@@ -6,7 +6,8 @@ const IaButton = () => {
   const [showChat, setShowChat] = useState(false);
   const [animateOut, setAnimateOut] = useState(false);
   const [input, setInput] = useState("");           // texto que el usuario escribe -> campo "pregunta"
-  const [contexto, setContexto] = useState("");     // campo opcional de contexto
+  const [contexto, setContexto] = useState("economia, emprendimiento y habilidades emprendedoras, negocios"); 
+
   const [messages, setMessages] = useState([
     { from: "bot", text: "Hola! Soy tu asistente." }
   ]);
@@ -40,7 +41,7 @@ const IaButton = () => {
     if (!pregunta) return;
 
     // si el campo contexto está vacío, usamos el valor por defecto pedido
-    const contextoFinal = contexto.trim() || "economia, emprendimiento y habilidades emprendedoras";
+    const contextoFinal = contexto.trim() || "economia, emprendimiento y habilidades emprendedoras, negocios";
 
     // preguntasModulo fijas según lo que te pasó el compañero
     const preguntasModulo = [
@@ -104,7 +105,7 @@ const IaButton = () => {
             animateOut ? styles.chat__exit : styles.chat__enter
           }`}
         >
-          <h2>Chat de IA</h2>
+          <h2 className={styles.chat__title}>Chat de IA</h2>
 
           <div
             ref={messagesRef}
@@ -124,7 +125,7 @@ const IaButton = () => {
                   maxWidth: "80%",
                   padding: "8px 12px",
                   borderRadius: 12,
-                  background: m.from === "user" ? "#DCF8C6" : "#F1F0F0",
+                  background: m.from === "user" ? "#ffffff18" : "#cc00ff42",
                   whiteSpace: "pre-wrap",
                   wordBreak: "break-word"
                 }}>
@@ -140,16 +141,7 @@ const IaButton = () => {
             )}
           </div>
 
-          {/* Campo de contexto (opcional). Si lo prefieres, puedes ocultarlo y siempre usar el valor por defecto) */}
-          <input
-            type="text"
-            placeholder="Contexto (opcional). Si lo dejas vacío se usará el por defecto."
-            value={contexto}
-            onChange={(e) => setContexto(e.target.value)}
-            className={styles.context__input}
-            style={{ width: "100%", marginTop: 8, padding: 8, borderRadius: 6 }}
-          />
-
+          
           <div style={{ display: "flex", gap: 8, marginTop: 8 }}>
             <input
               type="text"

@@ -1,11 +1,21 @@
+
 .container{
     width: 99.5vw;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding-top: 110px;
+    border: none;
 }
 .module_main_container{
     width: 100%;
     display: flex;
+    border: none;
+}
+
+.progress__bar{
+    position: absolute;
+    width: 102vw;
+    padding: 0;
+    margin: 0;
+    left: -2rem;
+    border: none;
 }

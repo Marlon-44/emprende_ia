@@ -1,0 +1,107 @@
+.met__mod__page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 10px);
+    padding: 2rem 0;
+}
+.data__container{
+    width: 75%;
+    margin-left: 25%;
+    height: 100%;
+}
+.item__card{
+    display: none;
+    width: 80%;
+}
+.short__info__container{
+    width: 40%;
+}
+.pasos__container{
+    width: 70%;;
+}
+.modelo{
+    display: flex;
+    z-index: 2;
+    position: fixed;
+    max-width: 35%;
+    align-items: center;
+    flex: 1 1 0
+
+}
+.info__section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 80%;
+    border-radius: 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.137);
+    padding: 2rem;
+    transition: size ease 1s;
+}
+.info__section:hover{
+    transform: scale(1.01);
+}
+.indice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #dddddd;
+    border-radius: 50%;
+    border: 0.8rem solid #ffff;
+    width: 100px;
+    height: 100px;
+}
+.indice p {
+    font-size: 2rem;
+    font-weight: 900;
+}
+.modelo h2{
+    font-size: 1.8rem;
+}
+.left{
+    left: 0;
+    bottom: 10%;
+    align-items: flex-end;
+
+}
+.center{
+    flex-direction: column;
+    left: 32.5%;
+    bottom: 32%;
+
+}
+.right{
+    right: 0;
+    bottom: 10%;
+    align-items: flex-end;
+}
+.circle__figure{
+    position: fixed;
+    bottom: -50%;
+    width: 40%;
+    z-index: 1;
+    align-self: center;
+    z-index: 1;
+}
+.page__title{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    text-align: right;
+}
+.page__title button{
+    font-size: 600;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    background-color: #dddddd;
+    border-radius: 1rem;
+        margin-top: 1rem;
+
+}
+.page__title button:hover{
+    
+    background-color: #d4d4d4;
+    transform: scale(0.98);
+}

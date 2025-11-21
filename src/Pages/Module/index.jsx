@@ -1,80 +1,107 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import IaButton from "../../Components/IaButton";
-import { Header } from "../Components/Header";
-import { ModuleAside } from "./components/ModuleAside";
 import { ModuleSection } from "./components/ModuleSection";
 import styles from "./index.module.css";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { useModules } from "../../hooks/useModules";
-import { getAllModules } from "../../Api/module";
-
+import { LinearProgress } from "@mui/material";
+import { motion } from "framer-motion"
 export const Module = () => {
     const { id } = useParams();
-    const moduleId = Number(id);
-
-    const { modules, setModules, selectedModule, setSelectedModule } = useModules();
+    const { modules, selectedModule, selectModule, loading } = useModules();
+    const [progress, setProgress] = useState(0);
     const [currentIndex, setCurrentIndex] = useState(0);
 
-
-    // 1) Si no hay módulos, los traemos (solo una vez)
+    // 🔹 Seleccionar módulo cuando los módulos estén listos
     useEffect(() => {
-        if (Array.isArray(modules) && modules.length > 0) return;
+        if (modules.length > 0 && !selectedModule) {
+            selectModule(id);
+        }
+    }, [modules, id, selectedModule, selectModule]);
 
-        let mounted = true;
-        getAllModules()
-            .then(data => {
-                if (!mounted) return;
-                setModules(Array.isArray(data) ? data : []);
-            })
-            .catch(err => console.error('No se pudieron cargar módulos:', err));
+    // 🔹 Crear slides secuenciales
+    const buildSlides = useCallback((module) => {
+        if (!module) return [];
+        const slides = [
+            { type: "intro", data: module },
+            { type: "objectives", data: module.objetivos },
+        ];
 
-        return () => { mounted = false; };
-    }, [modules, setModules]);
+        module.contenido.forEach((unidad, uIndex) => {
+            unidad.lecciones.forEach((leccion, lIndex) => {
+                slides.push({
+                    type: "lesson",
+                    unidadIndex: uIndex,
+                    leccionIndex: lIndex,
+                    data: leccion,
+                });
+            });
+        });
 
-    // 2) Cuando modules cambian, buscamos y seteamos el módulo
-    useEffect(() => {
-        if (!Array.isArray(modules) || modules.length === 0) return;
+        slides.push({ type: "congrats", data: module });
+        slides.push({ type: "quiz", data: module.test });
 
-        // Intenta recuperar id guardado en localStorage si no viene por params
-        const storedId = moduleId || Number(localStorage.getItem('selectedModuleId'));
-        const idToFind = storedId || moduleId;
+        return slides;
+    }, []);
 
-        const found = modules.find(m => Number(m.id) === Number(idToFind)) ?? null;
-        setSelectedModule(found);
+    const slides = selectedModule ? buildSlides(selectedModule) : [];
 
-        // Guardamos el id para persistencia
-        if (found) localStorage.setItem('selectedModuleId', String(found.id));
-    }, [modules, moduleId, setSelectedModule]);
 
-    const goPrev = () => setCurrentIndex((i) => Math.max(0, i - 1));
-    const goNext = () => setCurrentIndex((i) => Math.min(selectedModule.slides.length +1, i + 1));
-    const jumpTo = (index) => {
-        if (index < 0 || index >= (selectedModule.slides.length )) return;
+    // 🔹 Navegación (con useCallback)
+    const goPrev = useCallback(() => {
+        setCurrentIndex((i) => Math.max(0, i - 1));
+    }, []);
+
+    const goNext = useCallback(() => {
+        setCurrentIndex((i) => Math.min(slides.length - 1, i + 1));
+    }, [slides]);
+
+    const jumpTo = useCallback((index) => {
+        if (index < 0 || index >= slides.length) return;
         setCurrentIndex(index);
-        const el = document.getElementById(`module - section - ${selectedModule.slides[index].id}`);
+        const el = document.getElementById(`module-section-${index}`);
         if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-    };
+    }, [slides]);
 
+    // 🔹 Progreso visual
+    useEffect(() => {
+        if (slides.length > 0) {
+            setProgress(((currentIndex + 1) / slides.length) * 100);
+        } else {
+            setProgress(0);
+        }
+    }, [currentIndex, slides]);
 
+    if (loading) return <p>Cargando módulos...</p>;
 
-    // Render seguro: no asumas que selectedModule existe
     return (
         <>
-            <Header />
             <section className={styles.container}>
+
+                <LinearProgress
+                    className={styles.progress__bar}
+                    variant="determinate"
+                    value={progress}
+                    sx={{
+                        height: 8,
+                        borderRadius: 0,
+                        backgroundColor: "#fff", // color del fondo (track)
+                        "& .MuiLinearProgress-bar": {
+                            backgroundColor: "#FFB84D", // color de la barra (progress)
+                        },
+                    }} 
+                />
+
                 <section className={styles.module_main_container}>
                     {selectedModule ? (
-                        <>
-                            <ModuleAside sections={selectedModule.slides} currentIndex={currentIndex} onJump={jumpTo} />
-                            <ModuleSection
-                                sections={selectedModule.slides}
-                                currentIndex={currentIndex}
-                                onPrev={goPrev}
-                                onNext={goNext}
-                                onJump={jumpTo}
-                                course={selectedModule} />
-
-                        </>
+                        <ModuleSection
+                            sections={slides}
+                            currentIndex={currentIndex}
+                            onPrev={goPrev}
+                            onNext={goNext}
+                            onJump={jumpTo}
+                            course={selectedModule}
+                        />
                     ) : (
                         <p>Cargando módulo...</p>
                     )}

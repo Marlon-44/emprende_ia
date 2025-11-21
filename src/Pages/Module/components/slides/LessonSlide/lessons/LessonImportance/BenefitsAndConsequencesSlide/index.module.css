@@ -1,0 +1,28 @@
+.ben__con__page{
+    width: 100%;
+    height: calc(100vh - 10px);
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+.ben__con__page h1, h2{
+    font-size: 4rem;
+    font-weight: 900;
+}
+.ben__con__page h1{
+    position: absolute;
+    bottom: 2rem;
+}
+.ben__con__page h2{
+    position: absolute;
+    font-size: 4rem;
+    font-weight: 900;
+    right: 2rem;
+}
+
+.cards__section{
+    display: flex;
+    gap: 0.6%;
+    width: 100%;
+    align-self: center;
+}
